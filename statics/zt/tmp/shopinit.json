@@ -1,0 +1,132 @@
+{
+    "hd": [
+        {
+            "blockid": "343253256",
+            "classname": "mall",
+            "subcol": [],
+            "maincol": [
+                {
+                    "widgetid": "98049832",
+                    "compid": "8820",
+                    "towtype": "h950",
+                    "title": "店铺招牌",
+                    "data-ismove": "1",
+                    "data-isdel": "1",
+                    "data-isadd": "1",
+                    "data-isedit": "1"
+                },
+                {
+                    "widgetid": "98049832",
+                    "compid": "8821",
+                    "towtype": "h950",
+                    "title": "导航",
+                    "data-ismove": "0",
+                    "data-isdel": "0",
+                    "data-isadd": "0",
+                    "data-isedit": "1"
+                }
+            ]
+        }
+    ],
+    "bd": [
+        {
+            "blockid": "3432434435",
+            "classname": "mall",
+            "subcol": [],
+            "maincol": [
+                {
+                    "widgetid": "98049832",
+                    "compid": "8805",
+                    "towtype": "b950-f950-b190-b750-b550",
+                    "title": "自定义内容区",
+                    "data-ismove": "1",
+                    "data-isdel": "1",
+                    "data-isadd": "1",
+                    "data-isedit": "1"
+                }
+            ]
+        },
+        {
+            "blockid": "3494083209",
+            "classname": "slmr",
+            "subcol": [
+                {
+                    "widgetid": "98049832",
+                    "compid": "8803",
+                    "towtype": "b190",
+                    "title": "宝贝分类",
+                    "data-ismove": "1",
+                    "data-isdel": "1",
+                    "data-isadd": "1",
+                    "data-isedit": "1"
+                },
+                {
+                    "widgetid": "98049832",
+                    "compid": "8802",
+                    "towtype": "b190",
+                    "title": "宝贝排行",
+                    "data-ismove": "1",
+                    "data-isdel": "1",
+                    "data-isadd": "1",
+                    "data-isedit": "1"
+                },
+                {
+                    "widgetid": "98049832",
+                    "compid": "8812",
+                    "towtype": "b950-b190-b750-b550",
+                    "title": "宝贝搜索",
+                    "data-ismove": "1",
+                    "data-isdel": "1",
+                    "data-isadd": "1",
+                    "data-isedit": "1"
+                },
+                {
+                    "widgetid": "98049832",
+                    "compid": "8808",
+                    "towtype": "b190",
+                    "title": "客服中心",
+                    "data-ismove": "1",
+                    "data-isdel": "1",
+                    "data-isadd": "1",
+                    "data-isedit": "1"
+                }
+            ],
+            "maincol": [
+                {
+                    "widgetid": "98049832",
+                    "compid": "8806",
+                    "towtype": "b950-b190-b750-b550",
+                    "title": "图片轮播",
+                    "data-ismove": "1",
+                    "data-isdel": "1",
+                    "data-isadd": "1",
+                    "data-isedit": "1"
+                },
+                {
+                    "widgetid": "98049832",
+                    "compid": "8805",
+                    "towtype": "b950-f950-b190-b750-b550",
+                    "title": "自定义内容区",
+                    "data-ismove": "1",
+                    "data-isdel": "1",
+                    "data-isadd": "1",
+                    "data-isedit": "1"
+                }
+            ]
+        },
+        {
+            "blockid": "3494083209",
+            "classname": "srml",
+            "subcol": [],
+            "maincol": []
+        }
+    ],
+    "ft": [
+        {
+            "blockid": "343253256",
+            "classname": "mall",
+            "subcol": [],
+            "maincol": []
+        }
+    ]
+}

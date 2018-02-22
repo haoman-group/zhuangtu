@@ -1,0 +1,38 @@
+table{ margin:0; padding:0; border-spacing:0; border:none;}
+/*zking*/
+.zkingbanner{ background: url("../images/showshop/zkingbannner.jpg") center center #f1f1ef no-repeat; width: 100%; height: 304px; border-top:3px solid #ede6de; margin-bottom: 30px;}
+.zkingcontent{}
+.zkingcontent h1{ font-weight: normal; background: url("../images/showshop/zkingcontenthead.jpg") no-repeat; position: relative; z-index: 10; line-height: 50px; font-weight: 600; color: #fff; width: 489px; height: 83px; margin: 0 auto; font-size: 32px; text-align: center;}
+.zkingcontent h1 p{ font-size: 12px; font-weight: 300; line-height: 14px;}
+.zkingcontent .box{ width: 1100px; padding: 40px 44px 10px; position: relative; top: -30px; background-color: #f9f9f9; margin: 0 auto; border: 1px solid #c9c9c9; border-radius: 8px;}
+.zkingcontent h2{ background: url("../images/showshop/zkingcontenth2bg.png") no-repeat left top; width: 576px; padding-left: 24px; margin-left: -28px; line-height: 94px; color: #1c1a19; font-size: 24px; font-weight: 300;}
+.zkingcontent h3{ color: #1c1a19; font-size: 16px; font-weight: 300; line-height: 38px;}
+.zkingcontent table{ width: 1100px; text-align: center;}
+.zkingcontent table tr{ width: 100%;}
+.zkingcontent table td{ width: 320px; border-left: 8px solid #f9f9f9; height: 44px; font-size: 14px; background-color: #ffffff; color: #525252;}
+.zkingcontent table .td92 td{ height: 92px;}
+.zkingcontent .td1left tr td:nth-of-type(1){ text-align: left; text-indent:5px;}
+.zkingcontent table .price{ position: relative; display: block; text-align: right; right: 117px;}
+.zkingcontent table p{ font-size: 12px; line-height: 18px; text-align: left; padding: 0 15px;}
+.zkingcontent table p span{ letter-spacing:1.7px;}
+.zkingcontent table p em{ display: inline-block; width: 16px; height: 1px; vertical-align: middle;}
+.zkingcontent table tr td.on{ background-color: #ff9447 !important; color: #fff !important;}
+.zkingcontent table tr td:nth-of-type(1){ width: auto; border-left: none;}
+.zkingcontent table thead td{  background-color: #cdcdc0; color: #fff; font-size: 16px; font-weight: 600;}
+.zkingcontent table tbody tr:nth-of-type(2n) td{ background-color: #f0f0f0;}
+.zkingcontent .tip{ display: block; line-height: 40px; font-size: 14px; color: #e96405;}
+.zkingcontent .explain {  border: 1px solid #c9c9c9; background-color: #fff; padding: 0 5px 10px; margin-top: 20px;}
+.zkingcontent .explain .tip{ line-height: 45px; font-size: 16px; color:#ff842b;}
+.zkingcontent .explain p{ color: #222222; font-size: 13px; line-height: 24px;}
+.zkingcontent .explain em{ font-style: normal; display: inline-block; width: 33px; text-align: center;}
+.zkingcontent .agreement{ cursor: pointer; color: #0f4edb; font-size: 12px;text-decoration:underline;}
+.zkingcontent .fix{ position:fixed; top:0; left:0; right:0; bottom:0; z-index:999; background-color:#000; display:none; opacity:0.6;filter:alpha(opacity=60);}
+.zkingcontent .position{ position:fixed; width: 1100px; top: 30px; bottom: 30px; margin-left: -550px; border: 1px solid #ccc; border-radius: 4px; overflow: auto;  left:50%; z-index:100; display:none; background-color: #fff;}
+.zkingcontent .position .txt{ padding: 60px 0px 10px; position: absolute; height: 490px;background-color: #fff;}
+.zkingcontent .position .txt p{ padding: 0 30px;}
+.zkingcontent .position .close{ height: 39px; z-index: 1000; border-bottom: 1px solid #ccc; background: #f3f3f3;position:fixed; width: 1100px; top: 31px;  margin-left: -549px;  left:50%; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.zkingcontent .position .close span{ font-size: 16px; color: #9b9b9b; position: absolute; display: block; right: 10px; top: 12px; width: 16px; border: 1px solid #ccc; height: 16px; text-align: center; line-height: 13px; border-radius: 50%; cursor: pointer; }
+
+
+
+

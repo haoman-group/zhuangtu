@@ -1,0 +1,68 @@
+body,div,span,h1,h2,h3,h4,h5,h6,p,a,ol,ul,li,dl,dt,dd,input,img,form,button,blockquote{margin:0; padding:0; list-style:none; border:0;}
+body{font-size:12px; min-width:1190px;}
+a{text-decoration:none; color:#000;border:none;padding:0px;margin:0px;}
+a:hover{text-decoration:none;}
+img{ border:none;}
+input{ outline:none;}
+ul,li,ol,input{ list-style:none;}
+input,button,select,textarea{outline:none}/*取消聚焦*/
+.bog_bg{ background:#f8f9f8;}
+.left{ float:left;}/*左浮动*/
+.right{ float:right;}/*右浮动*/ 
+
+.clearfix{ zoom:1; position:relative; overflow:hidden; display:block;}
+.clearfix:after{ content:" "; position:absolute; width:0px; height:0px; clear:both;}
+
+.bodyureg{background: #f8f8f8;font-family: "microsoft yahei";}
+.container{ width:1190px; margin:0 auto;clear:both;}
+.ureghead{padding: 36px 0px 16px;}
+.ureghead .logo{ float: left;}
+.ureghead .title{font-size: 26px; float: left;margin-left: 20px;margin-top: 8px;color: #272727;}
+.headtoreg{ color: #7d7d7d; text-align: right;padding-bottom: 6px;}
+.headtoreg a{color: #c8161d;}
+.uregbox{border: 1px solid #bfbfbf; background: #fff; padding-bottom: 50px; margin-bottom: 50px;}
+.ulstep{text-align: center;margin: 50px 70px 56px;color: #272727;font-size: 16px;border-top: 1px solid #ddd;}
+.ulstep li{ display:inline-block;*display:inline; width:212px;border-top: 2px;position: relative;line-height: 50px; margin: 0px 10px;}
+.ulstep li span{position: absolute;width: 20px;height: 20px;color: #fff;background: #272727;line-height: 20px;text-align: center;
+    left: 50%;margin-left: -10px;top: -10px;border-radius: 50%;font-family: Arial;}
+.ulstep .on,.ulstep .b{color: #d0393f;}
+.ulstep .on span,.ulstep .b span{background: #d0393f;}
+.ulstep .on:before{position: absolute;width:100%;height: 3px; background: #d0393f;top: -2px;left: 0px;content: " ";}
+.dluregform{padding-left: 180px; line-height: 42px;font-size: 16px;}
+.dluregform dt{width: 200px;float: left;text-align: right;}
+.dluregform dd{margin-left: 220px; margin-bottom: 48px;}
+.dluregform input[type='text'],.dluregform dd input[type='password']{height: 16px;padding: 12px 5px 12px;border: 1px solid #ddd;font-size: 14px;width: 342px;}
+.dluregform .ddagreement{font-size: 14px; margin-top: -36px;}
+.dluregform .submbtn{display: inline-block;width: 240px; font-size: 16px; line-height: 40px; text-align: center; border: none; cursor: pointer; background: #c8161d; color: #fff;}
+.dluregform dd .verify_input{width:190px; margin-right: 3px; vertical-align: middle;}
+.dluregform dd i{font-size: 14px; font-style: normal; color: #f60; margin: 0 10px;}
+.dluregform .wdd{margin-left: 0px;}
+.dluregform .btnsellerregfrom_verify{ line-height: 24px; padding: 0px 8px;border: 1px solid #b5b5b5; background: #fbfafb;}
+.dluregform .icon_i{float: left;  width: 18px;  height: 18px;  font-size: 13px;  font-weight: 700;  background-color: #09F;  border-radius: 50%;
+    text-align: center;  color: #ffffff;  margin-right: 5px;  margin-top: 12px;  line-height: 18px; vertical-align: middle; display: inline-block;}
+.uluregsuc{ text-align: center;font-size: 24px;}
+.uluregsuc li{ line-height: 26px; margin-bottom: 32px;}
+.uluregsuc .toucenter{ width: 240px;font-size:16px; line-height: 40px;display: block;color: #fff; position: relative; margin: 68px auto 0px; background:#c8161d;}
+.uluregsuc .toucenter:before{position: absolute;content: " "; width: 66px;height: 41px; background: url("../images/userreg/uregsucbtnicon.png") no-repeat;right: 0px; top: -34px;}
+
+
+.dluregform .safe{ position:relative;}
+.dluregform .safe .degree{ width:360px;position:absolute; padding:10px 20px; line-height:30px; font-size:12px; border:1px solid #918c8c; background-color:#f0f0f0; top:-51px; left:260px;}
+.dluregform .safe .degree img{ display:inline-block; margin-right:10px; vertical-align:middle; width:17px; height:17px;}
+.dluregform .safe .degree .block{ display:inline-block; vertical-align:middle; width:25px; height:12px; background-color:#c9c9c9; margin-left:5px;}
+.dluregform .safe .degree .trigon{ position:absolute;border-width:15px; top:51px; left:-29px; border-color:transparent #f0f0f0 transparent transparent;border-style:solid;}
+.dluregform .safe .degree .trigonb{ position:absolute;border-width:15px; top:51px; left:-30px; border-color:transparent #000 transparent transparent;border-style:solid;}
+.dluregform .safe{ position:relative;}
+.dluregform .safe .degree{ width:360px;position:absolute; padding:10px 20px; line-height:30px; font-size:12px; border:1px solid #918c8c; background-color:#f0f0f0; top:-49px; left:375px;}
+.dluregform .safe .degree span{ display:inline-block; margin-right:10px; vertical-align:middle; width:17px; height:17px;}
+.dluregform .safe .degree .block{ display:inline-block; vertical-align:middle; width:25px; height:12px; background-color:#c9c9c9; margin-left:5px;}
+.dluregform .safe .degree .trigon{ position:absolute;border-width:15px; top:51px; left:-29px; border-color:transparent #f0f0f0 transparent transparent;border-style:solid;}
+.dluregform .safe .degree .trigonb{ position:absolute;border-width:15px; top:51px; left:-30px; border-color:transparent #000 transparent transparent;border-style:solid;}
+
+
+
+
+
+
+
+

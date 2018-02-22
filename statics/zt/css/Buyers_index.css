@@ -1,0 +1,105 @@
+/*导航*/
+/*上部*/
+.nav_up{background-image:url(../images/Buyers_nav0.jpg); margin-top:-70px; background-height: 100%;background-repeat: no-repeat; text-align:center;background-size: cover; height:90px; width:100%;}
+/*下部*/
+.nav_down{ border-bottom:2px solid #db3f4a; overflow:hidden; padding:12px 0;}
+.nav_down1{ float:left; border-left:1px solid #e0e0e0; font-size:16px; line-height:18px; overflow:hidden;}
+.nav_down11{ float:left; width:110px; text-align:center; cursor:pointer; border-right:1px solid #e0e0e0;}
+.nav_down2{ float:right; color:#db3f4a; position:relative; top:8px; cursor:pointer;}
+/*内容*/
+.main{ overflow:hidden; margin-top:40px;}
+/*左部*/
+.main_con1{ float:left; width:120px; padding:0 15px; margin-right:10px; background-color:#e4e9f2;}
+.main_con11{ text-align:center; font-size:14px; line-height:35px; font-weight:500; border-bottom:1px dashed #cecdd0;}
+.main_con1red{ color:#d0000d; font-size:16px;}
+.main_con11_box{ display:none;}
+.main_con111{ font-size:10px; opacity:0.5;filter: alpha(opacity=50);}
+.main_con111:hover{  opacity:1;filter: alpha(opacity=100);}
+/*中部*/
+.main_con2{ float:left; width:730px; margin-right:10px;}
+.main_con21{ border:1px solid #c9c9c9;}
+.main_con211{ padding:5px 10px; background-color:#f7f7f7; overflow:hidden;}
+.main_con2111{ width:288px;}
+.main_con2111 img{ width:56px; height:56px;border-radius:50%;}
+.main_con2111 p{ margin:5px 10px; font-size:16px; font-weight:500;}
+.main_con2112 a{ display:block; float:left; font-size:14px; width:100px; line-height:20px; margin:20px 10px 0; text-align:center; color:#575757;}
+.main_con212{ overflow:hidden; padding:15px 0;}
+.main_con2120{ width:729px; position:relative; left:-1px;}
+.main_con2121{ float:left; width:120.5px; text-align:center; border-left:1px solid #c9c9c9; line-height:20px; font-size:14px; color:#575757;}
+/*装家花销明细*/
+.main_con22{ margin-top:20px;}
+.main_con221{ background-color:#f3f3f3; font-size:16px; line-height:30px; text-align:center;}
+.main_con222{ border:1px solid #c9c9cb; padding:20px 0; font-size:14px; line-height:17px; font-weight:300; color:#000000;}
+.main_con222 img{ width:30px;}
+.main_con222 strong{  font-weight:300; color:#cf000c;}
+.main_con222 b{  font-weight:300; color:#cf000c;}
+.main_con2221{ width:625px; margin:0 auto; overflow:hidden;}
+.main_con2222{ width:80px; border:1px solid #88888a; padding:10px 0; float:left; height:66px; margin-right:10px; text-align:center;}
+.main_con2223{ width:485px; padding:10px 15px; border:1px solid #88888a; float:left;}
+.main_con2224{ width:485px; overflow:hidden; position:relative; height:66px;}
+.main_con2225{ width:486px; position:absolute; left:-1px;}
+.main_con2225box{ width:80px; border-left:1px dashed #88888a; float:left; text-align:center;}
+/*记一笔*/
+.main_con23{ margin-top:20px; border:1px solid #c9c9c9; border-top-left-radius:5px;}
+.main_con231{ overflow:hidden; position:relative; padding-bottom:20px; line-height:30px; font-size:16px;}
+.main_con2311{ float:left; background-color:#88888a; color:#ffffff; padding:0 10px; border-radius:4px;}
+.main_con2311 b i{ display:inline-block; cursor:pointer; height:2px; margin:0 5px; border-width:3px;border-color:transparent transparent transparent #ffffff;border-style:solid;}
+.main_con2311 strong{ margin-left:20px; cursor:pointer;}
+.main_con2312 { position:absolute; right:20px; bottom:0; color:#88888a; line-height:30px;}
+.main_con232{ padding:10px;}
+.main_con2320{ border:1px dashed #c9c9cb; overflow:hidden;}
+.main_con2320b{ border-left:1px dashed #c9c9cb; height:90px; overflow:hidden;}
+.main_con2321{ width:190px; padding:20px; text-align:center; float:left; height:90px; overflow:hidden;}
+.main_con23210{ border:1px dashed #c9c9cb; overflow:hidden; padding:10px 4px; margin-top:20px;}
+.main_con23211{ float:left; width:30px; text-align:center;}
+.main_con23211 img{ width:15px; cursor:pointer;}
+.main_con23212{ width:5px; height:5px; border:1px solid #c9c9cb; margin:5px auto 0;}
+.main_con2322{ width:180px; padding:20px; text-align:center; float:left; position:relative;}
+.main_con23220{ position:absolute; left:0; top:0; display:none; width:180px; height:90px; padding:20px;}
+.main_con23220 b{ width:60px; display:block; color:#888888; float:left; font-size:12px; line-height:20px; text-align:center;}
+.main_con2323{ width:120px; text-align:center; float:left; padding:0; height:130px;}
+.main_con23230{ height:65px; border-bottom:1px dashed #c9c9cb; font-size:14px; line-height:65px; text-align:center;}
+.main_con23230 img{ height:12px; margin-right:5px; margin-top:3px;}
+.main_con2324{ width:133px; text-align:center; float:left; padding:20px 0;}
+.main_con2324 b{ line-height:90px; color:#888888;}
+.main_con233{ overflow:hidden;}
+.main_con233 b{ width:100px; text-align:center; font-weight:300; border-radius:3px; background-color:#cf000d; font-size:16px; line-height:24px; margin:10px 5px 0; cursor:pointer; color:#ffffff; display:block; float:right;}
+/*事件*/
+.main_con24{ margin-top:20px; border:1px solid #c9c9c9; padding:50px 0; overflow:hidden;}
+.main_con241{ width:550px; border-left:1px solid #888888; padding:30px 0 10px 30px; position:relative; left:110px;}
+.main_con2410sear{ position:absolute; top:-40px; right:0; line-height:25px; border-radius:4px; width:250px;}
+.main_con2410sear select{ line-height:30px; height:25px; margin:0 2px;}
+.btnsear{ width:60px; padding:0;letter-spacing:0px; font-size:12px; margin:0; height:25px; line-height:25px; margin-left:20px; background-color:#888888;}
+.main_con24101{ position:absolute; width:60px; font-size:12px; line-height:20px; border:1px solid #88888a; background-color:#f3f3f3; left:-30px; top:-20px; text-align:center; border-radius:4px;}
+.main_con24102{ position:absolute; bottom:-20px; width:200px; left:-100px; text-align:center; line-height:20px;}
+.main_con2410{ position:relative;}
+.main_con2411{ position:relative; left:-140px; height:50px; top:0; color:#888888; width:100px; text-align:right; font-size:14px; line-height:50px;}
+.main_con2412{ position:absolute; cursor:pointer; top:23px; left:-34px; width:5px; background-color:#ffffff; z-index:1; height:5px; border:1px solid #888888; border-radius:50%;}
+.main_con2413{ position:absolute; left:-20px; top:0; color:#888888; width:100px; text-align:left; font-size:14px; line-height:50px; height:50px;}
+.main_con2414{ border:1px solid #888888; display:none; position:relative; top:-45px; padding:20px 20px 40px;}
+.main_con2414change{ position:absolute; right:10px; bottom:10px; line-height:20px; font-size:14px; cursor:pointer; color:#888888;}
+.main_con24140{ overflow:hidden;}
+.main_con24141{ position:absolute; width:30px; border-top:1px dashed #888888; top:20px; left:-30px;}
+.main_con24142{ width:70px; float:left; font-size:16px; color:#ce000d; line-height:20px;}
+.main_con24143{ width:417px; padding:0 10px; float:left; border-left:1px dashed #888888; font-size:14px; line-height:20px;}
+.main_con241430{ border-bottom:1px dashed #888888; overflow:hidden; color:#888888; padding:5px 0;}
+.main_con241431{ width:45px; margin-right:15px; float:left; text-align:center;}
+.main_con241431 img{ width:15px;}
+.main_con241432{ width:280px; margin-right:10px; float:left; font-size:12px;}
+.main_con241432img{ margin:5px 3px; float:left;}
+.main_con241432img img{ width:20px; height:20px;}
+.main_con241433{ width:67px; float:left; text-align:center;}
+/*右部*/
+.main_con3{ float:left; width:288px;}
+.main_con31{ position:relative; height:180px; overflow:hidden; text-align:center; color:#ffffff; border:1px solid #c9c9c9; background-image:url(../images/Buyers_CenterMain31Bg.jpg);background-repeat: no-repeat;background-size: cover; }
+.main_con311{ font-size:16px; line-height:44px; font-weight:600;}
+.main_con312{ position:relative; z-index:2; height:136px; width:290px; left:-2px; color:#888888}
+.main_con3121{ float:left; width:143px; border-left:2px solid #88888a; height:100px; margin:18px 0; text-align:center;}
+.main_con3122{ height:60px; font-size:50px; font-weight:500; line-height:60px;}
+.main_con3123{ font-size:12px; line-height:20px;}
+.main_con313{ position:absolute; z-index:1; width:288px; top:44px; height:136px; background-color:#ffffff; opacity: 0.9;filter: alpha(opacity=90); }
+.main_con32{ border:1px solid #c9c9c9; overflow:hidden; text-align:center; color:#ffffff; margin-top:10px;}
+.main_con321{  background-image:url(../images/Buyers_CenterMain32Bg.png); height:30px; line-height:30px; font-size:16px; background-repeat: no-repeat;background-size: cover;}
+.main_con321 a{ display:block; float:left; line-height:30px; font-size:14px; color:#ffffff; width:128px; margin:0 5px; text-align:center;}
+.main_con322{ height:100px; border-top:1px solid #c9c9c9;}
+

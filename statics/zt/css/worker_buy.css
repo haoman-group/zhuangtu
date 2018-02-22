@@ -1,0 +1,63 @@
+/*搜索*/
+.search{ background-color:#c8000b; margin-bottom:40px; }
+.btnsear{background-color: #c8000b;}
+/*导航*/
+.navBg{background-repeat: no-repeat;background-size: cover; height:269px; background-image:url(../images/worker_buy_navBg.jpg); text-align:center;}
+.nav_con{padding:41px 0;}
+.nav_con1{ width:950px; float:left; border-right:1px solid #ffffff;}
+.nav_con2{ float:right; position:relative; top:50px;}
+.nav_con2 b{ display:block; width:90px; text-align:center; background-color:#53595f; padding:2px 0; color:#efdf22; font-weight:400;font-size:19px; margin:10px auto;}
+.nav_con21{ position:absolute; bottom:0}
+/*内容*/
+.main{ overflow:hidden; padding-top:20px;}
+/*左部*/
+.main_left{ width:1000px; float:left;overflow:hidden; color:#a1a1a2;font-size:12px;}
+.main_leftcon1{ float:left; width:460px; overflow:hidden; margin-bottom:40px;}
+.main_leftcon11{ margin:0 auto; width:420px;}
+.main_leftcon11 img{ width:420px; height:420px;}
+.main_leftcon12{ margin:0 auto; width:420px; padding-top:20px;overflow:hidden;}
+.main_leftcon121{ width:64px; float:left; margin:0 10px; cursor:pointer;}
+.main_leftcon121 img{ width:64px; height:64px;}
+.main_leftcon13{ padding:40px 10px;margin:0 auto; width:420px;}
+.main_leftcon13 a{ color:#a1a1a2;}
+.main_leftcon13 b{ height:16px; display:block; float:left; margin-right:20px;}
+.main_leftcon13 b img{ height:12px;}
+.main_leftcon13 strong{ display:block; float:right;}
+.main_leftcon2{ float:left; width:520px; padding:0 10px;}
+.main_leftcon2 h1{ margin:0; font-size:16px; color:#000000;}
+.main_leftcon2 h2{margin:5px 0 10px; font-size:12px; color:#000000;}
+.main_leftcon2 p{ margin:6px 0 20px;font-size:12px;}
+.main_leftcon21 p{ margin:10px; font-size:14px;}
+.main_leftcon21 b{ display:inline-block; width:60px;font-size:12px;}
+.main_leftcon21 strong{ color:#c8000b; font-size:28px;position:relative;  top:4px; }
+.main_leftcon22{ margin-top:50px; padding:5px 0; overflow:hidden; border:1px dotted #a1a1a2; border-left:none; border-right:none;}
+.main_leftcon22 b{ width:172px; display:block; float:left; text-align:center;}
+.main_leftcon22 i{display:block; float:left; width:1px; height:16px; border-left:1px solid #a1a1a2;}
+.main_leftcon22 strong{ color:#c8000b; }
+.main_leftcon23 b{display:block; float:left; width:80px;font-size:12px;position:relative; top:10px;}
+.main_leftcon230{ margin:20px 0; font-size:14px;}
+.main_leftcon231{display:inline-block;}
+.main_leftcon23 strong{ display:block; float:left; margin-right:10px; border:1px solid #c8000b; width:24px; height:24px; padding:8px 5px 2px; text-align:center; }
+.main_leftcon232 { float:left; height:36px; width:20px;}
+.main_leftcon233{  width:8px; height:8px; padding:3px; border:1px solid #a1a1a2; margin-bottom:3px; cursor:pointer;}
+.main_leftcon233 img{ width:8px; height:8px;}
+.main_leftcon24{ text-align:center}
+.main_leftcon241{ cursor:pointer; display:inline-block; margin-right:10px; padding:5px 30px; font-size:16px;background-color:#fceaea; border:1px solid #c8000b; color:#c8000b;}
+.main_leftcon242{cursor:pointer; display:inline-block; margin-right:10px; padding:5px 30px; font-size:16px; border:1px solid #c8000b; color:#ffffff; background-color:#c8000b;}
+.main_leftcon25{ margin-top:20px; overflow:hidden;}
+.main_leftcon251{ float:left; width:420px;}
+.main_leftcon251 ul{ display:block;float:right; width:340px;}
+.main_leftcon251 li{ display:inline-block; margin-right:20px; margin-bottom:10px;}
+.main_leftcon251 a{ color:#a1a1a2;}
+.main_leftcon251 a:hover{ color:#c8000b;}
+.main_leftcon252{ float:right;}
+.main_leftcon3 img{ width:1000px; cursor:pointer;}
+/*右部*/
+.main_right{ width:190px; float:right; text-align:center;}
+.main_rightcon1{border-left:1px solid #b5b5b6; font-size:12px; line-height:16px; overflow:hidden;}
+.main_rightcon11{ position:relative; color:#636161; padding-bottom:15px;padding-left:30px; width:140px;}
+.main_rightcon11 b{ position:relative; padding:0 6px; background-color:#ffffff; display:block; width:64px; margin:auto;}
+.main_rightcon11 s{ position:absolute; display:block; width:100%;top:8px; border-top:1px dotted #636161;}
+.main_rightcon121{  position:relative; left:20px;}
+.main_rightcon121 img{ width:100%;cursor:pointer;}
+

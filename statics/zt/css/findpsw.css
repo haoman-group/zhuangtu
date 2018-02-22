@@ -1,0 +1,222 @@
+
+.findpsw_topbg{
+	background-color:#f0f0f0;
+	font-family:"microsoft yahei";
+	border:1px solid #ccc;
+}
+.findpsw_top{
+	width:1190px;
+	margin:0 auto;
+	padding:33px 0 20px;
+	font-size:26px;
+	line-height:72px;
+	/*overflow:hidden;*/
+}
+.findpsw_top img{
+	margin-right:10px;
+	vertical-align:middle;
+}
+
+
+.findpsw_main{
+	min-height:730px;
+	width:1000px;
+	margin:0 auto;
+	font-family:"microsoft yahei";
+	font-size:16px;
+	position: relative;
+	padding-left: 100px;
+}
+.findpsw_main h5{
+	margin-top: 50px;
+	font-size: 18px;
+	font-family:"微软雅黑";
+	font-weight: normal;	
+	padding-left: 25px;
+}
+.findpsw_main h5.reg{
+	background: url(../images/findpsw/tanhao.png) no-repeat left center;
+}
+.findpsw_main h5.reg1{
+	background: url(../images/findpsw/new.png) no-repeat left center;
+}
+.findpsw_main h5 span{
+	color:#ce2329;
+}
+.findpsw_main .verify{
+	padding: 40px 65px;
+	line-height: 50px;
+}
+.findpsw_main .dlverify{
+	width:860px;
+	margin:0 auto;
+	margin-top: 30px;
+}
+.findpsw_main .dlverify dt{
+	width:240px;
+	float:left;
+	text-align: right;
+	min-height: 20px;
+	margin-right: 10px;
+}
+.findpsw_main .dlverify dd{
+	margin-bottom: 20px;
+	min-height: 20px;
+}
+.findpsw_main .dlverify .tips{
+	display: block;
+	color: #000;
+	width:200px;
+	background-color: #f8f8f8;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 250px;
+}
+.findpsw_main .dlverify .time{
+	display: block;
+	color: #000;
+	width:200px;
+	background-color: #f8f8f8;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 250px;
+}
+.findpsw_main .dlverify .finderror_pass,.findpsw_main .dlverify .findsucc_pass{
+	display: none;
+}
+.findpsw_main .dlverify .finderror_pass{
+	background: url(../images/findpsw/xx.png) no-repeat left center;
+	padding-left: 20px;
+	color: #ce2329;
+}
+.findpsw_main .dlverify .findsucc_pass{
+	background: url(../images/findpsw/success.png) no-repeat left center;
+	padding-left: 20px;
+	color: #97c15f;
+
+}
+.findpsw_main .dlverify .findinfo_pass{
+	display: none;
+	
+}
+.findpsw_main .dlverify .findinfo_notpass{
+	display: none;
+
+}
+.findpsw_main .dlverify .findinfo_iphone{
+	background: url(../images/findpsw/xx.png) no-repeat left center;
+	padding-left: 20px;
+	display: none;
+	color: #ce2329;
+
+}
+.findpsw_main .dlverify .finderror_notpass{
+	background: url(../images/findpsw/xx.png) no-repeat left center;
+	padding-left: 20px;
+	display: none;
+	color: #ce2329;
+}
+.findpsw_main .dlverify .findsucc_notpass{
+	background: url(../images/findpsw/success.png) no-repeat left center;
+	padding-left: 20px;
+	display: none;
+	color: #97c15f;
+}
+.findpsw_main .dlverify .success{
+	background: url(../images/findpsw/success.png) no-repeat left center;
+	margin-left: 250px;
+	padding-left: 25px;
+}
+.findpsw_main .dlverify .success,.findpsw_main .dlverify .time{
+	margin-bottom: 0;font-size: 13px;
+}
+.findpsw_main dd input{
+	padding: 0 10px;
+	min-width: 100px;
+	font-size: 14px;
+	border:1px solid #ccc;
+	line-height: 30px;
+}
+.findpsw_main dd img{
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.findpsw_main .reset{
+	display: block;
+	width:170px;
+	height:36px;	
+	color:#fff; 
+	background-color: #ce2329;
+	text-align: center;
+	line-height: 36px;
+	margin:44px 0 34px 250px;
+	font-size: 17px;
+}
+.findpsw_main .reset a{display: block;width:100%;height:100%;color:#fff;}
+.help{
+	width:776px;
+	background-color: #f0f0f0;
+	margin-top: 34px;
+	padding:24px 0 24px 100px;
+	font-size: 16px;
+}
+.help dd{
+	margin-top: 12px;
+	font-size: 14px;
+	text-indent: 2em;
+	color: #4a4949;
+}
+.findpsw_main .safe{
+    position: absolute;
+    width:380px;
+    height:140px;
+    background: url(../images/findpsw/bg.png) no-repeat;
+    left:620px;
+    top:40px;padding:10px 0 0 20px;
+    font-size: 12px;
+    display: none;
+}
+.findpsw_main .safe .dengji{
+	width:26px;
+	height:12px;
+	display: inline-block;
+	background: #c9c9c9;
+}
+.findpsw_main .safe span{
+	font-size: 13px;
+}
+.findpsw_main .safe div.ts1{
+	background: url(../images/findpsw/xx.png) no-repeat left center;
+	padding-left: 20px;
+	margin-top: 10px;line-height: 20px;
+}
+.findpsw_main .safe div.ts2{
+	background: url(../images/findpsw/xx.png) no-repeat left center;
+	padding-left: 20px;
+	margin-top: 10px;line-height: 20px;
+}
+.findpsw_main .safe div.ts3{
+	background: url(../images/findpsw/xx.png) no-repeat left center;
+	padding-left: 20px;
+	margin-top: 10px;line-height: 20px;
+}
+.findpsw_main .complete{
+	margin: 0 auto;
+	width:700px;
+	background: #f0f0f0;	
+	padding: 54px 88px;
+}
+.findpsw_main .complete ul{
+	margin-left: 20px;font-size: 18px;
+}
+.findpsw_main .complete ul li.find_success{
+	background: url(../images/findpsw/success.png) no-repeat left center;
+	padding-left: 25px;
+}
+.findpsw_main .complete ul a{
+	font-size: 15px;padding-left: 25px;
+	color:#ce2329;
+}

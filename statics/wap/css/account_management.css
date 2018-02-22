@@ -1,0 +1,54 @@
+body,div,span,h1,h2,h3,h4,h5,h6,p,a,ol,ul,li,dl,dt,dd,input,img,form,button,blockquote,strong{ font-weight:normal;margin:0; padding:0; list-style:none;border:0;}
+body{font-size:12px; font-family:"Microsoft YaHei"; font-weight:normal; }
+a{text-decoration:none; color:#000;border:none;padding:0px;margin:0px;}
+a:hover{text-decoration:none;}
+img{ border:none; width:100%; display: block;}
+input{ outline:none;}
+
+
+.account_con{background:#fff;}
+.account_con h2{border-bottom: 1px solid #ccc; font-size: 14px; padding:12px 10px; }
+
+.account_con .acc_title {border-bottom:1px solid #ccc; overflow:hidden;  padding:12px 0;  margin-left:10px; }
+.account_con .acc_title .titles{width:76px; height:76px; text-align: center; border-radius: 38px; overflow: hidden; display:block;float:left;}
+.account_con .acc_title .user_info{float:left; margin-left:10px; padding-top:5px;}
+.account_con .acc_title .user_info p{line-height:22px; color:#a1a1a1;}
+.account_con .acc_title .user_info span{ color:#272727;}
+.account_con .acc_title .user_info .butt{height: 22px; width: 100px; text-align: center; line-height: 22px; border:1px solid #ccc;  color:#272727; background:#f3f3f3; margin-top:10px;}
+
+.account_con .management_ul{padding-left:8px; }
+.account_con .management_ul a{border-bottom:1px solid #ccc;  overflow: hidden;clear:both; padding:12px 10px 12px 0 ; display: block;}
+.account_con .management_ul li .li_left{color:#919191;}
+.account_con .management_ul li .li_right{float:right;}
+.unbundling{border-bottom: 1px solid #ccc; padding:12px 0; text-align: center;}
+.unbundling a{border: 1px solid #8ec3fa; background:#3089f2; width:100px; height: 30px; line-height: 28px; display:inline-block; color:#fff; border-radius:6px; text-align: center;}
+
+
+
+/*完善资料*/
+.account_con h3{ font-size: 14px; padding:12px 10px; }
+.perfect_con{padding:10px; background: #fff;}
+.perfect_con input{width:100%; border:1px solid #ccc; padding-left:10px; height: 40px; margin-bottom: 10px;}
+.perfect_con  .next_step{display: block; height: 40px; line-height: 40px; text-align: center; color:#fff; background: #3685fe; border-radius:3px; font-size: 14px; margin-bottom: 20px;}
+
+
+
+/*手机登录*/
+.logincon{background:none;}
+.login_titles{margin-bottom: 10px; padding:10px;  background:#fff; text-align: center;}
+.login_titles i{width:45px; height: 45px; display:inline-block; margin:15px 0 10px;}
+.perfect_con form p{height: 25px;  font-size: 14px;}
+.can_cona{ display:-webkit-box;  display:box;  -webkit-box-pack:justify;  box-pack:justify; text-align:justify;}
+.can_cona a{display:block; height: 45px;  width:48%;  background:#f3f3f3; border-radius:3px; border:1px solid #ccc; line-height: 45px; text-align:center;}
+.can_cona .confirm{  margin-right:2%; background: #3685fe; border:0; color:#fff; }
+.perfect_con .validate{width:60%;}
+.perfect_con .val_img{width:36%; display: block; height: 45px; float: right; }
+.perfect_con .val_img img{ height: 40px;}
+.retrievepassw{display: block; text-align: center; color:#3685fe;margin-top: 15px; clear: both;}
+
+.btn-phonecode{background: #65ad01;color:#fff; display: block; width:100%; line-height: 40px; border-radius:3px;text-align: center;}
+
+
+
+
+

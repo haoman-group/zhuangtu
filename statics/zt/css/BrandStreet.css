@@ -1,0 +1,27 @@
+/*搜索颜色*/
+.searchBg{position:relative; margin-top:-20px;background-image:url(../images/BrandStreet_searchBg.jpg); height:744px;background-repeat: no-repeat; text-align:center;background-size: cover;}
+.search{ padding:0;border:solid;border-color:#ffffff; background-color:transparent; z-index:1; border-width:3px; position:relative; top:500px; left:-243px;}
+.search_text{ position:absolute; background-image:url(../images/BrandStreet_searchBg1.png); height:744px; width:100%; left:-243px;}
+.inpsear{ background-color:transparent; color:#ffffff;}
+.btnsear{background-color: #ffffff;color:#000000;height:39px; margin-right:-5px;padding-left:5px;}
+.searchBg h2{ text-align:left;}
+/*主体内容*/
+.brandBg{background-image:url(../images/BrandStreet_mainBg.jpg);background-repeat: no-repeat; text-align:center;background-size: cover;}
+.brandmain{ padding:50px 0;}
+.brand_gallery{ margin:10px 0; overflow:hidden; }
+.brand_gallery .g_left{ width:256px; height:526px; overflow:hidden; position:relative;}
+.brand_gallery .g_mid{ width:652px; height:522px; overflow:hidden; position:relative; border:solid 2px #000000; margin:0 10px; background-color:#ffffff;}
+.brand_gallery .g_mid .content2_con{width:3280px; height:526px; position:absolute;top:0px; left:0px;}
+.brand_gallery .g_mid .brand_gallery_sec{ width:656px; height:526px; float:left;}
+.brand_gallery .g_mid .brand_gallery_ul{width:596px; margin:0 auto; }
+.brand_gallery .g_mid .brand_gallery_li{padding: 0px 2px 0px 29px; background:url(../images/BrandStreet_ADb.png) no-repeat scroll right 16px transparent;width: 118px;height: 292px; margin-top:90px; float:left;}
+.brand_gallery .g_mid .brand_gallery_ul :last-child{background:none;}
+.brand_gallery .g_mid .brand_gallery_li a{display: block;margin: 28px 28px 0px 0px;}
+.brand_gallery .g_mid .content23{ position:absolute; bottom:50px; left:239px;}
+.brand_gallery .g_mid .content23 ul{ display:block;}
+.brand_gallery .g_mid .content23 li{ display:inline-block; width:10px; height:10px; background-color:#999; margin-right:25px; cursor:pointer;}
+.brand_gallery .g_right .content3{ width:258px;}
+.brand_gallery .g_right .content31{ width:258px; height:258px;}
+.brand_gallery .g_right .content32{ width:258px; height:10px}
+
+

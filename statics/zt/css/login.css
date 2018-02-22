@@ -1,0 +1,47 @@
+/*导航*/
+.body{background-color:#f8f8f8; min-width: 361px;}
+.navBg{ background-color:#f8f8f8; padding:30px 0;}
+.navBg img{ vertical-align:middle;}
+.navBg img.logo{margin-right:30px;}
+.conwholeLogo{margin:40px auto;}
+/*主体*/
+.main{ margin-top:30px;}
+.con_main{width:1190px;height:434px;background-color:#fff;}
+.mainLeft{ float:left; width:494px; height:345px; margin-left:110px;text-align:center;}
+.mainLeft img{ } 
+.mainRight{float:right; padding:40px 80px 20px 80px; width:404px; height:283px; overflow:hidden;margin-right:10px;}
+.mainRight i.error{ position: relative;}
+.mainRight_con1{ color:#000000; font-size:16px; height:21px; line-height:21px;}
+.mainRight_con1 b{ color:#0066cb; font-size:12px; font-weight:300; height:21px; line-height:21px; display:block; float:right;}
+.login_search{ width:262px; height:19px; font-size:16px; line-height:21px; border:1px solid #cccccc; padding:5px 5px 5px 35px; margin-top:25px; color:#000000;}
+.login_search1{background:url(/statics/zt/images/userreg/username.png) no-repeat 10px center;}
+.login_search2{background:url(/statics/zt/images/userreg/userpass.png) no-repeat 10px center;}
+.mainRight_con2 .error{display: block;margin-top: 10px;color:#c8161d; }
+.mainRight_con2bottom{margin-top:20px; overflow: hidden; width: 304px;}
+.mainRight_con2bottom input{vertical-align:middle;margin-right:5px;}
+.mainRight_con2bottom .aright{ float: right;}
+.mainRight_con3{ text-align:right; font-size:12px; color:#c8161d;}
+.mainRight_con3:hover{ color:#c8000b; text-decoration:underline;}
+.mainRight_con4{ font-size:12px; color:#a5a5a5; margin-top:25px;height:14px;}
+.mainRight_con4 b{ margin-right:5px;display:block; cursor:pointer; float:left; width:10px; height:10px; border:1px solid #908e8f; background-color:#f4f3f1; padding:2px;}
+.mainRight_con4 i{ display:block; float:left; width:8px; height:8px; border:1px solid #bbbfc2; background-color:#eaeaea;}
+.mainRight_con5{width:288px;height:21px; font-size:16px; line-height:21px; text-align:center; padding:8px; margin:20px 0 20px 0; color:#ffffff; background-color:#c30000; cursor:pointer;display:block;}
+.mainRight_con6 p{ margin:15px 0 20px;}
+.mainRight_con6 a{ margin-right:10px; margin-top:10px;}
+.mainRight_con6 img{ opacity: 0.5;filter: alpha(opacity=50);}
+.mainRight_con6 img:hover{ opacity: 1;filter: alpha(opacity=100);}
+.ybm{width:580px;margin:0 auto;line-height:40px;margin-top:20px;}
+.ybm .ybm_text{line-height:20px;margin-left:10px;margin-right:30px;}
+
+.loginpophd{ background: #b6000c; border-bottom: 2px solid #910e14; height: 42px;}
+.loginpophd .logo{ float: left; display: inline; margin-top: 11px; margin-left: 20px; width: 76px;}
+.con_loginpop{ padding: 0 20px; font-family: "microsoft yahei"}
+.con_loginpop .formtit{ font-size: 16px; color: #505050; margin-top: 32px;}
+.con_loginpop .mainRight_con5{ height: auto; padding: 8px 0px; width: 304px;}
+.con_loginpop i.error{font-size: 0px;}
+.con_loginpop input.error[type='text'],.con_loginpop input.error[type='password']{ border: 1px solid red;}
+.ddfindpwdtip{ padding-top: 20px; width: 304px;}
+.ddfindpwdtip .aright{ float: right;}
+
+
+

@@ -1,0 +1,108 @@
+body{ margin:0; overflow:hidden;}
+/*改动*/
+.change1{ position:relative; }
+.change2{ display:none; position:absolute; left:0; z-index:200; top:0; right:0; bottom:0; background-color:#888;opacity: 0.7;filter: alpha(opacity=70);}
+.change3{ display:none; background-color:#000000; z-index:200; border-radius:3px; position:absolute; top:0; line-height:20px; right:0; color:#ffffff; font-size:12px; cursor:pointer;}
+.change4{ display:none; background-color:#ffffff; z-index:200; position:absolute; right:0; top:0;}
+.change4_input{ line-height:20px; font-size:12px; overflow:hidden;}
+.change4_input input{ float:left;}
+.change_up{ cursor:pointer; display:block; float:left; line-height:20px; font-size:12px; background-color:#888; color:#ffffff; border-radius:5px; margin:0 5px; padding:0 5px;}
+.change_down{ cursor:pointer; display:block; float:left; line-height:20px; font-size:12px; background-color:#888; color:#ffffff; border-radius:5px; margin:0 5px; padding:0 5px;}
+.change_delete{ cursor:pointer; font-weight:300; display:block; float:left; line-height:20px; font-size:12px; background-color:#888; color:#ffffff; border-radius:5px; margin:0 5px; padding:0 5px;}
+.added{ position:absolute; bottom:-20px; padding:0 10px; cursor:pointer; margin-left:5px; left:0; font-size:12px; background-color:#333; border-radius:3px; color:#ffffff; line-height:20px;}
+.save{ position:absolute; bottom:-20px; padding:0 10px; cursor:pointer; margin-right:5px; right:0; font-size:12px; background-color:#333; border-radius:3px; color:#ffffff; line-height:20px;}
+/*上部*/
+.container03{ width:100%; height:70px; background-color:#27282d; color:#ffffff; line-height:70px; font-size:36px; font-family:"微软雅黑"}
+.container03 b{ padding-left:20px;}
+.container03 strong{ font-size:20px; color:#888; padding:0 20px; cursor:pointer;}
+.model1_con22_delete{ cursor:pointer;}
+.sort{ position:absolute; text-align:center; z-index:220; left:0; top:0; width:20px; height:20px; line-height:20px; font-size:16px; font-weight:700; padding:10px; border-radius:50%; background-color:#CCC; color:#c8000b;}
+.see{ cursor:pointer;}
+/*编辑部分*/
+.container02{ float:left;left:0; top:0; width:316px; height:100%; background-color:#ffffff;}
+.container021{ width:80px; height:100%; background-color:#34373e; float:left;}
+.container022{ float:right; width:235px; height:100%; position:relative; border-right:1px solid #d2d2d2;}
+.kind{ text-align:center; cursor:pointer; font-size:12px; line-height:30px; opacity: 0.7;filter: alpha(opacity=70); color:#ffffff; padding-top:20px; position:relative;}
+.kind b{border-width:10px; display:none; top:33px; right:0;position:absolute;border-color: transparent #ffffff transparent transparent;border-style:solid;}
+.kind img{ height:18px;}
+.model{ display:none; position:absolute; width:100%; height:100%; overflow-y:auto;overflow-x:hidden; left:0; top:0; background-color:#ffffff;}
+.model1_con1{ font-size:14px; line-height:20px; margin-top:15px; overflow:hidden; padding:0 5px; border-bottom:1px solid #888; text-align:center;}
+.model1_con10{ cursor:pointer; width:63px; height:65px; border:1px solid #dee1e7; line-height:65px; background-color:#ebedf3; margin:5px auto; }
+.model1_con11{ cursor:pointer; width:63px; height:65px; border:1px solid #dee1e7; line-height:65px; background-color:#ebedf3; margin:5px; float:left;}
+.model1_con2{ font-size:14px; line-height:20px; position:relative; margin-top:15px; text-align:center;}
+.model1p2{ margin:0; line-height:20px; font-size:14px;}
+.model1_con21{ position:absolute; left:0; top:20px; width:225px; padding:0 5px;}
+.model1_con21 p{ margin:0; line-height:30px;}
+.model1_con211{ cursor:pointer; width:63px; height:65px; border:1px solid #dee1e7; line-height:65px; background-color:#ebedf3; margin:5px; float:left;}
+.model1_con211 img{ width:63px; height:65px;}
+.model1_con22{ line-height:20px; margin:5px 0; height:20px; width:100%; background-color:#888;}
+.model2_con1{ font-size:14px; line-height:20px; margin-top:15px; margin-left:10px;}
+.model3_con1{ font-size:14px; line-height:20px; margin-top:15px; margin-left:10px;}
+/*布局*/
+.container01{ float:left; overflow:auto;}
+.container011{ width:100%;}
+.container0111{ width:1190px; margin:0 auto;}
+/*页头*/
+.sear{ margin-bottom:-65px;}
+.headBg{ height:120px; margin-top:20px;background-height: 100%;background-repeat: no-repeat; text-align:center;background-size: cover; height:120px; width:100%;}
+.head{ height:90px; padding: 15px 0; background-color:transparent; }
+.logo{ height:90px; float:left;}
+.phone{ height:90px; float:right;}
+/*页面*/
+.mainBg{background-height: 100%;background-repeat: no-repeat;background-size: cover;width:100%;}
+.main_con{ position:relative;}
+.main_con0{background-height: 100%;background-repeat: no-repeat; background-color:#ffffff; text-align:center;background-size: cover;width:1190px;}
+.main_con003{background-height: 100%; padding:0 1px; background-repeat: no-repeat; background-color:#ffffff; text-align:center;background-size: cover;width:1188px; margin:0 auto;}
+.main_conbox{ overflow:hidden; position:relative;}
+.main_con01{ width:1190px;} 
+.main_con01 img{ width:1190px;}
+.main_con02{ width:395px; margin:0 100px; float:left} 
+.main_con02 img{ width:359px;}
+.main_con03{ width:300px; margin:0 48px; float:left} 
+.main_con03 img{ width:300px;}
+.main_con03{ width:300px; margin:0 48px; float:left} 
+.main_con03 img{ width:300px;}
+.main_con04{ width:257px; margin:0 20px; float:left} 
+.main_con04 img{ width:257px;}
+.main_con1{ position:relative;}
+.main_con2{ position:relative;}
+.main_hidden1{ display:none; z-index:200; position:absolute; left:0; top:0; right:0; bottom:0; background-color:#888;opacity: 0.7;filter: alpha(opacity=70);}
+.main_hidden2{ display:none; z-index:200; background-color:#000000; border-radius:3px; position:absolute; top:0; line-height:20px; padding: 5px 10px; left:0; color:#ffffff; font-size:12px; cursor:pointer;}
+.main_hidden3{ display:none; z-index:200; background-color:#ffffff;text-align:right; position:absolute; left:0; top:0; padding: 5px 10px;}
+/*导航*/
+.navBg{ background-color:#000000; line-height:20px; font-size:14px;}
+.nav{}
+.nav a{ display:block; float:left; margin-right:20px; color:#ffffff;}
+.nav ul{ overflow:hidden; display:block; padding:0; margin:0;}
+/*模块隐藏*/
+.model_hidden{ display:none;}
+.img_ADcon1{ width:100%;}
+.AD_absolute{ height:500px; width:100%;}
+.AD_absolute1{ left:50%; top:0; width:1px; height:1px; position:absolute;}
+.AD_absolute2{ left:-960px; top:0; width:1920px; height:500px; position:absolute; overflow:hidden;}
+.AD_absolute_3{ width:5760px; height:500px; position:absolute; left:0; top:0;}
+.AD_absolute_31{ float:left; width:1920px; height:500px;}
+.AD_absolute_32{ position:absolute; bottom:10px; left:0; padding:20px 915px; z-index:80;}
+.AD_absolute_321{ float:left; width:10px; height:10px; margin:0 10px; cursor:pointer; background-color:#ffffff;}
+.AD_absolute_33{ position:absolute; right:365px; width:180px; height:500px; top:0;}
+.AD_absoluteimg{ width:1920px; height:500px;}
+.AD_absoluteimg2{ width:180px; height:250px;}
+/*产品类*/
+.model_Product{ position:relative; z-index:5;}
+.Product_img1{ width:1920px;}
+.Product_img01{ width:1190px;}
+.Product_img3{ width:325px; height:464px;}
+.Product_img4{ width:240px; height:340px;}
+.Product_img5{ width:220px; height:282px;}
+.Product_img03{ width:325px; height:396px;}
+.Product_img04{ width:240px; height:300px;}
+.Product_img05{ width:220px; height:220px;}
+.model_Product1{ margin:0 auto;}
+.model_Product11{ float:left; width:150px; text-align:center;}
+.model_Product11p{ display:block; margin:0; text-overflow: ellipsis; width:100%; line-height:20px; color:#000; font-size:12px; height:40px; overflow:hidden;}
+.model_Product11p:hover{ text-decoration:underline;}
+.model_Product11box{ height:64px; line-height:24px; overflow:hidden; text-align:left;}
+.model_Product11b{ font-size:16px;line-height:24px; font-weight:500; color:#c8000b;}
+.model_Product11s{ font-size:14px;line-height:24px; font-weight:300; color:#888;}
+.Product_absolute{ left:50%; top:0; width:1px; height:1px; position:absolute; z-index:-1;}
+.Product_absolute1{ left:-960px; width:1920px; position:absolute;}

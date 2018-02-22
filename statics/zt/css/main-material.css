@@ -1,0 +1,79 @@
+/*搜索颜色*/
+.search{ background-color:#c8000b; }
+.btnsear{background-color: #c8000b;}
+/*导航*/
+/*导航头*/
+.nav_head{ position:relative;}
+.nav_headhidden{ margin:0 auto; height:100px; width:1190px; background-color:#888;display:none;}
+.nav_headhidden1{ position:absolute; height:100px; width:100%; background-color:#888; display:none; }
+.nav_head li{ display:block; float:left;vertical-align:top;line-height:34px; text-align:center; height:34px;font-size:14px; padding:0px 30px; font-family:"宋体"; font-weight:700;}
+.nav_head a:hover{ color:#c8000b;}
+/*导航内容*/
+.navBg{background-color:#c8000b; height:484px;}
+/*左导航*/
+.nav_left{border: 2px solid #a26742;width:189px; background-color:#f2f2f2; color:#000000;}
+.nav_lefttab2 a:hover{ text-decoration:underline;}
+.nav_left li{ display:block; text-align:left; vertical-align:top;line-height:30px; font-size:12px; padding:0px 20px; font-family:"宋体"; font-weight:700;}
+.nav_left li:hover{border-top: 2px solid #a26742;border-bottom: 2px solid #a26742; margin:-2px 0px;}
+.nav_left li a{color:#000000;}
+.nav_lefttab2{ background-color:#ffffff; margin:0 -20px; padding:0 8px;}
+.nav_lefttab2 a{display:inline-block;font:12px/150% Arial, Verdana, "宋体";}
+.nav_left li img{vertical-align:middle; padding-right:3px;}
+/*导航中部*/
+.nav_center{width:997px;height:484px; overflow:hidden; }
+/*导航隐藏*/
+.nav_hidden{border:2px solid #a26742;position:absolute; width:100px; height:100px; background-color:#ffffff; top:-2px; display:none;  left:169px;}
+.nav_hiddenb90{position:absolute;width:2px; display:none; top:0px; height:90px;background-color:#ffffff;left:169px;}
+.nav_hiddenb60{position:absolute;width:2px; display:none; top:0px; height:60px;background-color:#ffffff;left:169px;}
+/*导航tab*/
+.nav_li { position:absolute; left:400px; bottom:6px;width:162px; }
+.nav_li li{display:inline-block;width:20px;height:20px;cursor: pointer;color: #FFF; padding:0px;margin-right: 6px;text-align: center;line-height: 20px;border-radius: 50%; background-color:#000000;}
+.nav_li li:hover{ background-color:#c8000b;}
+/*品牌旗舰店*/
+.mmat_shop{ margin-top:70px; height:240px; margin-bottom:30px;position:relative;}
+.content2_con1{ margin:0 auto; width:1175px; }
+.content2_con2{ width:225px; height:110px; margin:10px 5px 0px; float:left; position:relative;left:0px;right:0px; overflow:hidden;}
+.content2_con2:hover{ opacity: 0.8;filter: alpha(opacity=80);}
+.content2_con3{ position:absolute; top:-30px; height:30px; font-size:24px; line-height:20px;font-weight:900;}
+/*家装爆款*/
+.mmat_brand{ margin-top:70px; height:131px;background-color:#cccccc;}
+.mmat_brandin{ margin:0 auto; width:1176px; position:relative;}
+.mmat_brandli{ width:284px; height:109px; margin:11px 5px; float:left; position:relative;left:0px;right:0px;overflow:hidden;}
+.mmat_brand_titimg{ position:absolute; top:-30px; left:-7px;}
+/*广告*/
+.mmat_ad{margin:50px auto 0px;}
+/*主体*/
+.content4_con2{margin:50px 0px 0px; overflow:hidden; line-height:40px;background:url(../images/main-material_content4Bg.png) no-repeat;}
+.content4_con2 p{font-size:20px; font-weight:700;margin:0; font-family:"微软雅黑"; padding:0 10px; display:inline;}
+.content4_con00{float:left; width:996px; overflow:hidden;}
+.content4_con01{width:233px; height:40px; float:right; color:#000000; text-align:right; padding-right:30px; padding-left:3px;}
+.content4_con01 a{ margin:10px 0px;line-height:15px; height:20px;font-size:15px; font-weight:300; display:inline-block; padding:0 8px 0 7px; border-right:solid 1px #dde0e6;}
+.content4_con01 a:hover{ color:#c8000b;}
+.content4_con01 .a_last{ border:none;}
+.content4_con02{float:left; width:192px; height:499px; position:relative; overflow:hidden;}
+.content4_con02a{ width:167px; padding:40px 20px 20px; height:200px; position:absolute;}
+.content4_con02a a{ width:50px;display:inline-block;font:12px/150% Arial, Verdana, "宋体"; margin:5px 0;}
+.content4_con02a a:hover{ color:#c8000b; text-decoration:underline;}
+.content4_con03{float:left; width:248px; height:249px; overflow:hidden;}
+.content4_con04{float:left; width:248px; height:249px; overflow:hidden;}
+.content4_con05{float:right; width:241px; height:540px;overflow:hidden;}
+.content4_ul{padding:12px 12px 0; font-size:14px;margin-bottom:5px;}
+.content4_li{position:relative;display:inline-block;background:#e9ecf2;height:22px;line-height:22px;color:#666;padding:0 9px;cursor:pointer;margin-right:7px;border-radius:2px}
+.content4_li b{border-width:8px;position:absolute;top:22px;left:38%;border-color:#296ecc transparent transparent;border-style:solid; display:none;}
+/*宽1，灰*/
+.B{border:solid 1px #dde0e6;}
+/*右边框*/
+/*宽1，灰*/
+.B_lr{border-right:solid;border-width:1px; border-color:#dde0e6;}
+/*上边框*/
+/*宽3，蓝*/
+.B_up1{border-top:solid; border-top-width:3px; border-top-color:#565656; }
+/*宽1，灰*/
+.B_up2{border-top:solid; border-top-width:1px; border-top-color:#dde0e6; }
+/*页面主体*/
+/*下边框*/
+/*宽1，灰*/
+.B_down{ border-bottom:solid 1px #dde0e6;}
+
+/*固定图标*/
+.navmsg_con21:hover{color:#ffffff;background-color:#c8000b;}

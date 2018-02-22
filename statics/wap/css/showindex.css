@@ -1,0 +1,7 @@
+body,div,span,h1,h2,h3,h4,h5,h6,p,a,ol,ul,li,dl,dt,dd,input,img,form,button,blockquote,strong{ font-weight:normal;margin:0; padding:0; list-style:none; border:0;}
+body{font-size:12px; font-family:"Microsoft YaHei"; font-weight:normal;background:#f2f2f2; }
+a{text-decoration:none; color:#000;border:none;padding:0px;margin:0px;}
+a:hover{text-decoration:none;}
+img{ border:none; width:100%;}
+input{ outline:none;}
+

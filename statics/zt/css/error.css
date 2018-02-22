@@ -1,0 +1,27 @@
+/*400*/
+.banner400{ background: url("../images/error/banner400.jpg") center center no-repeat; height: 637px; text-align: center;}
+.banner400 p{ width: 450px; padding-top: 120px; margin: 0 auto; color: #fff; font-size: 50px; line-height: 75px;}
+.banner400 p span{ font-size: 24px; line-height: 44px; display: block;}
+.banner400 a{ display: inline-block; width: 210px; line-height: 60px; border: 2px solid #424446; color: #424446; font-size: 33px; margin-top: 60px;}
+
+.about400{ color: #666666; background-color: #e9edf3; line-height: 34px; font-size: 18px; text-align: center;}
+.about400 h3{ font-size: 25px; line-height:90px; padding-top: 30px;}
+.about400 img{ display: inline-block; padding: 20px 0 20px;}
+
+.content400{ padding-top: 120px; width: 985px; margin:0 auto;}
+.content400 dt{float: left; width: 200px; text-align: center;}
+.content400 dt img{ display: inline-block}
+.content400 dd{ margin-left: 200px; width: 560px; font-size: 16px; line-height: 25px; color: #000000; margin-bottom: 100px;}
+.content400 dd h3{ font-size: 25px; color: #c8161d; line-height: 30px; padding-bottom: 4px; border-bottom: 2px solid #b5b5b5; margin-bottom: 5px;}
+.content400 dd h4{ font-size: 25px; color: #c8161d; line-height: 40px;}
+.content400 dd .dt{float: left; width: 80px; }
+.content400 dd .dd{ margin-left:80px; margin-bottom: 8px;}
+.content400 dd .dts{float: left; width: 50px;}
+.content400 dd .dds{ margin-left:50px; margin-bottom: 8px;}
+.content400 dd .tip{color: #c8161d;}
+
+.content400 .QRcode{ position: absolute; top: 120px; right: 5px; text-align: center; width: 100px; font-size: 16px;}
+.content400 .QRcode img{ display: inline-block;}
+
+
+

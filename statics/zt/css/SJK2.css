@@ -1,0 +1,45 @@
+body{ background-image:url(../designLibrary/image/SJK1_mainBg.png)}
+.container{ width:1040px; margin:auto; overflow:hidden;}
+li{display:inline;border:0px;margin:0px;padding:0px ; }
+/*主体*/
+.main{ width:670px; background-color:#ffffff; float:left;margin-top:40px; padding:20px;border:2px solid #dcdcde;}
+.content1{ text-align:center;}
+.content1_img{ width:670px; margin-bottom:20px; cursor:pointer;}
+.content1_con1{margin-bottom:20px; font-size:12px; overflow:hidden; }
+.content1_con11{border:1px solid #dcdcde; float:left;background-color:#f0182d; color:#ffffff; width:40px; height:15px; padding:5px 0; cursor:pointer; text-align:center;}
+.content1_con12{border:1px solid #dcdcde;float:left;background-color:#efefef color:#ffffff;  margin-left:20px;cursor:pointer; text-align:center;}
+.content1_con12 img{width:15px;height:15px; padding:5px;}
+.content1_con13{border:1px solid #dcdcde;float:right;background-color:#efefef color:#ffffff;  margin-left:20px;cursor:pointer; text-align:center;}
+.content1_con13 img{width:15px;height:15px; padding:5px;}
+.content1_con2{margin-top:20px; font-size:12px; overflow:hidden; }
+.content1_con21{margin-right:10px;border:1px solid #dcdcde; float:left;background-color:#efefef; color:#000000;  height:15px; padding:5px; cursor:pointer; text-align:center;}
+/*分部*/
+.content2{width:240px; background-color:#ffffff;text-align:center; margin-top:40px; padding:20px; float:right;border:2px solid #dcdcde;}
+.content2_con1{ width:240px; text-align:left;}
+.content2_con13{ font-size:12px;}
+.content2_con131{display: inline-block; height:30px;line-height:12px;font-size: 12px;cursor:pointer;}
+.content2_con131 img{ width:30px; vertical-align:bottom;}
+.content2_con131 b{color:#875848; }
+.content2_con3{ height:30px;line-height:20px;font-size: 20px; width:240px;  text-align:center; border-radius:2px;}
+.content2_con3 p{ margin-top:10px; padding:2px;border:2px solid #dcdcde;background-color:#efefef ;cursor:pointer;}
+.content2_con3 p:hover{border:2px solid #c8000b;}
+.content2_con3 p img{ width:20px; height:15px;}
+/*点击购买*/
+.content3{width:280px; background-color:#ffffff;text-align:center; margin-top:40px; float:right;border:2px solid #dcdcde;}
+.content3_con1{background-color:#f0182d;line-height:15px;font-size: 15px;border-bottom:2px solid #dcdcde; color:#ffffff; padding:20px 0; cursor:pointer;}
+.content3_con2{background-color:#ffffff; margin:10px 0; cursor:pointer;}
+.content3_con2 a{ display:inline-block;line-height:14px;font-size: 14px; color:#875848; border:none;text-decoration:none;color:black;padding:0;margin:0;border:0;}
+.content3_con2 a{ padding-right:5px; border-right:1px solid #875848;}
+.last_a a{border-right:0px none #875848;}
+/*评价*/
+.content4{ width:710px; background-color:#ffffff; float:left;margin-top:20px; padding:20px 0;border:2px solid #dcdcde;}
+.content4_con11{ font-size:20px;}
+.content4_con111{display: inline-block; height:30px;line-height:20px;font-size: 20px;cursor:pointer;}
+.content4_con111 img{ width:50px; vertical-align:bottom;}
+.content4_con111 b{color:#875848; }
+.content4_con1{border-bottom:2px solid #dcdcde; padding:0 20px;}
+.content4_con1 p{ font-size:12px; color:#000000; }
+.content4_con2{ padding:20px}
+.content4_con21{ height:30px;width:30px; float:left; }
+.content4_con21 img{ width:30px;}
+.content4_con22{ width:600px; float:right;height:28px;line-height:12px;font-size: 12px; background-color:#efefef; color:#000000; border:1px solid #dcdcde;}

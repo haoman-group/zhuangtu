@@ -1,0 +1,85 @@
+/*内容*/
+.main{ overflow:hidden; margin-top:-40px; height:1100px;}
+/*选择收货地址*/
+.main_con1{ width:1217px; overflow:hidden;}
+.main_con1 h1{ font-size:20px; margin:0; line-height:50px;}
+.main_con11{ width:260px; height:93px; margin-bottom:15px; border:2px solid #bebebf; padding:10px; margin-right:18px; float:left; position:relative;}
+.main_con11img{ position:absolute; left:-2px; top:-2px; display:none;}
+.main_con111{ font-size:16px; font-weight:700; line-height:30px;}
+.main_con111 b{ padding-left:8px;}
+.main_con112{ border-top:1px solid #cdcece;line-height:18px;}
+.main_con112 ul{ overflow:hidden; display:block; width:265px; padding:0; margin:0; height:38px;}
+.main_con112 li{ font-size:12px;  color:#767575; padding-right:3px;}
+.main_con1120{ font-size:16px; font-weight:500; display:none; position:absolute; width:265px; bottom:10px;}
+.main_con1121{ float:left; color:#c8000b; cursor:pointer;}
+.main_con1122{ float:right; color:#767575; cursor:pointer;}
+.main_con1123{ text-align:right; cursor:pointer; position:absolute; right:0; top:0; display:none; line-height:20px; font-size:12px; color:#888; background-color:#ffffff;}
+.main_con12{ text-align:center; font-size:18px; line-height:27px;  padding:10px; margin-right:18px; float:left; position:relative; width:260px; height:93px; border:2px solid #bebebf; }
+.main_con12 img{ margin-top:21px; cursor:pointer;}
+/*确认订单信息*/
+.main_con2{ width:1191px; overflow:hidden;}
+.main_con2 h1{ font-size:20px; margin:0; line-height:50px;}
+.main_con201{ width:440px; margin-right:1px; float:left; padding-left:10px;}
+.main_con202{ width:146px; margin:0 1px; float:left; text-align:center;}
+.main_con21{ overflow:hidden; font-size:14px; line-height:30px; font-weight:500}
+.main_con210{ border-bottom:2px solid #9ebcdd;}
+.main_con22{ padding:10px 0; height:60px; overflow:hidden; font-size:12px; line-height:20px; font-weight:300;}
+.main_con22 b{display:block; font-size:12px; line-height:20px; font-weight:300;}
+.main_con2211{ width:60px; margin-right:10px; float:left;}
+.main_con2211 img{ width:60px; height:60px;}
+.main_con2212{ width:210px; float:left;}
+.main_con2213{ width:140px; float:right;}
+.main_con2213 b{ float:left; color:#000000;}
+.main_con2213 li{ display:block; color:#a2a3a3;}
+.main_con222{ line-height:60px; font-size:16px;}
+.main_con223{ width:34px; height:18px; border:1px solid #cdcece; margin:20px auto; position:relative;}
+.main_con2230{ position:absolute; top:1px; width:14px; cursor:pointer; height:14px; line-height:12px; border:1px solid #cdcece; text-align:center;}
+.main_con2231{ left:-20px;}
+.main_con2232{ right:-20px;}
+.main_con223input{ border:0; width:32px; height:16px; text-align:center;}
+.main_con224select{ width:115px; margin:8px auto 4px; line-height:18px; border:1px solid #cdcdce;}
+.main_con2242{ width:94px; line-height:18px; margin:0 auto;border:1px solid #e67080; background-color:#f1b9bf; color:#cf000d;}
+.main_con225{ line-height:60px; font-size:16px; color:#cc000d;}
+.main_con226{ margin-top:20px; font-size:14px; line-height:20px;}
+.main_con2261{ float:left;}
+.main_con2261 b{ width:11px; cursor:pointer; height:11px; position:relative; border:1px solid #bbbcbc; margin-top:5px; margin-right:5px; display:block; float:left;}
+.main_con2261 b img{ display:none; position:absolute; width:14px; height:14px; bottom:0; left:0;}
+.main_con2262{ float:right;}
+/*补充说明*/
+.main_con3{ padding:20px 10px; line-height:20px;font-size:12px; border-top:2px solid #cbd8ed; background-color:#f0f2f9; overflow:hidden;}
+.main_con31{ float:left;}
+.main_con31input{line-height:20px;  border:1px solid #cdcecf; width:175px;}
+.main_con32{ float:right;}
+.main_con32select{line-height:20px;  border:1px solid #cdcecf; width:175px;}
+.main_con32 b{ color:#d22718;}
+.main_con321{ text-align:right; color:#7a7a7a; margin-top:8px;}
+/*提交订单*/
+.main_con41{ text-align:right; font-size:12px; color:#807f80; line-height:25px; padding:45px 0 60px;}
+.main_con41 b{ color:#d0000e; font-size:20px; font-weight:400;}
+.main_con42{ width:210px; height:40px; text-align:center; line-height:40px; color:#ffffff; font-size:14px; background-color:#d0000e; float:right;}
+/*保证栏*/
+.content3_con3Bg{ border-top:1px solid #d2d7dd;  margin-top:20px; margin-bottom:-20px;}
+.content3_con3{ background-image:url(../images/Content3_07.png);width:1190px;height:50px;margin:30px 0 20px;}
+.content3_con3a1{width:21.5%;height:50px;display:block;}
+.content3_con3a2{width:29.5%;height:50px;display:block;}
+.content3_con3a3{width:19.5%;height:50px;display:block;}
+
+/*地址变动*/
+.container2{ position:fixed; width:100%; top:0; left:0; display:none; height:100%; background-color:#888; opacity: 0.8;filter: alpha(opacity=80);}
+.container20{ width:850px;background-color:#ffffff;  display:none; height:510px;position:fixed; border:10px solid #b4b4b4;}
+.container201{ border-bottom:1px solid #d9d9d9; padding:0 10px; line-height:35px; font-size:16px; background-color:#e6e6e6; position:relative;}
+.container2011 img{ width:11px; height:11px; margin-top:12px; cursor:pointer;}
+.container202{ padding:35px 10px;  font-size:12px; }
+.container2020{ overflow:hidden; line-height:25px; padding:5px 0;}
+.container2021{ width:90px; margin-right:5px; float:left; text-align:right; height:1px;}
+.container2021 b{ display:block; float:left; color:#fc6210;}
+.container2021 strong{ color:#ff0034; margin-right:2px;}
+.container2022{ float:left;}
+.container2022 input{ border:1px solid #afafaf;outline: 0px none; height:20px;}
+.container2022textarea{ width:400px;}
+.container2022 textarea{ width:100%; height:70px; padding:5px; background-color:#f5f5f5; border:1px solid #afafaf;}
+.container2022 i{ display:block; width:12px; height:12px; border:1px solid #c7c7c7; cursor:pointer; float:left; top:6px; margin-right:10px; position:relative; }
+.container2022 i img{ width:15px; height:15px; position:absolute; top:-2px; display:none;}
+.container2022 b{ display:block; margin-top:10px; cursor:pointer; width:60px; text-align:center;line-height:24px; background-color:#fefefe; border:1px solid #cccccc;}
+/*修改*/
+/*添加*/

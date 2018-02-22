@@ -1,0 +1,5 @@
+create table `zt_searchkeys`(
+  `event_time` datetime default null,
+  `search_key` varchar(100) default null,
+  `log_file` varchar(100) default null
+) engine=InnoDB default charset=utf8;

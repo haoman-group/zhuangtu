@@ -1,0 +1,18 @@
+/*导航*/
+.navBg{ background-color:#c8000b; padding:30px 0;}
+.navBg img{ width:255px;}
+/*主体*/
+.main{ margin-top:50px;}
+.mainLeft{ float:left; width:494px; height:345px; margin-left:110px;}
+.mainLeft img{ width:494px; height:345px;} 
+.mainRight{float:right; padding:40px 80px; width:304px; height:263px; overflow:hidden;margin-right:110px;}
+.mainRight_con1{ border:1px solid #cccccc; padding:1px;}
+.mainRight_con2{ border:2px solid #f5f5f5; padding:30px 23px 20px;color: #606060;font-weight: 700; font-size:12px; line-height:25px; overflow:hidden;}
+.mainRight_con2 b{color: #36C;font-weight: 300; display:block; float:right;}
+.mainRight_con2 b:hover{ text-decoration:underline;}
+.mainRight_con3{ width:304px;}
+.mainRight_con3 img{ width:304px;}
+.login_search{  width: 242px;height: 18px;line-height: 18px;margin-right:3px;padding: 3px;border: 1px solid #C8C8C8;vertical-align: middle;}
+.login_button{width: 250px;height: 30px; margin-top:20px; cursor:pointer;line-height: 30px; background-color:#c70102;vertical-align: middle;font-size: 14px;font-weight: 700;color: #FFF; border:none; border-radius:2px;}
+.login_button:hover{background-color:#e30002;}
+

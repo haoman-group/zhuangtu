@@ -1,0 +1,24 @@
+
+.seller_setshop .rule{ background-color:#eeedeb; border:1px solid #b5b5b6; padding:10px 45px;border-radius:8px;}
+.seller_setshop .rule b{ position:relative; left:30px;}
+.seller_setshop ul{ overflow:hidden; margin:15px 0;}
+.seller_setshop ul li{float:left; text-align:center; cursor:pointer; font-weight:700; color:#ffffff; width:234px; height:50px; border-radius:8px; overflow:hidden; line-height:50px; font-size:16px; margin-right:5px;}
+.seller_setshop ul li:nth-child(1){background-image:url(../images/Seller_register02MainCon2li01.png);}
+.seller_setshop ul li:nth-child(2){background-image:url(../images/Seller_register02MainCon2li02.png);}
+.seller_setshop ul li:nth-child(3){background-image:url(../images/Seller_register02MainCon2li03.png);}
+.seller_setshop ul li:nth-child(4){background-image:url(../images/Seller_register02MainCon2li04.png);}
+.seller_setshop ul li:nth-child(5){background-image:url(../images/Seller_register02MainCon2li05.png); margin-right:0;}
+.seller_setshop .content{ width:1190px; height:283px; position:relative;}
+.seller_setshop .content_ul{ position:absolute;}
+.seller_setshop .content_li{ float:left;background-color:#f4f4f4; border:1px solid #b5b5b6;border-radius:8px; padding:10px 20px; width:348px; margin-right:10px;}
+.seller_setshop .content_li:last-child{ margin-right:0;}
+.seller_setshop .content_li .name{ font-size:18px; font-weight:700; text-align:center; margin:35px 0 20px;}
+.seller_setshop .content_li .type{ font-size:18px; font-weight:700; text-align:center; background-color:#888; cursor:pointer; border-radius:4px; color:#ffffff; width:170px; margin:0 auto 40px; height:40px; line-height:40px;}
+.seller_setshop .content_li .explain{ overflow:hidden; color:#898989; height:108px;}
+.seller_setshop .bottom{ width:360px; margin:40px auto;}
+.seller_setshop .bottom a{font-size:18px; font-weight:500; text-align:center; border-radius:4px;  line-height:40px; display:inline-block;}
+.seller_setshop .bottom a:first-child{ background-color:#DD363A; color:#ffffff;width:170px; height:40px; margin-right:16px;}
+.seller_setshop .bottom a:first-child:hover{ background-color:#F73E3E;}
+.seller_setshop .bottom a:last-child{ background-color:#eeedeb; border:1px solid #b5b5b6;width:168px; height:38px;}
+.seller_setshop .bottom a:last-child:hover{ background-color:#CCC;}
+

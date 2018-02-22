@@ -1,0 +1,53 @@
+/*搜索颜色*/
+.search{ background-color:#232020; }
+.inpsear{ background-color:#ffffff; }
+.btnsear{background-color: #232020;color:#ffffff;}
+/*导航*/
+.navBg1{ background:#372906; margin-top:-20px; margin-bottom:20px; color:#ffffff;  position:relative;}
+.navBg2{ background:#372906; padding:10px 0; height:30px; position:relative; }
+.nav_a{ margin:6px 120px; position:absolute;}
+.navBg2 a{ display:inline-block; color:#ffffff; font-size:15px; line-height:15px; margin:0 25px;}
+.navBg2 b{ font-weight:normal; border-bottom:2px solid #ffffff; padding-bottom:2px;}
+.navBg3{ background:#000000; position:absolute; top:0; right:0;padding:10px 0; height:30px;}
+.navBg3 a{ display:inline-block; color:#ffffff; font-size:15px; line-height:15px; margin:0 ;}
+.navBg3 b{ border:none;}
+.nav3_b b{ position:absolute; left:-47px; display:block; top:0;border-width:24px;border-color:transparent #000000 transparent transparent;border-style:solid;}
+/*大家一起团*/
+.content1Bg{ background-image:url(../images/JoinGroup_content1Bg.jpg); margin-top:-40px; background-height: 100%;background-repeat: no-repeat; text-align:center;background-size: cover;  height:375px; width:100%;}
+.content1_con{ position:relative; top:77px; height:298px; }
+/*游戏规则*/
+.content2Bg{ background-image:url(../images/JoinGroup_content2Bg.jpg); background-height: 100%;background-repeat: no-repeat; text-align:center;background-size: cover;  height:250px; width:100%;}
+.content2_con1{position:relative; height:250px; width:1190px; overflow:hidden;}
+.content2_con2{ position:absolute; left:20px; bottom:50px;}
+.content2_con2 img{ cursor:pointer;}
+.content2_con3{position:absolute; left:0; top:0;}
+.content2_con4{ position:absolute; width:860px; height:250px;  overflow:hidden; top:0; right:0; text-align:left;}
+.content2_con41{position:absolute;width:810px; height:250px;cursor:pointer;  top:0; left:-860px; padding-left:50px; padding-top:20px}
+.content2_con41 p{font-size:24px; line-height:24px; color:#ffffff; font-weight:700; margin-left:-50px;}
+.content2_con41 b{font-size:20px; line-height:20px; color:#ffffff;font-weight:300; margin-bottom:15px;}
+/*团购*/
+.content3Bg{position:relative;background-image:url(../images/JoinGroup_content3Bg.jpg); background-height: 100%;background-repeat: no-repeat; text-align:center;background-size: cover;  height:355px; width:100%;}
+.content3_con1{ position:relative; top:100px; }
+.content3_con1fix{ position:fixed; top:0; z-index:2;}
+.content3_con11{ float:left; height:130px; width:130px; border:2px solid #808080; background-color:#e6e6e6; border-radius:20px;  position:relative;}
+.content3_con11img{ width:130px; cursor:pointer;height:130px;border-radius:20px}
+.content3_con111{ position:absolute; font-size:24px; line-height:24px; height:30px; color:#ffffff; width:100%; text-align:center; top:-35px;font-weight:900; }
+.content3_con12{ float:left; width:70px;height:80px; padding-top:50px;}
+.content3_con13{ float:left; width:70px;height:80px; padding-top:59px;}
+.content3_con14{ cursor:pointer; float:left; margin-top:38px; border-radius:5px; background-color:#e43377; color:#ffffff; font-size:24px; line-height:24px; font-weight:900; padding:15px; }
+.content3_con2{ position:absolute; bottom:50px; text-align:center; width:1190px;}
+.content3_con3{ display:none;position:fixed; top:0; z-index:1; padding-top:140px; font-size:24px; line-height:24px; color:#ffffff; text-align:center; background-color:#3059b2; width:100%;}
+/*商品池*/
+.content4Bg{ background-color:#e43377; padding:30px 0 100px;; text-align:center; overflow:hidden;}
+.content4{ margin-top:30px;}
+.content4_con{ margin-bottom:30px; background-color:#ffffff; overflow:hidden;}
+.content4_con1{ height:415px; width:231px; padding:3px; background-color:#ffffff; float:left; border-left:1px solid #ececec;}
+.content4_con11 p{ margin:10px; font-size:16px; line-height:20px; font-weight:700;}
+.content4_con12{ padding:30px 0;}
+.content4_con13{ overflow:hidden; margin-bottom:10px;}
+.content4_con131{ float:left; height:26px; width:130px; color:#e43639; font-size:20px; line-height:25px;}
+.content4_con131 b{ font-size:11px; line-height:25px; padding:0 2px;}
+.content4_con132{ float:right; height:26px; width:100px; color:#808080; font-size:11px; line-height:26px;}
+.content4_con14{  width:70px; height:20px; margin:0 auto; text-align:center;font-size:20px; line-height:20px; color:#808080; }
+.content4_con14 b{ display:block; float:left;width:16px; height:16px; border:2px solid #e43639; border-radius:5px; cursor:pointer;}
+

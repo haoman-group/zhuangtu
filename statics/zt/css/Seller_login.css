@@ -1,0 +1,24 @@
+/*中部*/
+.seller_reg_process_ul{ overflow:hidden; width:1084px; margin:20px auto; padding-bottom:40px;}
+.seller_reg_process_li{ float:left; width:84px; height:91px; position:relative;font-size:16px; line-height:24px; text-align:center;color:#333333;}
+.seller_reg_process_li img{ width:84px; height:91px; margin-bottom:10px;}
+.seller_reg_process_line{float:left; width:76px; height:2px; background-color:#c9c9ca; margin:0 20px; position:relative; top:44px;}
+/*下部*/
+.seller_reg_info_ul{ overflow:hidden; width:1188px; margin:0 auto;position:relative; top:2px;   }
+.seller_reg_info_li{font-size: 16px; line-height:24px;font-weight: bold;color: #cccccc;padding:30px 0 15px; float:left; width:297px; border-bottom:2px solid #cccccc; text-align:center;}
+.seller_reg_info_li:first-child{ border-color:#c8000b;color:#c8000b;}
+.seller_reg_info_li finish b{ display:inline-block; margin-right:20px; width:10px; height:10px; border-radius:50%; background-color:#c8000b;}
+/*内容*/
+.seller_main{ padding-top:40px;height:523px;}
+.seller_main_box{ overflow:hidden;line-height: 37px;font-size: 18px;color:#000000; margin:10px auto; width:930px;}
+.seller_login{ width:495px; height:347px; float:left; border-radius:15px; background-image:url(../images/Seller_loginMainCon1.jpg);}
+.seller_login b{ display:block; font-size:26px; font-weight:400; line-height:40px; color:#c8000b;width:342px; margin:60px auto 12px;}
+.seller_login form p{ background-color:#646058; overflow:hidden; width:330px; margin:6px auto; border-radius:8px; font-size:14px; line-height:24px; padding:8px 8px;}
+.seller_login form p img{ margin-right:9px; float:left;}
+.seller_login form input{ height:24px; background-color:transparent; color:#ffffff; font-size:18px; border:0; width:280px;}
+.seller_login a{margin:20px auto 0; width:170px;  border-radius:21px; background-color:#c7000b; color:#ffffff;text-align:center; line-height:40px; display:block;}
+.seller_login p{width:170px; margin:0px auto; text-align:center; font-size:12px; color:#ffffff; cursor:pointer;}
+.seller_login_reg{ margin-top:120px; float:right; border-radius:37px; background-image:url(../images/Seller_loginMainCon2.png);}
+.seller_login_reg a{ color:#ffffff; text-align:center; width:349px; display:block;font-size:30px; line-height:74px;}
+/*保证栏*/
+.seller_promise_bor{ border-top:1px solid #d2d7dd;  margin-top:20px; margin-bottom:-20px;}

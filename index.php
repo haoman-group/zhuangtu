@@ -1,0 +1,41 @@
+<?php
+
+// +----------------------------------------------------------------------
+// | ShuipFCMS
+// +----------------------------------------------------------------------
+// | Copyright (c) 2012-2015 http://www.shuipfcms.com, All rights reserved.
+// +----------------------------------------------------------------------
+// | Author: 水平凡 <admin@abc3210.com>
+// +----------------------------------------------------------------------
+// 检测PHP环境
+if (version_compare(PHP_VERSION, '5.3.0', '<')) {
+    header("Content-type: text/html; charset=utf-8");
+    die('PHP环境不支持，使用本系统需要 PHP > 5.3.0 版本才可以~ !');
+}
+//当前目录路径
+define('SITE_PATH', getcwd() . '/');
+//项目路径
+define('PROJECT_PATH', SITE_PATH . 'shuipf/');
+// 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
+define('APP_DEBUG', 1);
+// 应用公共目录
+define('COMMON_PATH', PROJECT_PATH . 'Common/');
+// 定义应用目录
+define('APP_PATH', PROJECT_PATH . 'Application/');
+//应用运行缓存目录
+define("RUNTIME_PATH", SITE_PATH . "#runtime/");
+//模板存放路径
+define('TEMPLATE_PATH', PROJECT_PATH . 'Template/');
+require_once('vendor/autoload.php');
+// 引入ThinkPHP入口文件
+require PROJECT_PATH . 'Core/ThinkPHP.php';
+
+
+
+//制作一个输出调试函数
+function show_bug($msg){
+    echo "<pre>";
+    var_dump($msg);
+    echo "</pre>";
+
+}

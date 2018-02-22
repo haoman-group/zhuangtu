@@ -1,0 +1,20 @@
+/*搜索*/
+.search_con{ float:right;}
+.search_con1{ float:left; width:50px; height:20px; cursor:pointer; text-align:center; position:relative; font-size:12px; margin-bottom:8px; line-height:20px; margin-right:10px;}
+.search_con1 b{ position:absolute; left:23px; display:none; top:20px; border-width:4px;border-color:#498cd0 transparent transparent;border-style:solid;}
+.search{ background-color:#498cd0; float:right;}
+.btnsear{ background-color:#498cd0;}
+/*导航*/
+/*上部*/
+.nav_up{background-image:url(../images/Buyers_nav.jpg); margin-top:-20px; background-height: 100%;background-repeat: no-repeat; text-align:center;background-size: cover; height:190px; width:100%;}
+/*下部*/
+.nav_down{ border-bottom:2px solid #5694d4; overflow:hidden; padding:12px 0;}
+.nav_down1{ float:left; border-left:1px solid #e0e0e0; font-size:16px; line-height:18px; overflow:hidden;}
+.nav_down11{ float:left; width:110px; text-align:center; cursor:pointer; border-right:1px solid #e0e0e0;}
+.nav_down2{ float:right; color:#5a97d4; position:relative; top:8px; cursor:pointer;}
+/*内容*/
+.main{ overflow:hidden; margin-top:40px;}
+/*左部*/
+.main_con1{ float:left; width:120px; padding:0 15px; margin-right:20px; background-color:#e4e9f2;}
+.main_con11{ text-align:center; font-size:16px; line-height:35px; border-bottom:1px dashed #cecdd0;}
+

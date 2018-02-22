@@ -1,0 +1,59 @@
+/*内容*/
+.main{ overflow:hidden; padding-top:20px;}
+/*左部*/
+.designbuy_left{ width:1000px; float:left;overflow:hidden; color:#a1a1a2;font-size:12px;}
+.designbuy_img{ float:left; width:460px; overflow:hidden; margin-bottom:40px;}
+.designbuy_show{ margin:0 auto; width:420px;}
+.designbuy_show img{ width:420px; height:420px;}
+.designbuy_exhibition{ margin:0 auto; width:420px; padding-top:20px;overflow:hidden;}
+.designbuy_eximg{ width:64px; float:left; margin:0 10px; cursor:pointer;}
+.designbuy_eximg img{ width:64px; height:64px;}
+.designbuy_operate{ padding:40px 10px;margin:0 auto; width:420px;}
+.designbuy_operate a{ color:#a1a1a2;}
+.designbuy_operate b{ height:16px; display:block; float:left; margin-right:20px;}
+.designbuy_operate b img{ height:12px;}
+.designbuy_operate strong{ display:block; float:right;}
+.designbuy_instruction{ float:left; width:520px; padding:0 10px;}
+.designbuy_instruction h1{ margin:0; font-size:14px; color:#000000;}
+.designbuy_instruction p{ margin:6px 0 20px;font-size:12px;}
+.designbuy_price p{ margin:10px; font-size:14px;}
+.designbuy_price b{ display:inline-block; width:60px;font-size:12px;}
+.designbuy_price strong{ color:#c8000b; font-size:28px;position:relative;  top:4px; }
+.designbuy_dataline{ margin-top:50px; padding:5px 0; overflow:hidden; border:1px dotted #a1a1a2; border-left:none; border-right:none;}
+.designbuy_dataline b{ width:172px; display:block; float:left; text-align:center;}
+.designbuy_dataline i{display:block; float:left; width:1px; height:16px; border-left:1px solid #a1a1a2;}
+.designbuy_dataline strong{ color:#c8000b; }
+.designbuy_datadetail b{display:block; float:left; width:80px;font-size:12px;position:relative; top:10px;}
+.designbuy_datatitle{ margin:20px 0; font-size:14px;}
+.designbuy_dataunit{display:inline-block;}
+.designbuy_datadetail strong{ display:block; float:left; margin-right:10px; border:1px solid #c8000b; width:24px; height:24px; padding:8px 5px 2px; text-align:center; }
+.designbuy_datanumberbox { float:left; height:36px; width:20px;}
+.designbuy_datanumber{  width:8px; height:8px; padding:3px; border:1px solid #a1a1a2; margin-bottom:3px; cursor:pointer;}
+.designbuy_datanumber img{ width:8px; height:8px; display:block;}
+.designbuy_button{ text-align:center}
+.designbuy_buttona{ cursor:pointer; display:inline-block; margin-right:10px; padding:5px 30px; font-size:16px;background-color:#fceaea; border:1px solid #c8000b; color:#c8000b;}
+.designbuy_buttonb{cursor:pointer; display:inline-block; margin-right:10px; padding:5px 30px; font-size:16px; border:1px solid #c8000b; color:#ffffff; background-color:#c8000b;}
+.designbuy_servebox{ margin-top:20px; overflow:hidden;}
+.designbuy_serve{ float:left; width:420px;}
+.designbuy_serve ul{ display:block;float:right; width:340px;}
+.designbuy_serve li{ display:inline-block; margin-right:20px; margin-bottom:10px;}
+.designbuy_serve a{ color:#a1a1a2;}
+.designbuy_serve a:hover{ color:#c8000b;}
+.designbuy_servepay{ float:right;}
+.designbuy_product{ overflow:hidden; zoom:1; width:1000px;}
+.designbuy_product .line{ margin-left:250px; line-height:28px; border:1px solid #e7e3e2; background-color:#F5F5F5; overflow:hidden; zoom:1;}
+.designbuy_product .line ul{ float:left; overflow:hidden; zoom:1;}
+.designbuy_product .line li{ float:left; padding:0 19px; border-right:1px solid #F5F5F5;}
+.designbuy_product .line li:hover{ background-color:#fff; color:#F50; border-left:1px solid #e7e3e2; border-color:#e7e3e2; margin-left:-1px;}
+.designbuy_product .productimg{ width:750px; float:right;}
+/*右部*/
+.designbuy_right{ width:189px; float:right; text-align:center;border-left:1px solid #b5b5b6; font-size:12px; line-height:16px; overflow:hidden;}
+.designbuy_righttitle{ position:relative; color:#636161; padding-bottom:15px; text-align:center; width:160px; margin:0 auto;}
+.designbuy_righttitle b{ position:relative; padding:0 6px; background-color:#ffffff; display:inline-block; width:80px;}
+.designbuy_righttitle s{ position:absolute; display:block; width:100%;top:8px; border-top:1px dotted #636161;}
+.designbuy_right .product li{ text-align:center; position:relative; margin-bottom:10px;}
+.designbuy_right .product li img{ display:block; margin:0 auto; width:140px;}
+.designbuy_right .product li p{ line-height:20px;}
+.designbuy_right .product li .bg{ position:absolute; bottom:20px; opacity:0.8;filter: alpha(opacity=80); background-color:#ccc; width:140px; left:25px; height:20px;}
+.designbuy_right .product li .pirce{ position:absolute; bottom:20px; width:140px; left:25px; height:20px;}
+

@@ -1,0 +1,88 @@
+a {border:none;text-decoration:none; }
+a img{border:none;}
+body{margin:0px;padding:0px;}
+img
+{
+opacity:1.0;
+filter:alpha(opacity=100);
+}
+a img:hover
+{
+opacity:0.8;
+filter:alpha(opacity=80); 
+}
+.left{float:left;} 
+.right{float:right;} 
+
+.nav{
+	height: 45px;
+	background-color: #555555;
+	float: left;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	border: 0px;
+	margin: 17px;
+	padding-top: 20px;
+        margin-top:-4px;       
+	border-radius: 4px;
+}
+.container2{ width:1190px; margin:auto;}
+.nav:hover{background-color:#777777;}
+.navwrap1{text-align:center;color:#8E8E8E;font-size:25px;border:0px;margin:0px;padding-top:20px;}
+.navwrap1 p{ margin-top:0;}
+.navwrap2{height:12px;border-bottom-width: 1px;border-color:#8E8E8E;border-bottom-style:solid;}
+.conwhole{width:100%;}
+.container{ width:1500px; margin:0 auto;}
+.main{border-top-style:solid; border-top-width: 5px;padding:0px;margin:0px;margin:0 auto;}
+#footer_cont2 img{border-width: 0px;padding:0px;margin:0px;display:block;float:left;}
+.content_1{border-width: 0px;padding:1px;margin:0px;display:block;float:left;}
+.content_4{background-color:#F0F4F5;opacity:0.6;filter:alpha(opacity=60);}
+.content{border-width: 0px;padding:1px;margin:0px;display:block;}
+.content_3{background-color:#F0F4F5;border-top-style:solid; border-top-width: 1px;border-color:#E0E9EB;opacity:0.6;filter:alpha(opacity=60);}
+.content_2{background-color:#F0F4F5;border-bottom-style:solid; border-bottom-width: 1px;border-color:#E0E9EB;opacity:0.6;filter:alpha(opacity=60);}
+.content_4:hover{opacity:0.8;filter:alpha(opacity=80);}
+.content_3:hover{opacity:0.8;filter:alpha(opacity=80);}
+.content_2:hover{opacity:0.8;filter:alpha(opacity=80);}
+.footer{margin:0 auto;background-color:#555; text-align:center; border-top:none;}
+#logo_img{margin:0 auto; padding-top:30px;}
+.title{background-image:url(../designLibrary/image/ing.png); background-height: 100%;background-repeat: no-repeat; text-align:center;background-size: cover; position:fixed; top:0; z-index:-1; height:675px; width:100%;}
+.title2{ background-color:#ffffff;}
+#title{  background-color:transparent; margin-top:-20px;text-align:center;}
+#title h1{font-size:50px;color:#FFFFFF;font-family:"Î¢ÈíÑÅºÚ";}
+#title {font-size:10px;color:#FFFFFF}
+#title a{color:#FFFFFF} 
+#title input{background-color:transparent;color:#ffffff;margin:0px;border-width:0px;outline:none;}
+.search {background-color:rgba(0,0,0,0.15);margin:0px;border-width:1px;border-style:solid;border-color:#ffffff; width:600px;margin:0 auto;height:30px;padding:0px 10px;}
+.search1{width:92%;padding-top:8px;}
+.search2{width:20px;padding-top:2px;}
+.search:hover {background-color:rgba(0,0,0,0.3);}
+#nav ul{display:inline;border:0px;margin:0px;padding:0px ;}
+#nav li{display:inline;border:0px;margin:0px;padding:0px ;}
+#footer_layout{text-align:center;color:#272727;margin:0 auto;background-color:#555555;margin-top:100px; overflow:hidden;}
+#footer_layout strong{font-size:25px}
+.content_text1{margin-top:-20px;padding:8px;font-size:35px;border-bottom-style:solid; border-bottom-width: 1px;border-color:#8E8E8E;color:#999999;width:100px;font-family: "helvetica neue",arial,sans-serif;}
+.content_text2 {padding:10px;font-size:20px;color:#999999;font-weight:bold;}
+.content_text2 a{color:#111111;}
+.content_3right{float:right;text-align:right;padding-top:3%;}
+.content_4right{float:right;text-align:right;padding-top:54%;}
+.content_text2 a:hover{color:red;}
+.header{height:30px;background-color:#333333;}
+.main_left{width:13px;height:20px;background-image:url(image/left.png); 
+           background-size:cover;position: relative;
+           left: -13px;
+           top: 40%;}
+.main_Left{width:13px;height:20px;background-image:url(image/left.png); 
+           background-size:cover;position: relative;
+           left: -13px;
+           top: 20%;}
+.main_right{width:13px;height:20px;background-image:url(image/right.png);
+           background-size:cover;position: relative;
+           left:100%;
+           top: 44%;}
+.main_Right{width:13px;height:20px;background-image:url(image/right.png);
+           background-size:cover;position: relative;
+
+           left:100%;
+           top: 73%;}

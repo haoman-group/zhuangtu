@@ -1,0 +1,38 @@
+/*logo*/
+.sear{ color:#c8000b;}
+.sear h1 b{ border-left:1px solid #ccc; margin-left:10px; font-size:20px; height:20px; padding:0 7px;}
+/*导航*/
+/*上部*/
+.nav_upBg{ background-color:#040000; overflow:hidden; margin-top:-50px;}
+.nav_upBg a{ display:block; float:left; font-size:16px; color:#ffffff; padding:10px 20px;}
+.nav_upBgA{ background-color:#c8000b;}
+.nav_upBga:hover{ background-color:#333333;}
+/*中部*/
+.nav_center{ overflow:hidden; width:1084px; margin:20px auto; padding-bottom:40px;}
+.nav_centerCon1{ float:left; width:84px; height:91px; position:relative;}
+.nav_centerCon1 img{ width:84px; height:91px;}
+.nav_centerCon11{ position:absolute; top:105px; font-size:16px; line-height:24px; text-align:center;color:#333333;}
+.nav_centerCon2{ float:left;}
+.nav_centerCon21{ width:76px; height:2px; background-color:#c9c9ca; margin:0 20px; position:relative; top:44px;}
+.nav_centerConBg0{ background-color:#20a9c1;}
+.nav_centerCon0{ color:#20a9c1}
+/*下部*/
+.nav{ overflow:hidden; width:1188px; margin:0 auto;position:relative; top:2px;   }
+.nav_con{font-size: 16px; line-height:24px;font-weight: bold;color: #cccccc;padding:30px 0 15px; float:left; width:297px; border-bottom:2px solid #cccccc; text-align:center;}
+.nav_conb{ border-color:#c8000b;color:#c8000b;}
+.nav_conb b{ display:inline-block; margin-right:20px; width:10px; height:10px; border-radius:50%; background-color:#c8000b;}
+/*内容*/
+.main{ width:720px;margin:0 auto; padding-top:70px; height:493px;}
+.main_con{ overflow:hidden;line-height: 37px;font-size: 14px;color:#000000; margin:20px 0;}
+.main_con0{ overflow:hidden;line-height: 37px;font-size: 14px;color:#000000; margin:-20px 0 40px;}
+.main_con1{ float:left; width:220px; margin-right:20px; text-align:right;}
+.main_con1 b{ font-weight:700;}
+.main_con2{ width:480px; font-size:12px; float:right;}
+.main_con2 input{height:37px; padding:0 5px; margin:0; position:relative; border:1px solid #dfdfdf; width:220px;}
+.main_con2 p{ display:block;font-size:14px; width:180px; padding:5px 0; text-align:center; background-color:#c8000b; border-radius:4px; color:#ffffff;}
+/*保证栏*/
+.content3_con3Bg{ border-top:1px solid #d2d7dd;  margin-top:20px; margin-bottom:-20px;}
+.content3_con3{ background-image:url(../images/Content3_07.png);width:1190px;height:50px;margin:30px 0 20px;}
+.content3_con3a1{width:21.5%;height:50px;display:block;}
+.content3_con3a2{width:29.5%;height:50px;display:block;}
+.content3_con3a3{width:19.5%;height:50px;display:block;}

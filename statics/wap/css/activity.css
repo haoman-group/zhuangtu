@@ -1,0 +1,28 @@
+body,div,span,h1,h2,h3,h4,h5,h6,p,a,ol,ul,li,dl,dt,dd,input,img,form,button,blockquote,strong{ font-weight:normal;margin:0; padding:0; list-style:none; border:0;}
+body{font-size:12px; font-family:"Microsoft YaHei"; font-weight:normal;background:#fff; }
+html{ font-size: 20px;}
+a{text-decoration:none; color:#000;border:none;padding:0px;margin:0px;}
+a:hover{text-decoration:none;}
+img{ border:none; width:100%;}
+input{ outline:none;}
+.activity{background: url(../images/activity/activity_bg.jpg) no-repeat center top;background-size: 100% 100%;}
+.activity .list-block{width: 27.7rem;margin: 0 auto 1.75rem;}
+.activity .list-block ul{background: transparent;}
+.activity .list-block ul:before,.activity .list-block ul:after{background: transparent;}
+.activity .list-block li{width: 27.7rem;height: 4.4rem;border-radius: .25rem;background: #fff;margin: 0 0 .75rem 0;line-height: 4.4rem;color: #816a50;font-size: 1.6rem;padding: 0 1.1rem;border: .05rem solid #7c6348;}
+.activity .list-block li dt{float: left;}
+.activity .list-block li dd{height: 4.4rem;margin: 0 0 0 6.2rem;}
+.activity .list-block li dd input{height: 4.4rem;line-height: 4.4rem;display: inline-block;width: auto;padding: 0;font-size: 1.6rem;text-indent: .25rem;}
+.activity .list-block li:last-child{padding: 0;margin: 1rem 0 0 0;background: transparent;border: none;}
+.activity .list-block li:last-child input{font-size: 1.7rem;color: #fff;width: 27.95rem;height: 4.4rem;text-align: center;line-height: 4.4rem;background: url(../images/activity/btn.png) no-repeat center;background-size: 100% 100%;letter-spacing: .1rem;}
+.activity_list{width: 90%;height: 86%;background: #fff;position: absolute;top: 10%;left: 5%;box-shadow: 0 0 5px 5px rgba(0,0,0,0.38);border-radius: .25rem;padding: 1.25rem;}
+.activity_list p{padding: .5rem 0 0 0;}
+.activity_list p span{display: inline-block;width: 6.15rem;height: 1.6rem;text-align: center;line-height: 1.6rem;background: #ff5a00;font-size: 1.2rem;color: #fff;border-radius: .25rem;}
+.activity_list p img{float: right;width: 1.9rem;height: 2.55rem;position: relative;top: -.5rem;}
+.activity_list h5{font-size: 1.2rem;color: #000;line-height: 3.4rem;}
+.activity_list .message{padding: 1rem 0 2rem;border-top: .05rem solid #dcdcdc;border-bottom: .05rem solid #dcdcdc;font-size: 1.2rem;color: #666669;margin: 0 0 1.2rem 0;}
+.activity_list .message dt{float: left;}
+.activity_list .message dt,.activity_list .message dd{line-height: 2.5rem;}
+.activity_list .address{font-size: 1.2rem;color: #000;padding: 1rem 0 0;}
+.activity_list .address dt{float: left;}
+.activity_list .address dt,.activity_list .address dd{line-height: 2.5rem;}

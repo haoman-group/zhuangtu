@@ -1,0 +1,23 @@
+  /* 效果CSS开始 */
+.degree h5{display:inline-block;}
+.pw-strength {clear: both;position: relative;top: 2px;width: 180px;display:inline-block;}
+.pw-tips{clear:both; font-size: 12px;}
+.degrel{float:left;}
+.degrer{float:left;}
+.pw-bar{background: url(/statics/zt/images/sellerdologin/pwd-1.png) no-repeat; position:relative; top:1px;height: 14px;overflow: hidden;width: 179px;}
+.pw-bar-on{background:  url(/statics/zt/images/sellerdologin/pwd-2.png) no-repeat; width:0px; height:14px;position: absolute;top: 2px;left: 0px;transition: width .5s ease-in;-moz-transition: width .5s ease-in;-webkit-transition: width .5s ease-in;-o-transition: width .5s ease-in;}
+.pw-weak .pw-defule{ width:0px;}
+.pw-weak .pw-bar-on {width: 60px;}
+.pw-medium .pw-bar-on {width: 120px;}
+.pw-strong .pw-bar-on {width: 179px;}
+
+.pw-txt span {color: #707070;float: left;font-size: 12px;text-align: center;width: 58px;}
+
+.degree .pw-tips .enoughRegex .on {background: url(/statics/zt/images/sellerdologin/wrong_rredok.png);}
+.degree .pw-tips .enoughRegex span{background: url(/statics/zt/images/sellerdologin/wrong_rred.png);}
+.degree .pw-tips .mediumRegex .on {background: url(/statics/zt/images/sellerdologin/wrong_rredok.png);}
+.degree .pw-tips .mediumRegex span {background: url(/statics/zt/images/sellerdologin/wrong_rred.png);}
+.degree .pw-tips .strongRegex .on {background: url(/statics/zt/images/sellerdologin/wrong_rredok.png);}
+.degree .pw-tips .strongRegex span {background: url(/statics/zt/images/sellerdologin/wrong_rred.png);}
+.medimgs{border:0 none;}
+/* 效果CSS结束 */

@@ -1,0 +1,45 @@
+body,div,span,h1,h2,h3,h4,h5,h6,p,a,ol,ul,li,dl,dt,dd,input,img,form,button,blockquote,strong{ font-weight:normal;margin:0; padding:0; list-style:none; border:0;}
+body{font-size:12px; font-family:"Microsoft YaHei"; font-weight:normal;background:#fff; }
+html{ font-size: 20px;}
+a{text-decoration:none; color:#000;border:none;padding:0px;margin:0px;}
+a:hover{text-decoration:none;}
+img{ border:none; width:100%;}
+input{ outline:none;}
+.clearfix{ zoom:1; position:relative; overflow:hidden; display:block;}
+.clearfix:after{ content:" "; position:absolute; width:0px; height:0px; clear:both;}
+.pg-search .bar-search{top:0;}
+.pg-search .bar-search .searchbar{background:#fff;}
+.pg-search .bar-search .searchbar .icon-left{float:left;}
+.pg-search .bar-search .searchbar .search-inputs{width:80%;height:1.3rem;float:left;margin-left:2%;background:#eeeeee;padding-left:.3rem;}
+.pg-search .bar-search .searchbar .search-inputs input{width:80%;height:1.3rem;line-height:1.3rem;margin:0;background:#eeeeee;text-indent:.25rem;color:#161616;font-size:0.6rem;}
+.pg-search .bar-search .searchbar .searchbar-cancel{margin-right:0;width:1.5rem;height:1.3rem;line-height:1.3rem;text-align:center;opacity:1;color:#161616;font-size:.6rem;}
+.pg-search .bar-search .icon{padding:0;line-height:1.3rem;height:1.3rem;}
+.pg-search .bar-search~.content-search{top:2.2rem;}
+.pg-search .list-block-search{margin-top:2.2rem;}
+.pg-search .buttons-tab{border-bottom:1px solid #ddd;border-top:1px solid #d0d0d0;}
+.pg-search .buttons-tab .button{font-size:.6rem;}
+.pg-search .buttons-tab img{width:.75rem;height:.7rem;}
+.pg-search .buttons-tab .button.active{border:none;color:#f23030;}
+.pg-search .row-search{padding:0 .25rem .125rem .25rem;margin-left:-1%;background:#eee;}
+.pg-search .row-search .col-50{width:49%;margin:1% 0 0 1%;}
+.infinite-scroll-preloader{margin-top:-20px;}
+/*.pg-search .row-search .col-50:nth-of-type(2n+1){margin-left:0;}*/
+.pg-search .row-search .col-50 .col-li{background:#fff;padding:.25rem .4rem;}
+.pg-search .row-search .col-li .description{color:#161616;font-size:.8rem;width:100%;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;margin-top:.175rem;}
+.pg-search .row-search .col-li .price{font-size:.45rem;color:#f23030;margin-left:-.08rem;}
+.pg-search .row-search .col-li .price strong{font-size:.65rem;color:#f23030;}
+.pg-search .row-search .col-li .address{font-size:.6rem;color:#898989;}
+.pg-search .row-search .col-li .address span:nth-of-type(1){float:left;font-size:.6rem;width:4rem;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;}
+.pg-search .row-search .col-li .address span:nth-of-type(2){font-size:.6rem;color:#898989;float:right;}
+.pg-search .row-search .col-li .address i{font-style:normal;color:#ffb400;font-size:.6rem;}
+/*.pg-search .row-search .col-li img{height:8.25rem;}*/
+
+
+/*网购设计*/
+.searchboxdesign{ height: 2.2rem;}
+.searchboxdesign .bar{ top: 0;}
+.searchboxdesign .bar .searchbar{ background-color: #f5c726;}
+.searchboxdesign select{ float: left; width: auto; color: #fff; border: none; height: 1.4rem; background-color: transparent; width: 3.7rem; font-size: 0.7rem; font-weight:400;}
+.searchboxdesign .search-input{ background-color: #f5c726; margin-left: 4rem;}
+.searchboxdesign .search-input input{ background-color: #fff;}
+

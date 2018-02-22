@@ -1,0 +1,56 @@
+/*搜索*/
+.search{ background-color:#c8000b; margin-bottom:40px; }
+.btnsear{background-color: #c8000b;}
+/*内容*/
+/*设计师*/
+/*上部*/
+.con1_up{ background-image:url(../images/design2_con1Bg.jpg); height:500px; background-height: 100%;background-repeat: no-repeat; text-align:center;background-size: cover; width:100%;}
+/*下部*/
+.con1_down{ margin-top:-120px; margin-bottom:50px;}
+.con1_down1{ position:relative; width:0; height:0;} 
+.con1_down11{ position:absolute;width:1000px; height:260px; top:-300px; left:135px;}
+.con1_down111{ float:left; margin-right:40px;}
+.con1_down111 b{ display:block; position:relative; padding:15px; font-size:20px; font-size:400; color:#000000;}
+.con1_down111 b i{ cursor:pointer; display:block; padding:5px; border:1px solid #000000; z-index:1; border-radius:50%;top:25px; left:-5px; background-color:#ffffff; position:absolute; }
+.con1_down111 b i:hover{ background-color:#000000;}
+.con1_down111 b strong{ display:block; height:100%; width:2px;background-color:#000000; position:absolute; left:0; top:50%;}
+.con1_down112{ float:left; font-size:17px; width:840px;  line-height:35px; font-size:400;}
+.con1_down112 b{ display:block; margin-bottom:30px;}
+.con1_down112 i{ display:inline-block; margin:0 10px;  height:1px; width:10px;}
+.con1_down112 strong{ display:block; cursor:pointer; margin-top:30px; margin-right:5px; padding:0 8px; background-color:#656464; float:left; color:#ffffff;}
+/*作品集*/
+/*上部*/
+.con2_up{ background-color:#606162; font-size:40px; padding:50px 0 0; font-weight:500; text-align:center; color:#ffffff;}
+.con2_up b{ font-size:30px; display:block; text-align:right; padding:15px 30px 30px; font-weight:300;}
+/*下部*/
+.con2_down{ padding:60px 0;}
+.con2_down1{ overflow:hidden; padding:5px 1px;}
+.con2_down11{ width:283px; margin:7px; position:relative; float:left; height:310px; overflow:hidden;}
+.con2_down11 img{ width:283px;height:310px;}
+.con2_down111{ position:absolute; font-size:16px; padding:2px 10px; bottom:0; right:0; background-color:#b5b5b6; color:#ffffff;}
+.con2_down112{position:absolute;width:283px; height:235px; top:0; left:283px;}
+.con2_down113{ border:1px solid #ffffff; color:#ffffff; display:block; cursor:pointer; position:absolute; left:20px; bottom:20px; font-size:20px; padding:0 10px;}
+.con2_down113:hover{ border:1px solid #c8000b; color:#c8000b; }
+.con2_down114{ border:1px solid #ffffff; color:#ffffff; display:block; cursor:pointer; position:absolute; right:20px; bottom:20px; font-size:20px; padding:0 10px;}
+.con2_down114:hover{ border:1px solid #c8000b; color:#c8000b; }
+.con2_down112 img{width:283px; height:235px}
+/*成功案例*/
+/*上部*/
+.con3_up{ background-color:#606162; font-size:40px; padding:50px 0 0; font-weight:500; text-align:center; color:#ffffff;}
+.con3_up b{ font-size:30px; display:block; text-align:right; padding:15px 30px 30px; font-weight:300;}
+/*下部*/
+.con3_down{ padding:60px 0; background-image:url(../images/design2_con3Bg.png)}
+.con3_down1{ overflow:hidden; padding:5px 1px;}
+.con3_down11{ width:283px; margin:7px; float:left; position:relative;height:320px; overflow:hidden;}
+.con3_down11 img{ width:283px;height:320px;}
+.con3_down111{ position:absolute; font-size:16px; padding:2px 10px; bottom:0; right:0; background-color:#b5b5b6; color:#ffffff;}
+.con3_down112{position:absolute;width:283px; height:235px; top:0; left:283px; }
+.con3_down113{ border:1px solid #ffffff; color:#ffffff; display:block; cursor:pointer; position:absolute; left:20px; bottom:20px; font-size:20px; padding:0 10px;}
+.con3_down113:hover{ border:1px solid #c8000b; color:#c8000b; }
+.con3_down114{ border:1px solid #ffffff; color:#ffffff; display:block; cursor:pointer; position:absolute; right:20px; bottom:20px; font-size:20px; padding:0 10px;}
+.con3_down114:hover{ border:1px solid #c8000b; color:#c8000b; }
+.con3_down112 img{width:283px; height:235px}
+/*在线问答*/
+.con4{ padding:50px 0; }
+.con41{position:relative;}
+.con41 b{ display:block; position:absolute; bottom:1%; left:19%; font-size:16px; padding:2px 10px;background-color:#b5b5b6; color:#ffffff;}

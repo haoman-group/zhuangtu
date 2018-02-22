@@ -1,0 +1,30 @@
+b{  font-weight:300;}
+/*导航*/
+.navBg{ border-bottom:2px solid #cccccc;}
+.nav{ overflow:hidden; width:720px; margin:-60px auto 0;position:relative; top:2px;   }
+.nav_con{font-size: 16px; line-height:24px;font-weight: bold;color: #cccccc;padding:30px 0; float:left; width:200px; border-bottom:2px solid #cccccc; padding-left:40px;}
+.nav_conb{ border-color:#c8000b;color: #000000;}
+.nav_con b{ display:block; float:left; width:24px; text-align:center; margin-right:10px; height:24px; background-color: #cccccc; color:#ffffff;border-radius:50%;}
+.nav_conb b{ background-color:#c8000b;}
+.nav_con b img{width:20px; height:20px; padding:2px;}
+/*内容*/
+.mainBg{ height:493px;} 
+.main{ width:680px; padding:35px 25px 15px;; margin:0 auto; border:2px solid #dedede; border-top:2px solid #c8000b; overflow:hidden; margin-top:60px;}
+.main_con1{font-size:16px; font-weight:700;margin:0 0 20px;}
+.main_con2{font-size:12px;line-height:18px; margin:0 0 20px;}
+.main_con2 b{ display:block; float:left;width:18px; height:18px; font-size:18px; font-weight:700; background-color:#09F; border-radius:50%; text-align:center; color:#ffffff; margin-right:5px;}
+.main_con3{ overflow:hidden;font-size:14px;line-height:21px;margin:0 0 20px;}
+.main_con31{ float:left; width:220px; margin-right:20px; text-align:right;}
+.main_con31 b{ position:relative; top:8px;}
+.main_con32{ width:440px; font-size:12px; float:right; line-height:21px;}
+.main_con32 i{ display:block; float:left;position:relative; top:1px;width:13px; height:13px; padding:4px; background-color:#13c4bc; border-radius:50%; text-align:center; color:#ffffff; margin-right:5px;}
+.main_con32 i img{width:13px; height:13px; position:relative; top:1px;}
+.main_con32 p{ display:block;font-size:14px; width:100px; padding:10px 0; text-align:center; background-color:#c8000b; border-radius:4px; color:#ffffff;}
+.main_con32 input{ padding:10px; border:1px solid #dedede; width:50px;}
+.main_con32 b{ padding:11px 5px; margin-left:10px; background-color:#dedede;}
+/*保证栏*/
+.content3_con3Bg{ border-top:1px solid #d2d7dd;  margin-top:20px; margin-bottom:-20px;}
+.content3_con3{ background-image:url(../images/Content3_07.png);width:1190px;height:50px;margin:30px 0 20px;}
+.content3_con3a1{width:21.5%;height:50px;display:block;}
+.content3_con3a2{width:29.5%;height:50px;display:block;}
+.content3_con3a3{width:19.5%;height:50px;display:block;}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>宝贝推荐</title>
+<link type="text/css" rel="stylesheet" href="../../css/decpop.css" />
+</head>
+
+<body>
+<div class="popmain">
+	<div class="tabtit">
+    	<ul class="ultit chtitul clear-fix" data-tag="popfocustab">
+        	<li class="on chtitli">招牌内容</li>
+        </ul>
+        
+    </div>
+    <form id="focusform" class="popform">
+    <div class="tabcon chconul defaultform"  data-tag="popfocustab">
+    	<div class="con chconli" style="display:block;">
+        	<dl class="dlpopform clear-fix">
+            	<dt>招牌类型：</dt>
+                <dd>
+                	<input type="radio" name="logotype1" id="logotype1" class="inpradio"><label for="logotype1">默认招牌</label>  
+                	<input type="radio" name="logotype2" id="logotype2" class="inpradio"><label for="logotype2">自定义招牌</label>  
+                	<input type="radio" name="logotype3" id="logotype3" class="inpradio"><label for="logotype3">BannerMaker</label>  
+                </dd>
+                <dt>店铺名称：</dt>
+                <dd>
+                	<label>从心便是懦弱</label><a class="set" href="#">修改</a> <input name="showname" id="showname" type="checkbox"> <label for="showname">是否显示店铺名称：</label>
+                </dd>
+                <dt>背景图：</dt>
+                <dd>
+                	<input type="file">
+                    <br><img class="logobg">
+                </dd>
+                <dt>高度：</dt>
+                <dd class="logohei">
+                	<input type="text">px<span>宽度为950像素，高度建议不超过120像素，否则导航显示可能异常</span>
+                </dd>
+        </div>
+    </div>
+    
+    <div class="btndiv blacklinkbtns">
+    	<a href="javascript:void(0)" class="btn btnok">保存</a>
+        <a href="javascript:void(0)" class="btn">取消</a>
+    </div>
+    
+    </form>
+    
+    
+    
+    <a href="" class="help">使用帮助</a>
+</div>
+
+
+
+<script src="../../js/jquery.js"></script>
+<script src="../../js/decoratepop.js"></script>
+
+</body>
+</html>

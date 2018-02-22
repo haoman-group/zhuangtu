@@ -1,0 +1,60 @@
+body,div,span,h1,h2,h3,h4,h5,h6,p,a,ol,ul,li,dl,dt,dd,input,img,form,button,blockquote,strong{ font-weight:normal;margin:0; padding:0; list-style:none; border:0;}
+html{ font-size: 20px;}
+body{font-size:0.6rem; font-family:"Microsoft YaHei"; font-weight:normal;background:#fff; }
+a{text-decoration:none; color:#000;border:none;padding:0px;margin:0px;}
+a:hover{text-decoration:none;}
+img{ border:none; width:100%;}
+input{ outline:none;}
+.page-group{ position: relative;z-index: 200000;}
+.wap_center{ width: 100%;background:#fff; }
+.wap_center .head{ line-height: 2.4rem; font-size: 2rem; color: #fff; background-color: #393a3f; text-align: center;}
+.wap_center .list li{ border-top: 0.05rem solid #e1e1e1;}
+
+
+.wap_center .list li .price{ color: #cc2728;}
+.wap_center .list li .price strong{ font-size: 0.85rem; font-weight: 300;}
+
+.wap_center .list li h4{ line-height: 2.2rem; font-size: 0.8rem; font-weight: 600; padding-left:0.5rem; border-bottom:0.05rem solid #bfbfbf; border-top:0.2rem solid #e1e1e1;}
+.wap_center .list li h4 img{ display: inline-block; width: 1rem; margin: 0 0.35rem; vertical-align: middle;}
+.wap_center .list li h4 .delete{ float: right; position: relative; top:0.6rem ; }
+.wap_center .list li h4 .status{ font-size: 0.65rem; color: #cc2728; float: right; margin-right: 1rem; position: relative; top: 0.1rem;}
+.wap_center .list li table{ background-color: #fff; font-size: 0.65rem; width: 100%;}
+.wap_center .list li table strong{ font-size: 0.85rem; font-weight: 300;}
+.wap_center .list li table td{border: 0 solid #fff; width: 10px; border-bottom-width: 0.35rem; border-top-width: 0.45rem; border-left-width: 0.25rem;}
+
+.wap_center .list li table td:nth-of-type(1) img{ width: 3.5rem; height: 3.5rem; border-radius: 0.3rem; margin-right: 0.4rem; margin-left: 0.55rem;}
+.wap_center .list li table td:nth-of-type(2){ width: auto;}
+.wap_center .list li table td:nth-of-type(2) p{ line-height: 0.8rem; color: #989898; font-size: 0.65rem;  height: 0.8rem;overflow: hidden;}
+.wap_center .list li table td:nth-of-type(2) p:nth-of-type(1){ height: 1.6rem; color: #000; }
+.wap_center .list li table td:nth-of-type(3){ min-width: 3.5rem; border-right-width: 0.45rem; text-align: right;}
+.wap_center .list li table .price{ display: block; color: #cc2728; position: relative; top: -0.8rem;}
+
+
+.wap_center .list li dl{ overflow: hidden; zoom: 0; padding: 1rem 0;}
+.wap_center .list li dt{ float: left; margin-left: 0.8rem;}
+.wap_center .list li dt img{ width: 3rem; height: 3rem; border-radius: 0.3rem; }
+.wap_center .list li dd{ margin-left:4.4rem; position: relative;}
+.wap_center .list li dd .name{ font-size: 0.85rem; font-weight: 600; padding-right:1.5rem ;}
+.wap_center .list li dd .time{ font-size: 0.65rem; position: absolute; top: -1rem; line-height: 1.4rem; right: 0.8rem; color: #989898;}
+.wap_center .list li dd p{ line-height: 0.8rem; color: #989898; font-size: 0.65rem;  height: 1.6rem;overflow: hidden; padding-right: 2rem;}
+
+.wap_center .list li .cash{ line-height: 2rem;color: #989898; text-align: right; border-top:0.05rem solid #bfbfbf; border-bottom:0.05rem solid #bfbfbf;}
+.wap_center .list li .cash span{ padding-right: 0.8rem;}
+.wap_center .list li .cash span span{ padding-right: 0;}
+.wap_center .list li .btn{ text-align: right; font-size: 0; padding: 0.6rem 0;}
+.wap_center .list li .btn span{ display: inline-block; text-align: left; border-radius: 0.15rem; font-size: 0.65rem; margin-right: 0.4rem; line-height: 1.5rem;  vertical-align: middle; border: 0.05rem solid #989898; color: #989898; padding: 0 0.7rem;}
+.wap_center .list li .btn span:nth-of-type(2){ background-color: #cc2728; color: #fff; border-color: #cc2728;}
+.wap_center .list li .btn span:nth-last-of-type(1){ color: #cc2728; border-color: #cc2728;}
+
+
+.features h3{font-weight:600;}
+.features p{text-indent:2em;}
+.features p.copy{margin-top: 40px;}
+.features p.copy,.features p.company{text-align:center;font-size: 15px;color:#999;}
+.copy-message h3{text-align:center;font-size:.8rem;font-weight:bold;}
+.copy-message p{text-indent:2em;}
+.agreement h3{text-align:center;font-size:.8rem;font-weight:bold;}
+.agreement h4{font-size:.7rem;margin-top:.5rem;}
+.agreement h5{text-align:right;margin-top:1rem;}
+.agreement h6{text-align:right;margin:.5rem 2rem 0 0;}
+.agreement p{text-indent:2em;}

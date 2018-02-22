@@ -1,0 +1,36 @@
+/*搜索颜色*/
+.search{ background-color:#c8000b; }
+.inpsear{ background-color:#ffffff; color:#000000;}
+.btnsear{background-color: #c8000b;color:#ffffff;}
+/*导航*/
+.navBg{ background-image:url(../images/sub-MatPro_navBg.jpg); height:531px; background-height: 100%; position:relative; background-repeat: no-repeat;background-size: cover;}
+.nav_con1{ background-color:#41454f; position:absolute; padding:20px 0; top:170px;}
+.nav_con2{ background-color:#f5a518;padding:20px 0;}
+/*水电辅材*/
+.content1{ color:#7d7d7d;}
+.content1_con1{color:#f5a518; padding:50px 0 10px; border-bottom:2px solid #f5a518; font-size:30px; font-weight:500;}
+.content1_con21{ overflow:hidden; background-color:#efeeed; font-size:24px; font-weight:300; color:#000000;}
+.content1_con211{ width:356px; float:left; text-align:left; padding:10px 0 10px 40px;}
+.content1_con212{ width:378px; float:left; text-align:center;padding:10px;}
+.content1_con213{ width:341px; float:left; text-align:right;padding:10px 55px 10px 0;}
+.content1_con22{ overflow:hidden; font-size:24px; font-weight:300; color:#7d7d7d;}
+.content1_con22 b{ display:block; float:left; margin:6px 5px 5px; cursor:pointer; position:relative; width:19px; height:19px; border:1px solid #7d7d7d;}
+.content1_con22 b img{ display:none; position:absolute; bottom:0; width:25px; text-align:left;}
+.content1_con221{ width:190px; float:left; padding:10px 0 10px 10px;}
+.content1_con222{ width:720px; float:left;padding:10px 0 10px 60px; overflow:hidden;}
+.content1_con2221{ width:200px; float:left; margin:0 20px;}
+.content1_con2221 strong{ font-size:16px;font-weight:300; padding:0 2px;}
+.content1_con223{ width:120px; float:left;padding:5px 0 5px 80px; line-height:40px;}
+.content1_con2231{ position:relative;border:1px solid #7d7d7d; font-size:25px; line-height:30px; padding:0 20px; height:29px;margin:6px 20px 5px 5px; float:left;}
+.content1_con2231 img{ width:9px; height:9px; margin:3px;}
+.content1_con2232{ position:absolute; cursor:pointer; right:-16px; top:-1px;width:15px; height:15px;border-top:1px solid #7d7d7d;border-right:1px solid #7d7d7d;}
+.content1_con2233{ position:absolute; cursor:pointer; right:-16px; bottom:-1px; width:15px; height:15px;border-top:1px solid #7d7d7d;border-right:1px solid #7d7d7d;border-bottom:1px solid #7d7d7d;}
+/*合计*/
+.content2{ margin:40px 0 20px;background-color:#efeeed; color:#000000; font-size:30px; overflow:hidden; font-weight:500; padding:20px 0;}
+.content2_con{ float:left; width:595px;}
+.content2_con1{text-align:center;}
+.content2_con1 b{ color:#c8000b;}
+.content2_con1 strong{ font-weight:300; padding:0 30px;}
+.content2_con21{ cursor:pointer; float:left; border:2px solid #000000; padding:0 15px; margin:0 20px;}
+.content2_con21:hover{border:2px solid #c8000b;}
+

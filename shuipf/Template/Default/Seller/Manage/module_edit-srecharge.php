@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>充值中心</title>
+<link type="text/css" rel="stylesheet" href="{$config_siteurl}statics/zt/css/decpop.css" />
+</head>
+
+<body>
+<div class="popmain">
+    <form id="focusform" class="popform">
+    <div class="tabcon chconul defaultform"  data-tag="popfocustab">
+    	<div class="con chconli" style="display:block;">
+        	<dl class="dlpopform clear-fix">
+            	<dt>显示标题：</dt>
+                <dd class="control-group">
+                	<input type="radio" name="isshowtit" id="focshowtit" class="inpradio"><label for="focshowtit">不显示</label>  <input type="radio" name="isshowtit" id="fochidetit" class="inpradio inpshowtit"><label for="fochidetit">显示</label>   <input  type="text" data-byradioid="fochidetit" class="hidetitforradio">
+                </dd>
+                <dt>充值框内容：</dt>
+                <dd>
+                	<input type="checkbox" class="inpradio" id="chargephone"><label for="chargephone">手机充值</label><br>
+                    <input type="checkbox" class="inpradio" id="chargegame"><label for="chargegame">游戏快充</label>
+                    （
+                    <input type="checkbox" class="inpradio" id="chargecard"><label for="chargecard">点卡</label>
+                    <input type="checkbox" class="inpradio" id="chargeqq"><label for="chargeqq">QQ</label>
+                    <input type="checkbox" class="inpradio" id="chargeweb"><label for="chargeweb">网游物品</label>
+                    ）
+                </dd>
+                <dt>默认显示：</dt>
+                <dd>
+                	<input type="radio" name="isshow" id="focshow1" class="inpradio"><label for="focshow1">手机充值</label> 
+                	<input type="radio" name="isshow" id="focshow2" class="inpradio"><label for="focshow2">游戏快充</label> 
+                </dd>
+            </dl>
+        </div>
+    </div>
+    
+    <div class="btndiv blacklinkbtns">
+    	<a href="javascript:void(0)" class="btn btnok">保存</a>
+        <a href="javascript:void(0)" class="btn">取消</a>
+    </div>
+    
+    </form>
+    
+    
+    
+    <a href="" class="help">使用帮助</a>
+</div>
+
+
+
+<script src="{$config_siteurl}statics/zt/js/jquery.js"></script>
+<script src="{$config_siteurl}statics/zt/js/decoratepop.js"></script>
+
+</body>
+</html>

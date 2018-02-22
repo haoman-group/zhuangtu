@@ -1,0 +1,144 @@
+body,div,span,h1,h2,h3,h4,h5,h6,p,a,ol,ul,li,dl,dt,dd,input,img,form,button,blockquote{margin:0; padding:0; list-style:none; border:0;}
+body{font-size:12px; min-width:1190px;}
+a{text-decoration:none; color:#000;border:none;padding:0px;margin:0px;}
+a:hover{text-decoration:none;}
+img{ border:none;}
+input{ outline:none;}
+ul,li,ol,input{ list-style:none;}
+input,button,select,textarea{outline:none}/*取消聚焦*/
+.right{ float: right;}
+.navbox{ border: 1px solid #e5e5e5;}
+.container{ width: 1190px; margin: 0 auto;}
+.nav{ padding: 0 42px; border: 1px solid #e5e5e5; border-top:none; border-bottom:none; line-height: 58px; font-size: 16px; color: #595757;}
+.nav img{ display: inline-block; vertical-align: middle; padding-right: 18px; margin-right: 13px; border-right: 2px solid #e5e5e5; height: 34px;}
+.nav .right{ font-size: 0;}
+.nav li{ display: inline-block; font-size: 16px; vertical-align: middle; padding: 0 25px; color: #595757;}
+.nav em{ display: inline-block; margin: 0 13px; vertical-align: middle; height: 6px ; width: 6px; border-radius: 50%; background-color: #595757;}
+.nav li.on{ background-color: #95273e; color: #fff;}
+.nav li:hover{ background-color: #95273e; color: #fff;}
+.enjoin{ background-color: #f1f1f1; /*height: 750px; position: relative;*/}
+/*.enjoin img{ display: block; margin: 0 auto; position: absolute; top: 0; right:0;}*/
+.enjoin img{ margin: 0 auto;display: block; position: relative;left: 50%;margin-left: -960px;}
+.enjoin a{ position: relative; width: 1190px; display: block; margin: auto;}
+.enjoin .img{ position: absolute; top: 197px; left: 0px;
+    -webkit-animation: float ease-in-out 1.5s infinite;
+    animation: float ease-in-out 1.5s infinite;
+}
+.enjoin .num{ position: absolute; display: inline-block; font-size: 0; color: #fff; background-color: #95273e; left: 526px; top: 478px; }
+.enjoin .num span{
+    transition: all .15s linear;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    opacity: 0;
+    font-size: 28px;
+    display: inline-block;
+}
+.enjoin .num .on{
+    opacity: 1;
+}
+
+.enjoin .img img{ left: -120px;}
+.process{width: 100%;background: url(../images/function/process.jpg) no-repeat center top;padding: 972px 0 0;}
+.process dl{width: 1069px;height: 144px;border-radius: 20px;margin: 0 auto;background: url(../images/function/tipbg.png) no-repeat center;padding: 30px 55px;display: none;}
+.process dl dt{font-size: 18px;color: #487cd0;margin: 0 18px 0 0;font-weight: bold;}
+.process dl dt,.process dl dd{float: left;}
+.process dl dt.second{margin: 0 18px 0 80px;}
+.process dl dd{font-size: 14px;color: #231f20;line-height: 26px;max-width: 694px;}
+.process .fitment_btn{padding-bottom: 130px;}
+.process .fitment_btn li{float: left;width: 110px;height: 32px;margin-left: 137px;}
+.process .fitment_btn li:first-child{margin-left: 45px;}
+.process .fitment_btn li:last-child{margin-right: 45px;}
+.process .fitment_btn a{width: 110px;height: 32px;position: absolute;background: transparent;}
+/*.process dl dd li{margin: 0 0 10px 0;}*/
+/*.process h4{ font-size: 30px; font-weight: 600; color: #1e1e1e; border-bottom: 2px solid #e3e3e3; line-height: 35px; padding: 70px 44px 12px;}
+.process h4 strong{ color: #95273e; padding-right: 21px;}
+.process h4 span{ font-weight: 300; font-size: 16px;}
+.process h4 p{ font-weight: 300; font-size: 16px;}
+.process ul{ font-size: 0; text-align: center; padding: 62px 0 67px;}
+.process li{ display: inline-block; vertical-align: top; width: 230px; height: 321px; padding-right: 8px; font-size: 14px;}
+.process li img{ display: inline-block; padding: 43px 0 35px;}
+.process li h5{ font-size: 20px;}
+.process li p{ padding: 12px 0; color:#090909; line-height: 17px;}
+.process li.on{ background: url("../images/advancecheck/processli.png") no-repeat ;}*/
+/*.process li:hover{ background: url("../images/advancecheck/processli.png") no-repeat ;}*/
+.acceptance{ text-align: center;  padding-bottom: 122px; background: url("../images/advancecheck/acceptancebottom.png") no-repeat center bottom #eeeeee;}
+.acceptance h4{ font-size: 30px; font-weight: 600; color: #1e1e1e; line-height: 35px; padding: 108px 0px 12px;}
+.acceptance h4 strong{ color: #95273e; padding-right: 21px;}
+.acceptance h4 span{ font-weight: 300; font-size: 16px;}
+.acceptance h4 p{ font-weight: 300; font-size: 16px; line-height: 37px;}
+.acceptance ul{ font-size: 0; text-align: center; padding: 22px 0 67px;}
+.acceptance li{ display: inline-block; width: 220px; background-color: #fff; margin-right: 22px; font-size: 16px; color: #686868;}
+.acceptance li:nth-last-of-type(1){ margin-right: 0px;}
+.acceptance li img{ display: inline-block; width: 220px; border-radius: 5px;}
+.acceptance li h5{ font-weight: 300; color: #e16a04; font-size: 20px; padding: 4px 0px 10px;}
+.acceptance li p{ font-size: 12px; padding: 0 24px 14px; line-height: 18px; height: 72px; overflow: hidden; text-align: left;}
+.acceptance li:hover{ box-shadow: 0px 0px 8px 2px #888888}
+.acceptance li:hover h5{ font-weight: 600}
+.acceptance li:hover p{ color: #000;}
+.phone{ text-align: center; padding: 72px 0 43px; position: relative;}
+.phone img{ display: inline-block;}
+.phone .img{ position: absolute; width: 496px; overflow: hidden; left:50%; margin-left: -558px; top: 112px;}
+.phone .img img{
+    -webkit-transition: -webkit-transform .2s linear;
+    -moz-transition: -moz-transform .2s linear;
+    -o-transition: -o-transform .2s linear;
+    transition: transform .2s linear;
+}
+.phone:hover .img img{transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -o-transform:translateY(-5px);
+    -ms-transform:translateY(-5px); }
+.action{background-color:#3c3c3c;}
+.action h5{ width: 100%; background-color: #2c2c2c;}
+.action h5 .container{ position: relative; height: 50px;}
+.action h5 span{ width: 76px; height: 64px; background-color: #95273e; position: absolute; right: 0; bottom: 10px;}
+.action h5 span:before{ position: absolute; left: 50%; top:50%; margin-left: -12px; margin-top: -16px; content: ""; border-style: solid; border-width: 12px; border-color:  transparent transparent #fff transparent;  }
+.action h5 span:after{ position: absolute; left: 50%; top:50%; margin-left: -12px; margin-top: -13px; content: ""; border-style: solid; border-width: 12px; border-color:  transparent transparent #95273e transparent;  }
+.action h4{ font-size: 50px; color: #f6f6f6; text-align: center; line-height: 80px;}
+.action h4 p{ font-weight: 300; font-size: 28px; line-height: 20px;}
+.action form{ font-size: 0px; text-align: center; padding: 78px 0 50px;}
+.action form li{ display: inline-block; vertical-align: top; margin: 0 10px;}
+.action form li:nth-of-type(1){ width: 400px;}
+.action form li:nth-of-type(2){ width: 550px;}
+.action form li:nth-of-type(3){ width: 144px; font-size:42px ; text-align: center; line-height: 246px; background-color: #95273e; color: #fff;}
+.action form dl{ width: 100%; font-size: 14px; color: #fff; background-color: #1e1e1e; margin-bottom: 10px; line-height: 54px;}
+.action form dt{ padding-left: 28px; float: left;}
+.action form dd{ margin-left: 100px; margin-right: 10px;}
+.action form dd input{ width: 100%; line-height: 54px; font-size: 14px; background-color: #1e1e1e; color: #fff;}
+.action form dd select{ width: 100%; height: 16px; border: none; line-height: 54px; font-size: 14px; background-color: #1e1e1e; color: #fff;}
+.action form textarea{ display: block; width: 530px; height: 162px; padding: 10px; border: none; line-height: 20px; font-size: 14px; background-color: #1e1e1e; color: #fff;}
+.action form li:nth-of-type(2) dl{ width: 270px; float: left;}
+.action form li:nth-of-type(2) dl:nth-of-type(1){ margin-right: 10px;}
+
+
+@-webkit-keyframes float {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    50% {
+        -webkit-transform: translateY(1em);
+        transform: translateY(1em);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    50% {
+        -webkit-transform: translateY(1em);
+        transform: translateY(1em);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}

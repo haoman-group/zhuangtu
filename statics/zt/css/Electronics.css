@@ -1,0 +1,529 @@
+<<<<<<< .mine
+/*搜索颜色*/
+.search{ background-color:#356acb; }
+.btnsear{background-color: #356acb;}
+/*导航*/
+/*导航上部*/
+.navBg01{background-color: #356acb;height:50px; padding:5px 0px 5px; position:absolute; z-index:2;}
+/*导航位置*/
+.navBg03{background-color: #356acb;height:50px; padding:5px 0px 5px;}
+.navBg_fix{ position:fixed; top:0px;}
+.nav_up{width: 225px;height: 45px;padding-left: 8px;margin: 5px 2px 0px;font: 12px/1.5 arial,tahoma,宋体;color:#fff;  float: left;border-right: 1px dotted #C5E1FB;}
+.nav_up:hover{ background-color:#ffffff;}
+.nav_up a{color:#fff; vertical-align:bottom;}
+.nav_up p{ margin:2px 0px 0px;}
+.nav_up p a{ padding-right:5px;}
+.nav_up p a:hover{color:#ff7c31; text-decoration:underline;}
+.nav_up strong{font: bold 16px/1.5 "microsoft yahei";}
+.nav_up strong a:hover{text-decoration:underline;}
+/*取消右边框*/
+.nav_upRbor{border-right:none;}
+/*顶端隐藏导航*/
+.nav_hidden1{ width:234px;height:7px;position:absolute;top:45px;left:-8px; background-color:#ffffff; display:none;}
+.nav_hidden{ width:460px;height:100px;border: 2px solid #3087D9;position:absolute;top:50px;left:-10px;background-color:#ffffff; display:none;}
+.nav_hidden01{ width:233px;height:7px;position:absolute;top:45px;left:-8px; background-color:#ffffff; display:none;z-index:2;}
+.nav_hidden00{ width:460px;height:100px;border: 2px solid #3087D9;position:absolute;top:50px;right:-227px;background-color:#ffffff; display:none;z-index:2;}
+/*导航下部*/
+.navBg02{background-color: #c8000b;}
+.nav_down{background-image:url(../images/Electronics_navBg1.png);height:420px; }
+/*导航tab*/
+.nav_licon{position:absolute;overflow:hidden; width:1000px; height:420px;  }
+.nav_li { position:absolute; left:45%; bottom:6px;width:162px; z-index:2px; }
+.nav_li li{display:inline-block;width:20px;height:20px;cursor: pointer;color: #FFF; padding:0px;margin-right: 6px;text-align: center;line-height: 20px;border-radius: 50%; background-color:#000000;}
+.nav_li li:hover{ background-color:#fe8802;}
+/*导航右端定位元素*/
+.nav_right00con{position:absolute;}
+.nav_right00{width:190px;height:480px;position:absolute;z-index:1;left:1000px; }
+.nav_right00 b{display: block;height: 0px;font-size: 0px;line-height: 0;border-top: 1px dotted #EEE;}
+/*左右边框*/
+/*宽1，灰*/
+.B_lr{border-left:solid; border-right:solid;border-width:1px; border-color:#dde0e6;}
+/*上边框*/
+/*宽3，蓝*/
+.B_up1{border-top:solid; border-top-width:3px; border-top-color:#296ecc; }
+/*宽1，灰*/
+.B_up2{border-top:solid; border-top-width:1px; border-top-color:#dde0e6; }
+/*页面主体*/
+/*下边框*/
+/*宽1，灰*/
+.B_down{ border-bottom:solid 1px #dde0e6;}
+
+.content1_con{ overflow:hidden; margin:0 auto;}
+.content1_con1{border-top:solid; border-top-width:3px; border-color:#296ecc; width:297px; height:400px; float:left; background-color:red; position:relative;}
+.content1_con2{width:297px; height:230px;}
+/*遮罩*/
+.content1_con02{ position:absolute; width:297px; height:230px; display:none; opacity:0.2;filter: alpha(opacity=20); background-color:#ffffff;}
+.content1_con3{width:297px; height:170px;padding-left:5px; background-color:#ffffff; font-size:14px}
+.content1_con3 strong{ font-size:19px; color:#296ecc; }
+.content1_con3 p{color:#296ecc; }
+.content1_con4{ width:80px; height:24px; background-color:#5b67df; position:absolute; bottom:10px; left:10px;color:#ffffff; font-size:12px; line-height:24px; text-align:center;}
+.content1_Bg{ background-color:#cccccc}
+/*特惠套装*/
+.content2_con{ height:180px; background-color:#fe8802;}
+.content2_con1{ margin:0 auto; width:1170px;}
+.content2_con2{ width:380px; margin:11px 5px; float:left; position:relative;left:0px;right:0px; }
+/*家具空间*/
+.content3_con{ height:700px;background-image:url(../images/Electronics_content3img1.jpg);background-repeat: no-repeat;text-align: center;background-size: cover; margin:20px 0px 0px; color:#296ecc;}
+.content3_con h1{font: 24px/1.5 "microsoft yahei"; padding:5px;}
+.content3_con h2{font: 14px/1.5 "microsoft yahei";}
+.content3_con1{ width:616px; height:588px; background-image:url(../images/Electronics_content3img2.jpg);color: #FFF;font: bold 14px/28px "microsoft yahei";text-align: center;}
+/*扩散框*/
+.content3_con11::before
+{
+	position:absolute;
+	top:-5px;
+	left:-5px;
+	content:"";
+	display:block;
+	width:46px;
+	height:46px;
+	border:5px solid rgba(62,154,240,.7);
+	border-radius:50px;
+	-webkit-animation:scaleout 2s infinite linear;
+	-moz-animation:scaleout 2s infinite linear;
+	-ms-animation:scaleout 2s infinite linear;
+	animation:scaleout 2s infinite linear;
+	
+}
+.content3_con11::after{
+	position:absolute;
+	top:-10px;
+	left:-10px;
+	content:"";
+	width:56px;
+	height:56px;
+	display:block;
+	border:5px solid rgba(62,154,240,.3);
+	border-radius:60px;
+	-webkit-animation:scaleout 2s infinite linear;
+	-moz-animation:scaleout 2s infinite linear;
+	-ms-animation:scaleout 2s infinite linear;
+	animation:scaleout 2s infinite linear;
+	
+}
+@keyframes scaleout{0%{transform:scale(.8)}100%{transform:scale(1.05)}}
+@-webkit-keyframes scaleout{0%{-webkit-transform:scale(.8);transform:scale(.8)}100%{-webkit-transform:scale(1.05);transform:scale(1.05)}}
+@-moz-keyframes scaleout{0%{-moz-transform:scale(.8);transform:scale(.8)}100%{-moz-transform:scale(1.05);transform:scale(1.05)}}
+@-ms-keyframes scaleout{0%{-ms-transform:scale(.8);transform:scale(.8)}100%{-ms-transform:scale(1.05);transform:scale(1.05)}}
+.content3_con11{position: absolute;background-color:#3e9af1; width: 46px;height: 40px;padding-top: 6px;cursor: pointer;  border-radius:50%;font: bold 14px/32px "microsoft yahei"; color:#FFF;}
+.content3_con16{position: absolute;background-color:#fe8802; width: 46px;height: 40px;padding-top: 6px;cursor: pointer;  border-radius:50%;font: bold 14px/32px "microsoft yahei"; color:#FFF; display:none;}
+/*连接线*/
+.content3_con11b{display:none; border-left:solid 2px #3e9af0;border-top:solid 2px #3e9af0;position:absolute;}
+/*隐藏框*/
+.content3_con21{ display:none; position: absolute;width: 56px;height: 40px;padding-top: 6px;cursor: pointer; background-color:#3e9af1; border-radius:50%;font: 12px/1 "microsoft yahei";cursor: pointer; padding-top:16px;}
+.content3_con12{left: 133px;top: 172px;}/*厨房*/
+.content3_con12b{left: 21px;top:-102px;width: 454px;height: 100px;}
+.content3_con13{left: 261px;top: 246px;}/*客厅*/
+.content3_con13b{left: 21px;top:-137px;width: 326px;height: 135px;}
+.content3_con14{left: 374px;top: 340px;}/*卧室*/
+.content3_con14b{left: 21px;top:-182px;width: 213px;height: 180px;}
+.content3_con15{left: 436px;top: 238px;}/*卫生间*/
+.content3_con15b{left: 21px;top:-112px;height: 110px;width: 151px;}
+.content3_con22{left: -38px;top: -60px; background-color:#fe8802;}
+.content3_con23{left: -70px;top: -5px;}
+.content3_con24{left: -38px;top: 48px;}
+.content3_con2{ width:546px; height:558px; background-color:#3e9af0; position:absolute; left:616px;margin-top: 16px;margin-left: -8px;padding-left: 16px;padding-right: 18px;display:none;}
+.content3_con3{ width:150px; height:30px; background-color:#3e9af0; text-indent:8px;position:absolute;left:-8px;top:10px;text-align:left;}
+.content3_con3 a{ color: #FFF;font: 14px/30px "microsoft yahei"; }
+.content3_con3 a:hover{ text-decoration:underline;}
+.content3_right {margin: 10px 3px;text-align: left; color: #FFF;}
+.content3_right b {font-weight: 900;color: #FFE402;}
+.content3_right p {font: bold 18px/1.5 "microsoft yahei";}
+.content3_right1 {width: 170px;height: 190px;background-color: #FFF;float: left;margin: 2px; font: 12px/1.5 arial,tahoma,宋体;color: #000;padding-left: 6px;}
+.content3_right1 a:hover {text-decoration: underline;color: #FE8802;}
+.content3_right1 b {font: bold 16px/19px tahoma; color: #C8000B;}
+.content3_right1 strong {font: bold 16px/19px tahoma;color: #C8000B;}
+.content3_right1 p {font: 12px/1.5 arial,tahoma,宋体;margin: 0px;color: #999;}
+.content3_right01 p {margin: 5px;font: 12px/1.5 "microsoft yahei";}
+.content3_right1 img{width: 120px; float: right;}
+.content3_right11{ opacity: 0.8;filter: alpha(opacity=80); position: absolute; width: 176px;height: 24px; bottom: -24px;background-color: #FF8802; color: #FFF;text-align: center;line-height: 24px;}
+.content3_right11:hover{ opacity: 1;filter: alpha(opacity=100); }
+.content3_right11 a{ color: #FFF;}
+.content3_right11 a:hover { color: #FFF; text-decoration: none;}
+.content3_right12 {position: absolute; width: 176px; left: -6px;height: 24px; bottom: 0px; overflow: hidden;}
+.content3_con4{ width:8px; text-indent:0px; position:absolute; background-image:url(../images/Electronics_content3img4.png); height:8px;}
+/*广告*/
+.content4_con1{margin:20px 0px 0px;}
+/*主体*/
+.content4_con2{margin:20px 0px 0px; font-size:20px; font-weight:700; font-family:"微软雅黑"; line-height:40px; overflow:hidden;}
+.content4_con00{float:left; width:737px; overflow:hidden;}
+.content4_con01{width:233px; height:40px; background-color:#296ecc; float:right; color:#ffffff; padding-left:10px;}
+.content4_con02{float:left; width:210px; height:540px;}
+.content4_con03{float:left; width:245px; height:320px; overflow:hidden;}
+.content4_con04{float:left; width:245px; height:219px; overflow:hidden;}
+.content4_con05{float:right; width:241px; height:540px;overflow:hidden;}
+.content4_ul{padding:12px 12px 0; font-size:14px;margin-bottom:5px;}
+.content4_li{position:relative;display:inline-block;background:#e9ecf2;height:22px;line-height:22px;color:#666;padding:0 9px;cursor:pointer;margin-right:7px;border-radius:2px}
+.content4_li b{border-width:8px;position:absolute;top:22px;left:38%;border-color:#296ecc transparent transparent;border-style:solid; display:none;}
+.content4_con51{ width:241px; overflow:hidden; height:540px; }
+.content4_con50{position:absolute;left:0px;width:482px;height:540px;}
+.content4_con52{ width:241px;height:540px;position:absolute;top:0px;}
+.content4_con53{position: relative;height: 40px;width: 210px;padding: 8px 15px;background:url(../images/Electronics_content4_Bg5.png) no-repeat scroll 50% bottom transparent;}
+.content4_con53last{background:none;}
+.content4_con531{ float:left;}
+.content4_con532{ padding-left:44px;}
+.content4_con532 p{ color:#c8000b;font:12px tahoma, arial, "Hiragino Sans GB", "微软雅黑", "宋体", sans-serif; line-height:45px;font-weight:700;}
+.content4_con532 a{cursor: pointer; display:block; float:left;font:12px/1.5 tahoma, arial, "Hiragino Sans GB", "微软雅黑", "宋体", sans-serif;height:21px;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:140px; position:absolute;top:10px;left:60px;}
+.content4_con532 a:hover{ text-decoration:underline;}
+.content4_con54{position: absolute;color: #C2C6CE;top: -15px;right: 15px;font-size: 18px;font-style: italic;text-decoration: none;font-family: Didot;}
+/*保证栏*/
+.content4_con3{background-image:url(../images/Electronics_content4_con3.jpg);width:1190px;height:60px; margin:20px 0px;}
+.content4_con3a1{width:21%;height:50px;display:block;}
+.content4_con3a2{width:20.2%;height:50px;display:block;}
+.content4_con3a3{width:16.8%;height:50px;display:block;}
+
+/*固定图标*/
+.navmsg_con21:hover{color:#ffffff;background-color:#356acb;}
+||||||| .r309
+/*搜索颜色*/
+.search{ background-color:#356acb; }
+.btnsear{background-color: #356acb;}
+/*导航*/
+/*导航上部*/
+.navBg01{background-color: #356acb;height:50px; padding:5px 0px 5px; position:absolute; z-index:2;}
+/*导航位置*/
+.navBg03{background-color: #356acb;height:50px; padding:5px 0px 5px;}
+.navBg_fix{ position:fixed; top:0px;}
+.nav_up{width: 225px;height: 45px;padding-left: 8px;margin: 5px 2px 0px;font: 12px/1.5 arial,tahoma,宋体;color:#fff;  float: left;border-right: 1px dotted #C5E1FB;}
+.nav_up:hover{ background-color:#ffffff;}
+.nav_up a{color:#fff; vertical-align:bottom;}
+.nav_up p{ margin:2px 0px 0px;}
+.nav_up p a{ padding-right:5px;}
+.nav_up p a:hover{color:#ff7c31; text-decoration:underline;}
+.nav_up strong{font: bold 16px/1.5 "microsoft yahei";}
+.nav_up strong a:hover{text-decoration:underline;}
+/*取消右边框*/
+.nav_upRbor{border-right:none;}
+/*顶端隐藏导航*/
+.nav_hidden1{ width:234px;height:7px;position:absolute;top:45px;left:-8px; background-color:#ffffff; display:none;}
+.nav_hidden{ width:460px;height:100px;border: 2px solid #3087D9;position:absolute;top:50px;left:-10px;background-color:#ffffff; display:none;}
+.nav_hidden01{ width:233px;height:7px;position:absolute;top:45px;left:-8px; background-color:#ffffff; display:none;z-index:2;}
+.nav_hidden00{ width:460px;height:100px;border: 2px solid #3087D9;position:absolute;top:50px;right:-227px;background-color:#ffffff; display:none;z-index:2;}
+/*导航下部*/
+.navBg02{background-color: #c8000b;}
+.nav_down{background-image:url(../images/Electronics_navBg1.png);height:420px; }
+/*导航tab*/
+.nav_licon{position:absolute;overflow:hidden; width:1000px; height:420px;  }
+.nav_li { position:absolute; left:45%; bottom:6px;width:162px; z-index:2px; }
+.nav_li li{display:inline-block;width:20px;height:20px;cursor: pointer;color: #FFF; padding:0px;margin-right: 6px;text-align: center;line-height: 20px;border-radius: 50%; background-color:#000000;}
+.nav_li li:hover{ background-color:#fe8802;}
+/*导航右端定位元素*/
+.nav_right00con{position:absolute;}
+.nav_right00{width:190px;height:480px;position:absolute;z-index:1;left:1000px; }
+.nav_right00 b{display: block;height: 0px;font-size: 0px;line-height: 0;border-top: 1px dotted #EEE;}
+/*左右边框*/
+/*宽1，灰*/
+.B_lr{border-left:solid; border-right:solid;border-width:1px; border-color:#dde0e6;}
+/*上边框*/
+/*宽3，蓝*/
+.B_up1{border-top:solid; border-top-width:3px; border-top-color:#296ecc; }
+/*宽1，灰*/
+.B_up2{border-top:solid; border-top-width:1px; border-top-color:#dde0e6; }
+/*页面主体*/
+/*下边框*/
+/*宽1，灰*/
+.B_down{ border-bottom:solid 1px #dde0e6;}
+
+.content1_con{ overflow:hidden; margin:0 auto;}
+.content1_con1{border-top:solid; border-top-width:3px; border-color:#296ecc; width:297px; height:400px; float:left; background-color:red; position:relative;}
+.content1_con2{width:297px; height:230px;}
+/*遮罩*/
+.content1_con02{ position:absolute; width:297px; height:230px; display:none; opacity:0.2;filter: alpha(opacity=20); background-color:#ffffff;}
+.content1_con3{width:297px; height:170px;padding-left:5px; background-color:#ffffff; font-size:14px}
+.content1_con3 strong{ font-size:19px; color:#296ecc; }
+.content1_con3 p{color:#296ecc; }
+.content1_con4{ width:80px; height:24px; background-color:#5b67df; position:absolute; bottom:10px; left:10px;color:#ffffff; font-size:12px; line-height:24px; text-align:center;}
+.content1_Bg{ background-color:#cccccc}
+/*特惠套装*/
+.content2_con{ height:180px; background-color:#fe8802;}
+.content2_con1{ margin:0 auto; width:1170px;}
+.content2_con2{ width:380px; margin:11px 5px; float:left; position:relative;left:0px;right:0px; }
+/*家具空间*/
+.content3_con{ height:700px;background-image:url(../images/Electronics_content3img1.png);background-repeat: no-repeat;text-align: center;background-size: cover; margin:20px 0px 0px; color:#296ecc;}
+.content3_con h1{font: 24px/1.5 "microsoft yahei"; padding:5px;}
+.content3_con h2{font: 14px/1.5 "microsoft yahei"; margin-top:-25px;}
+.content3_con1{ width:616px; height:588px; background-image:url(../images/Electronics_content3img2.png);color: #FFF;font: bold 14px/28px "microsoft yahei";text-align: center;}
+/*扩散框*/
+.content3_con11::before
+{
+	position:absolute;
+	top:-5px;
+	left:-5px;
+	content:"";
+	display:block;
+	width:46px;
+	height:46px;
+	border:5px solid rgba(62,154,240,.7);
+	border-radius:50px;
+	-webkit-animation:scaleout 2s infinite linear;
+	-moz-animation:scaleout 2s infinite linear;
+	-ms-animation:scaleout 2s infinite linear;
+	animation:scaleout 2s infinite linear;
+	
+}
+.content3_con11::after{
+	position:absolute;
+	top:-10px;
+	left:-10px;
+	content:"";
+	width:56px;
+	height:56px;
+	display:block;
+	border:5px solid rgba(62,154,240,.3);
+	border-radius:60px;
+	-webkit-animation:scaleout 2s infinite linear;
+	-moz-animation:scaleout 2s infinite linear;
+	-ms-animation:scaleout 2s infinite linear;
+	animation:scaleout 2s infinite linear;
+	
+}
+@keyframes scaleout{0%{transform:scale(.8)}100%{transform:scale(1.05)}}
+@-webkit-keyframes scaleout{0%{-webkit-transform:scale(.8);transform:scale(.8)}100%{-webkit-transform:scale(1.05);transform:scale(1.05)}}
+@-moz-keyframes scaleout{0%{-moz-transform:scale(.8);transform:scale(.8)}100%{-moz-transform:scale(1.05);transform:scale(1.05)}}
+@-ms-keyframes scaleout{0%{-ms-transform:scale(.8);transform:scale(.8)}100%{-ms-transform:scale(1.05);transform:scale(1.05)}}
+.content3_con11{position: absolute;background-color:#3e9af1; width: 46px;height: 40px;padding-top: 6px;cursor: pointer;  border-radius:50%;font: bold 14px/32px "microsoft yahei"; color:#FFF;}
+.content3_con16{position: absolute;background-color:#fe8802; width: 46px;height: 40px;padding-top: 6px;cursor: pointer;  border-radius:50%;font: bold 14px/32px "microsoft yahei"; color:#FFF; display:none;}
+/*连接线*/
+.content3_con11b{display:none; border-left:solid 2px #3e9af0;border-top:solid 2px #3e9af0;position:absolute;}
+/*隐藏框*/
+.content3_con21{ display:none; position: absolute;width: 56px;height: 40px;padding-top: 6px;cursor: pointer; background-color:#3e9af1; border-radius:50%;font: 12px/1 "microsoft yahei";cursor: pointer; padding-top:16px;}
+.content3_con12{left: 133px;top: 172px;}/*厨房*/
+.content3_con12b{left: 21px;top:-102px;width: 454px;height: 100px;}
+.content3_con13{left: 261px;top: 246px;}/*客厅*/
+.content3_con13b{left: 21px;top:-137px;width: 326px;height: 135px;}
+.content3_con14{left: 374px;top: 340px;}/*卧室*/
+.content3_con14b{left: 21px;top:-182px;width: 213px;height: 180px;}
+.content3_con15{left: 436px;top: 238px;}/*卫生间*/
+.content3_con15b{left: 21px;top:-112px;height: 110px;width: 151px;}
+.content3_con22{left: -38px;top: -60px; background-color:#fe8802;}
+.content3_con23{left: -70px;top: -5px;}
+.content3_con24{left: -38px;top: 48px;}
+.content3_con2{ width:546px; height:558px; background-color:#3e9af0; position:absolute; left:616px;margin-top: 16px;margin-left: -8px;padding-left: 16px;padding-right: 18px;display:none;}
+.content3_con3{ width:150px; height:30px; background-color:#3e9af0; text-indent:8px;position:absolute;left:-8px;top:10px;text-align:left;}
+.content3_con3 a{ color: #FFF;font: 14px/30px "microsoft yahei"; }
+.content3_con3 a:hover{ text-decoration:underline;}
+.content3_right {margin: 10px 3px;text-align: left; color: #FFF;}
+.content3_right b {font-weight: 900;color: #FFE402;}
+.content3_right p {font: bold 18px/1.5 "microsoft yahei";}
+.content3_right1 {width: 170px;height: 190px;background-color: #FFF;float: left;margin: 2px; font: 12px/1.5 arial,tahoma,宋体;color: #000;padding-left: 6px;}
+.content3_right1 a:hover {text-decoration: underline;color: #FE8802;}
+.content3_right1 b {font: bold 16px/19px tahoma; color: #C8000B;}
+.content3_right1 strong {font: bold 16px/19px tahoma;color: #C8000B;}
+.content3_right1 p {font: 12px/1.5 arial,tahoma,宋体;margin: 0px;color: #999;}
+.content3_right01 p {margin: 5px;font: 12px/1.5 "microsoft yahei";}
+.content3_right1 img{width: 120px; float: right;}
+.content3_right11{ opacity: 0.8;filter: alpha(opacity=80); position: absolute; width: 176px;height: 24px; bottom: -24px;background-color: #FF8802; color: #FFF;text-align: center;line-height: 24px;}
+.content3_right11:hover{ opacity: 1;filter: alpha(opacity=100); }
+.content3_right11 a{ color: #FFF;}
+.content3_right11 a:hover { color: #FFF; text-decoration: none;}
+.content3_right12 {position: absolute; width: 176px; left: -6px;height: 24px; bottom: 0px; overflow: hidden;}
+.content3_con4{ width:8px; text-indent:0px; position:absolute; background-image:url(../images/Electronics_content3img4.png); height:8px;}
+/*广告*/
+.content4_con1{margin:20px 0px 0px;}
+/*主体*/
+.content4_con2{margin:20px 0px 0px; font-size:20px; font-weight:700; font-family:"微软雅黑"; line-height:40px; overflow:hidden;}
+.content4_con00{float:left; width:737px; overflow:hidden;}
+.content4_con01{width:233px; height:40px; background-color:#296ecc; float:right; color:#ffffff; padding-left:10px;}
+.content4_con02{float:left; width:210px; height:540px;}
+.content4_con03{float:left; width:245px; height:320px; overflow:hidden;}
+.content4_con04{float:left; width:245px; height:219px; overflow:hidden;}
+.content4_con05{float:right; width:241px; height:540px;overflow:hidden;}
+.content4_ul{padding:12px 12px 0; font-size:14px;margin-bottom:5px;}
+.content4_li{position:relative;display:inline-block;background:#e9ecf2;height:22px;line-height:22px;color:#666;padding:0 9px;cursor:pointer;margin-right:7px;border-radius:2px}
+.content4_li b{border-width:8px;position:absolute;top:22px;left:38%;border-color:#296ecc transparent transparent;border-style:solid; display:none;}
+.content4_con51{ width:241px; overflow:hidden; height:540px; }
+.content4_con50{position:absolute;left:0px;width:482px;height:540px;}
+.content4_con52{ width:241px;height:540px;position:absolute;top:0px;}
+.content4_con53{position: relative;height: 40px;width: 210px;padding: 8px 15px;background:url(../images/Electronics_content4_Bg5.png) no-repeat scroll 50% bottom transparent;}
+.content4_con53last{background:none;}
+.content4_con531{ float:left;}
+.content4_con532{ padding-left:44px;}
+.content4_con532 p{ color:#c8000b;font:12px tahoma, arial, "Hiragino Sans GB", "微软雅黑", "宋体", sans-serif; line-height:45px;font-weight:700;}
+.content4_con532 a{cursor: pointer; display:block; float:left;font:12px/1.5 tahoma, arial, "Hiragino Sans GB", "微软雅黑", "宋体", sans-serif;height:21px;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:140px; position:absolute;top:10px;left:60px;}
+.content4_con532 a:hover{ text-decoration:underline;}
+.content4_con54{position: absolute;color: #C2C6CE;top: -15px;right: 15px;font-size: 18px;font-style: italic;text-decoration: none;font-family: Didot;}
+/*保证栏*/
+.content4_con3{background-image:url(../images/Electronics_content4_con3.png);width:1190px;height:60px; margin:20px 0px;}
+.content4_con3a1{width:21%;height:50px;display:block;}
+.content4_con3a2{width:20.2%;height:50px;display:block;}
+.content4_con3a3{width:16.8%;height:50px;display:block;}
+
+/*固定图标*/
+.navmsg_con21:hover{color:#ffffff;background-color:#356acb;}
+=======
+/*搜索颜色*/
+.search{ background-color:#356acb; }
+.btnsear{background-color: #356acb;}
+/*导航*/
+/*导航上部*/
+.navBg01{background-color: #356acb;height:50px; padding:5px 0px 5px; position:absolute; z-index:2;}
+/*导航位置*/
+.navBg03{background-color: #356acb;height:50px; padding:5px 0px 5px;}
+.navBg_fix{ position:fixed; top:0px;}
+.nav_up{width: 225px;height: 45px;padding-left: 8px;margin: 5px 2px 0px;font: 12px/1.5 arial,tahoma,宋体;color:#fff;  float: left;border-right: 1px dotted #C5E1FB;}
+.nav_up:hover{ background-color:#ffffff;}
+.nav_up a{color:#fff; vertical-align:bottom;}
+.nav_up p{ margin:2px 0px 0px;}
+.nav_up p a{ padding-right:5px;}
+.nav_up p a:hover{color:#ff7c31; text-decoration:underline;}
+.nav_up strong{font: bold 16px/1.5 "microsoft yahei";}
+.nav_up strong a:hover{text-decoration:underline;}
+/*取消右边框*/
+.nav_upRbor{border-right:none;}
+/*顶端隐藏导航*/
+.nav_hidden1{ width:234px;height:7px;position:absolute;top:45px;left:-8px; background-color:#ffffff; display:none;}
+.nav_hidden{ width:460px;height:100px;border: 2px solid #3087D9;position:absolute;top:50px;left:-10px;background-color:#ffffff; display:none;}
+.nav_hidden01{ width:233px;height:7px;position:absolute;top:45px;left:-8px; background-color:#ffffff; display:none;z-index:2;}
+.nav_hidden00{ width:460px;height:100px;border: 2px solid #3087D9;position:absolute;top:50px;right:-227px;background-color:#ffffff; display:none;z-index:2;}
+/*导航下部*/
+.navBg02{background-color: #c8000b;}
+.nav_down{background-image:url(../images/Electronics_navBg1.png);height:420px; }
+/*导航tab*/
+.nav_licon{position:absolute;overflow:hidden; width:1000px; height:420px;  }
+.nav_li { position:absolute; left:45%; bottom:6px;width:162px; z-index:2px; }
+.nav_li li{display:inline-block;width:20px;height:20px;cursor: pointer;color: #FFF; padding:0px;margin-right: 6px;text-align: center;line-height: 20px;border-radius: 50%; background-color:#000000;}
+.nav_li li:hover{ background-color:#fe8802;}
+/*导航右端定位元素*/
+.nav_right00con{position:absolute;}
+.nav_right00{width:190px;height:480px;position:absolute;z-index:1;left:1000px; }
+.nav_right00 b{display: block;height: 0px;font-size: 0px;line-height: 0;border-top: 1px dotted #EEE;}
+/*左右边框*/
+/*宽1，灰*/
+.B_lr{border-left:solid; border-right:solid;border-width:1px; border-color:#dde0e6;}
+/*上边框*/
+/*宽3，蓝*/
+.B_up1{border-top:solid; border-top-width:3px; border-top-color:#296ecc; }
+/*宽1，灰*/
+.B_up2{border-top:solid; border-top-width:1px; border-top-color:#dde0e6; }
+/*页面主体*/
+/*下边框*/
+/*宽1，灰*/
+.B_down{ border-bottom:solid 1px #dde0e6;}
+
+.content1_con{ overflow:hidden; margin:0 auto;}
+.content1_con1{border-top:solid; border-top-width:3px; border-color:#296ecc; width:297px; height:400px; float:left; background-color:red; position:relative;}
+.content1_con2{width:297px; height:230px;}
+/*遮罩*/
+.content1_con02{ position:absolute; width:297px; height:230px; display:none; opacity:0.2;filter: alpha(opacity=20); background-color:#ffffff;}
+.content1_con3{width:297px; height:170px;padding-left:5px; background-color:#ffffff; font-size:14px}
+.content1_con3 strong{ font-size:19px; color:#296ecc; }
+.content1_con3 p{color:#296ecc; }
+.content1_con4{ width:80px; height:24px; background-color:#5b67df; position:absolute; bottom:10px; left:10px;color:#ffffff; font-size:12px; line-height:24px; text-align:center;}
+.content1_Bg{ background-color:#cccccc}
+/*特惠套装*/
+.content2_con{ height:180px; background-color:#fe8802;}
+.content2_con1{ margin:0 auto; width:1170px;}
+.content2_con2{ width:380px; margin:11px 5px; float:left; position:relative;left:0px;right:0px; }
+/*家具空间*/
+.content3_con{ height:700px;background-image:url(../images/Electronics_content3img1.png);background-repeat: no-repeat;text-align: center;background-size: cover; margin:20px 0px 0px; color:#296ecc;}
+.content3_con h1{font: 24px/1.5 "microsoft yahei"; padding:5px;}
+.content3_con h2{font: 14px/1.5 "microsoft yahei";}
+.content3_con1{ width:616px; height:588px; background-image:url(../images/Electronics_content3img2.png);color: #FFF;font: bold 14px/28px "microsoft yahei";text-align: center;}
+/*扩散框*/
+.content3_con11::before
+{
+	position:absolute;
+	top:-5px;
+	left:-5px;
+	content:"";
+	display:block;
+	width:46px;
+	height:46px;
+	border:5px solid rgba(62,154,240,.7);
+	border-radius:50px;
+	-webkit-animation:scaleout 2s infinite linear;
+	-moz-animation:scaleout 2s infinite linear;
+	-ms-animation:scaleout 2s infinite linear;
+	animation:scaleout 2s infinite linear;
+	
+}
+.content3_con11::after{
+	position:absolute;
+	top:-10px;
+	left:-10px;
+	content:"";
+	width:56px;
+	height:56px;
+	display:block;
+	border:5px solid rgba(62,154,240,.3);
+	border-radius:60px;
+	-webkit-animation:scaleout 2s infinite linear;
+	-moz-animation:scaleout 2s infinite linear;
+	-ms-animation:scaleout 2s infinite linear;
+	animation:scaleout 2s infinite linear;
+	
+}
+@keyframes scaleout{0%{transform:scale(.8)}100%{transform:scale(1.05)}}
+@-webkit-keyframes scaleout{0%{-webkit-transform:scale(.8);transform:scale(.8)}100%{-webkit-transform:scale(1.05);transform:scale(1.05)}}
+@-moz-keyframes scaleout{0%{-moz-transform:scale(.8);transform:scale(.8)}100%{-moz-transform:scale(1.05);transform:scale(1.05)}}
+@-ms-keyframes scaleout{0%{-ms-transform:scale(.8);transform:scale(.8)}100%{-ms-transform:scale(1.05);transform:scale(1.05)}}
+.content3_con11{position: absolute;background-color:#3e9af1; width: 46px;height: 40px;padding-top: 6px;cursor: pointer;  border-radius:50%;font: bold 14px/32px "microsoft yahei"; color:#FFF;}
+.content3_con16{position: absolute;background-color:#fe8802; width: 46px;height: 40px;padding-top: 6px;cursor: pointer;  border-radius:50%;font: bold 14px/32px "microsoft yahei"; color:#FFF; display:none;}
+/*连接线*/
+.content3_con11b{display:none; border-left:solid 2px #3e9af0;border-top:solid 2px #3e9af0;position:absolute;}
+/*隐藏框*/
+.content3_con21{ display:none; position: absolute;width: 56px;height: 40px;padding-top: 6px;cursor: pointer; background-color:#3e9af1; border-radius:50%;font: 12px/1 "microsoft yahei";cursor: pointer; padding-top:16px;}
+.content3_con12{left: 133px;top: 172px;}/*厨房*/
+.content3_con12b{left: 21px;top:-102px;width: 454px;height: 100px;}
+.content3_con13{left: 261px;top: 246px;}/*客厅*/
+.content3_con13b{left: 21px;top:-137px;width: 326px;height: 135px;}
+.content3_con14{left: 374px;top: 340px;}/*卧室*/
+.content3_con14b{left: 21px;top:-182px;width: 213px;height: 180px;}
+.content3_con15{left: 436px;top: 238px;}/*卫生间*/
+.content3_con15b{left: 21px;top:-112px;height: 110px;width: 151px;}
+.content3_con22{left: -38px;top: -60px; background-color:#fe8802;}
+.content3_con23{left: -70px;top: -5px;}
+.content3_con24{left: -38px;top: 48px;}
+.content3_con2{ width:546px; height:558px; background-color:#3e9af0; position:absolute; left:616px;margin-top: 16px;margin-left: -8px;padding-left: 16px;padding-right: 18px;display:none;}
+.content3_con3{ width:150px; height:30px; background-color:#3e9af0; text-indent:8px;position:absolute;left:-8px;top:10px;text-align:left;}
+.content3_con3 a{ color: #FFF;font: 14px/30px "microsoft yahei"; }
+.content3_con3 a:hover{ text-decoration:underline;}
+.content3_right {margin: 10px 3px;text-align: left; color: #FFF;}
+.content3_right b {font-weight: 900;color: #FFE402;}
+.content3_right p {font: bold 18px/1.5 "microsoft yahei";}
+.content3_right1 {width: 170px;height: 190px;background-color: #FFF;float: left;margin: 2px; font: 12px/1.5 arial,tahoma,宋体;color: #000;padding-left: 6px;}
+.content3_right1 a:hover {text-decoration: underline;color: #FE8802;}
+.content3_right1 b {font: bold 16px/19px tahoma; color: #C8000B;}
+.content3_right1 strong {font: bold 16px/19px tahoma;color: #C8000B;}
+.content3_right1 p {font: 12px/1.5 arial,tahoma,宋体;margin: 0px;color: #999;}
+.content3_right01 p {margin: 5px;font: 12px/1.5 "microsoft yahei";}
+.content3_right1 img{width: 120px; float: right;}
+.content3_right11{ opacity: 0.8;filter: alpha(opacity=80); position: absolute; width: 176px;height: 24px; bottom: -24px;background-color: #FF8802; color: #FFF;text-align: center;line-height: 24px;}
+.content3_right11:hover{ opacity: 1;filter: alpha(opacity=100); }
+.content3_right11 a{ color: #FFF;}
+.content3_right11 a:hover { color: #FFF; text-decoration: none;}
+.content3_right12 {position: absolute; width: 176px; left: -6px;height: 24px; bottom: 0px; overflow: hidden;}
+.content3_con4{ width:8px; text-indent:0px; position:absolute; background-image:url(../images/Electronics_content3img4.png); height:8px;}
+/*广告*/
+.content4_con1{margin:20px 0px 0px;}
+/*主体*/
+.content4_con2{margin:20px 0px 0px; font-size:20px; font-weight:700; font-family:"微软雅黑"; line-height:40px; overflow:hidden;}
+.content4_con00{float:left; width:737px; overflow:hidden;}
+.content4_con01{width:233px; height:40px; background-color:#296ecc; float:right; color:#ffffff; padding-left:10px;}
+.content4_con02{float:left; width:210px; height:540px;}
+.content4_con03{float:left; width:245px; height:320px; overflow:hidden;}
+.content4_con04{float:left; width:245px; height:219px; overflow:hidden;}
+.content4_con05{float:right; width:241px; height:540px;overflow:hidden;}
+.content4_ul{padding:12px 12px 0; font-size:14px;margin-bottom:5px;}
+.content4_li{position:relative;display:inline-block;background:#e9ecf2;height:22px;line-height:22px;color:#666;padding:0 9px;cursor:pointer;margin-right:7px;border-radius:2px}
+.content4_li b{border-width:8px;position:absolute;top:22px;left:38%;border-color:#296ecc transparent transparent;border-style:solid; display:none;}
+.content4_con51{ width:241px; overflow:hidden; height:540px; }
+.content4_con50{position:absolute;left:0px;width:482px;height:540px;}
+.content4_con52{ width:241px;height:540px;position:absolute;top:0px;}
+.content4_con53{position: relative;height: 40px;width: 210px;padding: 8px 15px;background:url(../images/Electronics_content4_Bg5.png) no-repeat scroll 50% bottom transparent;}
+.content4_con53last{background:none;}
+.content4_con531{ float:left;}
+.content4_con532{ padding-left:44px;}
+.content4_con532 p{ color:#c8000b;font:12px tahoma, arial, "Hiragino Sans GB", "微软雅黑", "宋体", sans-serif; line-height:45px;font-weight:700;}
+.content4_con532 a{cursor: pointer; display:block; float:left;font:12px/1.5 tahoma, arial, "Hiragino Sans GB", "微软雅黑", "宋体", sans-serif;height:21px;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:140px; position:absolute;top:10px;left:60px;}
+.content4_con532 a:hover{ text-decoration:underline;}
+.content4_con54{position: absolute;color: #C2C6CE;top: -15px;right: 15px;font-size: 18px;font-style: italic;text-decoration: none;font-family: Didot;}
+/*保证栏*/
+.content4_con3{background-image:url(../images/Electronics_content4_con3.png);width:1190px;height:60px; margin:20px 0px;}
+.content4_con3a1{width:21%;height:50px;display:block;}
+.content4_con3a2{width:20.2%;height:50px;display:block;}
+.content4_con3a3{width:16.8%;height:50px;display:block;}
+
+/*固定图标*/
+.navmsg_con21:hover{color:#ffffff;background-color:#356acb;}
+>>>>>>> .r325

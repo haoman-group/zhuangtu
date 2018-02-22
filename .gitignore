@@ -1,0 +1,12 @@
+.idea/*
+.DS_Store
+\#runtime/*
+!\#runtime/.gitkeep
+d/file/*
+!d/file/.gitkeep
+*.log
+shuipf/Template/Default/Seller/Manage/declayout_loc.php
+.vscode/*
+shuipf/Common/Conf/dataconfig.php
+jsapi_ticket.json
+access_token.json

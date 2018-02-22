@@ -1,0 +1,23 @@
+/*定位*/
+.SDPT_position{ position:fixed; left:50%; top:50%; z-index:100000;}
+/*背景框*/
+.SDPT_Bg{ width:870px; height:460px; position:absolute; left:-435px; top:-230px; background-color:#000000; opacity:0.7;filter: alpha(opacity=70);}
+/*内容*/
+.SDPT_main{ width:840px; height:430px; overflow:hidden; position:absolute; font-size:12px; left:-420px; top:-215px; background-color:#ffffff;}
+/*一级标题*/
+.SDPT_navOne{ background-color:#333333; height:20px; line-height:20px;border:1px solid #000000; color:#9ca2ae;}
+.SDPT_navOne b{ display:inline-block; cursor:pointer; font-weight:300; padding:0 20px; line-height:20px; border-right:1px solid #000000;}
+.SDPT_navOne img{ width:14px; cursor:pointer; height:14px; margin:3px; float:right;}
+/*二级标题*/
+.SDPT_navTwo{ margin-top:15px; overflow:hidden; position:relative; top:1px;}
+.SDPT_navTwo b{ display:block; cursor:pointer; float:left; color:#000000; margin:0 10px; font-weight:300; padding:0 20px; line-height:20px; border:1px solid #d3d3d1; background-color:#ededed;}
+/*展示*/
+.SDPT_display{ display:none; height:270px; width:840px;overflow:auto; border-bottom:1px solid #d3d3d1; border-top:1px solid #d3d3d1; padding:20px 0;}
+.SDPT_model{ float:left; width:160px; position:relative; height:150px; margin:22px; border:1px solid #cbcbcb; cursor:pointer;}
+.SDPT_model img{ width:160px; height:150px;}
+.SDPT_PlayImgbox{ width:162px; height:152px; position:absolute; top:-1px; left:-1px;}
+/*完成*/
+.SDPT_finish{ margin-top:20px; margin-right:150px; float:right; overflow:hidden;}
+.SDPT_finish b{ display:block; font-weight:300; float:left; width:60px; text-align:center; margin:0 10px; border-radius:4px; cursor:pointer; line-height:20px; color:#000000; background-color:#ffffff;}
+.SDPT_finish .B{ background-color:#2d2d2d; color:#ffffff;}
+

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="gbk" /> 
+  <link rel="shortcut icon" href="http://www.taobao.com/favicon.ico" type="image/x-icon" /> 
+
+  <link rel="stylesheet" href="http://g.alicdn.com//shop/taesite/0.1.1/global/global-min.css" /> 
+  <link rel="stylesheet" href="http://g.alicdn.com//shop/??wangpu/1.1.0/layout/layout-min.css,wangpu/1.1.0/global/footer-min.css,wangpu/1.1.0/global/copyright-min.css,modules/0.3.20/modules-default-min.css" /> 
+  <link rel="stylesheet" href="http://g.alicdn.com/??/shop/taesite/0.1.6/platinum/stylesheet/common/templates/fengxun/blue/skin-new.css" /> 
+  <style>
+  body{ }
+    #page #content #bd {
+        width: 100%
+    }
+
+    #content #hd {
+        max-height: none;
+    }
+    .empty-module {
+        background-color: #c0deed;
+        border: 1px dotted #4aa3cc;
+    }
+    .empty-module .skin-box {margin:0;padding:0;}
+    .tshop-psm-shop-ww-hover {top:200px;}
+	.J_TModule{ position:relative;}
+	.thismodpos{ position:absolute; line-height:16px; background:rgba(255,90,0,0.6); color:#yellow; z-index:99999; left:0; top:0; }
+	.bdpos{ line-height:30px; background:#000; color:#fff; width:500px; top:0; position:fixed; left:50%; margin-left:-250px; z-index:99999; text-align:center;}
+    #bd, #ft, #content .layout, #footer{ width:1190px;}
+    .grid-s5m0 .main-wrap{ width: 956px; margin-left:234px;}
+    .grid-s5m0 .col-sub{ width: 224px; margin-left: -1190px;}
+    #hd{margin-bottom:10px;}
+  .tshop-pbsm-shop-item-cates .skin-box-bd{ width: 222px;}
+  .tshop-pbsm-shop-top-list .top-list-tab{width: 215px;}
+  .col-sub .tshop-pbsm-shop-srch-inshop .skin-box-hd, .col-extra .tshop-pbsm-shop-srch-inshop .skin-box-hd{max-width:224px;}
+  .col-sub .tshop-pbsm-shop-srch-inshop .skin-box-bd .btn, .col-extra .tshop-pbsm-shop-srch-inshop .skin-box-bd .btn{margin-left:0px;margin-top:6px;}
+  .col-sub .tshop-pbsm-shop-srch-inshop .skin-box-bd .keyword input, .col-extra .tshop-pbsm-shop-srch-inshop .skin-box-bd .keyword input{width:108px;}
+  .grid-s5m0 .col-main .tshop-pbsm-shop-main-slide .slide-box, .grid-s5m0 .col-main .tshop-pbsm-shop-main-slide .slide-box .slide-content li{width:956px;}
+
+</style> 
+  
+ </head> 
+ <body>
+ 
+ <script src="http://apps.bdimg.com/libs/jquery/1.8.0/jquery.min.js"></script>
+ <script>
+var armodpos=[];
+
+function GetPosition(obj)
+{
+ var left = 0;
+ var top   = 0;
+
+ while(obj != document.body )
+ {
+ 	left +=	obj.offsetLeft;
+    top  += obj.offsetTop;
+	if(!obj.offsetParent )
+	{obj=document.body}
+	else
+    {obj = obj.offsetParent;}
+	
+ }
+ return {"left":left,"top":top};
+}
+ 
+function abc(){
+	//$("#bdpos").html( $("#bd")[0].offsetWidth+"--content"+$("#content").width()+"--page"+$("#page").width()+"--body"+$("body").width()+"-"+$("body")[0].scrollHeight+document.body.scrollWidth);
+	
+	arzmodspos=[];
+	$(".J_TModule").each(function(i, e) {
+		//$(e).append("<div class='thismodpos'>"+i+"x"+GetPosition(e).left+"y"+GetPosition(e).top+"w"+e.offsetWidth+"h"+e.offsetHeight+";offsetTop"+e.offsetTop+"--offsetLeft"+e.offsetLeft+"--offsetHeight"+e.offsetHeight+"--offsetWidth"+e.offsetWidth+"reltop"+(GetPosition(e).top-$(window).scrollTop())+"--relleft"+(GetPosition(e).left-$(window).scrollLeft())+"</div>");	
+		arzmodspos.push({"x":GetPosition(e).left,"y":GetPosition(e).top,"w":e.offsetWidth,"h":e.offsetHeight,"modid":e.getAttribute("data-componentid"),"widgetid":e.getAttribute("data-widgetid"),"id":e.getAttribute("id"),"isdel":e.getAttribute("data-isdel"),"ismove":e.getAttribute("data-ismove"),"isadd":e.getAttribute("data-isadd"),"istarget":e.getAttribute("data-istarget"),"wtype":e.getAttribute("data-context"),"accwtype":e.parentNode.getAttribute("data-width"),"title":e.getAttribute("data-title"),"editurl":e.getAttribute("data-uri"),"i":i});
+	}); 
+	if(top){
+		top.setarzmodspos(arzmodspos);
+	}
+}
+ 
+function zmodremove(id){
+	$("#"+id).animate({"height":"0px","width":"0px"},500,function(){
+		$(this).remove();
+		abc();	
+	}) 
+}
+
+function zmodadd(strzmodhtml, jsonzmod){
+	var zmodindex = jsonzmod.index;
+	var zmodhalf = jsonzmod.half;
+	if( zmodhalf ){
+		$(".J_TModule").eq(zmodindex).before(strzmodhtml);
+	}
+	else{
+		$(".J_TModule").eq(zmodindex).after(strzmodhtml);	
+	}
+	abc();
+}
+
+ 
+$(function(){
+	
+})
+ 
+ 
+ 
+ </script>
+  
+<div id="bdpos" class="bdpos"></div>  
+  <div id="page"> 
+   <div id="content" class="tb-shop"> 
+    <!--mmfloatingfalse--> 
+    <div class="add-ww-hover tshop-psm-shop-ww-hover" id="shop-ww-hover" data-url="http://mai.taobao.com/subaccount/qianniu/shop.htm?edit=true"> 
+      
+    </div> 
+    <div id="hd"> 
+     <div class="layout grid-m J_TLayout" data-widgetid="12350952760" data-componentid="23" data-prototypeid="23" data-id="12350952760" data-max="2"> 
+      <div class="col-main"> 
+       <div class="main-wrap J_TRegion" data-modules="main" data-width="h950" data-max="2"> 
+        <div class="J_TModule" data-widgetid="12350952761" id="shop12350952761" data-componentid="8820" data-spm="110.0.8820-12350952761" microscope-data="8820-12350952761" data-title="店铺招牌" data-context="h950" data-ismove="1" data-isdel="1" data-isedit="1" data-isadd="1" data-width="909" data-uri="/module/moduleForm.htm?widgetId=12350952761&amp;sid=340908835&amp;pageId=1147566751">
+         <div class="skin-box tb-module tshop-pbsm tshop-pbsm-shop-custom-banner"> 
+          <s class="skin-box-tp">
+           <b></b>
+          </s> 
+          <div class="skin-box-hd disappear"> 
+           <i class="hd-icon"></i> 
+           <h3><span>店标</span></h3> 
+           <div class="skin-box-act"> 
+            <a href="#" class="more">更多</a> 
+           </div> 
+          </div> 
+          <div class="skin-box-bd"> 
+           <style>.tshop-pbsm-shop-custom-banner .banner-box {
+            background : url(//img.alicdn.com/tps/TB1hYBhJXXXXXciXpXXXXXXXXXX-950-120.png) repeat 0 0 ;
+            height : 115px ;
+            }
+
+            .tshop-pbsm-shop-custom-banner {
+            height : 115px ;
+            }</style> 
+           <div> 
+            <div class="banner-box"></div> 
+           </div> 
+           <h2 class="title border-radius">装途网</h2>
+          </div> 
+          <s class="skin-box-bt">
+           <b></b>
+          </s> 
+         </div> 
+        </div> 
+        <div class="J_TModule" data-widgetid="12350952762" id="shop12350952762" data-componentid="5002" data-spm="110.0.5002-12350952762" microscope-data="5002-12350952762" data-title="导航" data-context="h950" data-ismove="1" data-isdel="0" data-isedit="1" data-isadd="1" data-width="650" data-uri="/module/moduleForm.htm?widgetId=12350952762&amp;sid=340908835&amp;pageId=1147566751">
+         <!-- navigatorForCharge,${renderForDetailLeft}, ${showForceShow} dcPageId: --> 
+         <!--hasDcOnNav :  , hasDcPage :  --> 
+         <div class="skin-box tb-module tshop-pbsm tshop-pbsm-shop-nav-ch"> 
+          <s class="skin-box-tp">
+           <b></b>
+          </s> 
+          <div class="skin-box-bd"> 
+           <div class="all-cats popup-container"> 
+            <div class="all-cats-trigger popup-trigger"> 
+             <a class="link " href="http://shop125546945.taobao.com/search.htm?search=y"> <span class="title"> 所有分类 </span> <i class="popup-icon"></i> </a> 
+            </div> 
+            <div class="popup-content all-cats-popup"> 
+             <div class="popup-inner"> 
+              <ul class="J_TAllCatsTree cats-tree"> 
+               <li class="cat fst-cat"> <h4 class="cat-hd fst-cat-hd has-children"> <i class="cat-icon fst-cat-icon"></i> <a href="http://shop125546945.taobao.com/search.htm?search=y" class="cat-name fst-cat-name">所有宝贝</a> </h4> 
+                <div class="snd-pop"> 
+                 <div class="snd-pop-inner"> 
+                  <ul class="fst-cat-bd"> 
+                   <li class="cat snd-cat"> <h4 class="cat-hd snd-cat-hd"> <i class="cat-icon snd-cat-icon"></i> <a href="http://shop125546945.taobao.com/search.htm?search=y&amp;orderType=hotsell_desc" class="by-label by-sale snd-cat-name" rel="nofollow">按销量</a> </h4> <h4 class="cat-hd snd-cat-hd"> <i class="cat-icon snd-cat-icon"></i> <a href="http://shop125546945.taobao.com/search.htm?search=y&amp;orderType=newOn_desc" class="by-label by-new snd-cat-name" rel="nofollow">按新品</a> </h4> <h4 class="cat-hd snd-cat-hd"> <i class="cat-icon snd-cat-icon"></i> <a href="http://shop125546945.taobao.com/search.htm?search=y&amp;orderType=price_asc" class="by-label by-price snd-cat-name" rel="nofollow">按价格</a> </h4> </li> 
+                  </ul> 
+                 </div> 
+                </div> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+           <ul class="menu-list"> 
+            <li class="menu" data-page-id="1147566751"> <a class="link" href="http://shop125546945.taobao.com/index.htm" rel="nofollow"><span class="title">首页</span></a> 
+             <!--444 1147566751   0 444--> </li> 
+            <!-- isShowHuodongNavTab:  --> 
+           </ul> 
+          </div> 
+          <s class="skin-box-bt">
+           <b></b>
+          </s> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+
+    </div>
+    <div id="bd">
+           <div class="layout grid-s5m0 J_TLayout" data-widgetid="13072503471" data-componentid="1" data-context="bd" data-prototypeid="1" data-id="13072503471">
+
+               <div class="col-main">
+                   <div class="main-wrap J_TRegion" data-modules="main" data-width="b750">
+
+                       <div class="J_TModule" data-widgetid="13162409224" id="shop13162409224" data-componentid="4024" data-spm="110.0.4024-13162409224" microscope-data="4024-13162409224" data-title="图片轮播" data-context="b950-b190-b750-b550" data-ismove="1" data-isdel="1" data-isedit="1" data-isadd="1" data-width="773" data-uri="/module/moduleForm.htm?widgetId=13162409224&amp;sid=340826219&amp;pageId=1147251295"><div class="skin-box tb-module tshop-pbsm tshop-pbsm-shop-main-slide tshop-pbsm-shop-main-slide-1452139115484">
+                           <style>.tshop-pbsm-shop-main-slide-1452139115484 .slide-box,.tshop-pbsm-shop-main-slide-1452139115484 .slide-box .slide-content li{height: 250px;}</style>
+                           <s class="skin-box-tp"><b></b></s>
+                           <div class="skin-box-hd ">
+                               <i class="hd-icon"></i>
+                               <h3>
+			<span>
+				 										图片轮播
+													</span>
+                               </h3>
+                               <div class="skin-box-act disappear">
+                                   <a href="#" class="more">更多</a>
+                               </div>
+                           </div>
+                           <div class="skin-box-bd">
+                               <div data-widget-config="{
+            'contentCls': 'slide-content',
+            'triggerCls': 'slide-triggers',
+            'navCls': 'slide-triggers',
+            'activeTriggerCls': 'selected',
+            'triggerType': 'mouse',
+            'effect': 'fade',
+            'prevBtnCls': 'prev-btn',
+            'nextBtnCls': 'next-btn',
+            'disableBtnCls': 'disable',
+            'steps': 1,
+            'autoplay': true,
+            'circular': true,
+            'length': 2,
+            'interval': 3,
+            'easing': 'easeBothStrong'
+        }" data-widget-type="Carousel" class="J_TWidget slide-box">
+                                   <ul class="slide-content">
+                                       <li style="display: block;">
+                                           <a target="_blank" title="" href="#"><img src="//gdp.alicdn.com/tps/i2/T1GBncXl4fXXa_gJAe-950-250.png"></a>
+                                           <div class="title"></div>
+                                           <div class="sub-title"></div>
+                                           <div class="other"></div>
+
+                                       </li>
+                                       <li style="display: block;">
+                                           <a target="_blank" title="" href="#"><img src="//gdp.alicdn.com/tps/i3/T1NWDfXjldXXa_gJAe-950-250.png"></a>
+                                           <div class="title"></div>
+                                           <div class="sub-title"></div>
+                                           <div class="other"></div>
+
+                                       </li>
+                                   </ul>
+                                   <div class="slide-triggers-bg"></div>
+                                   <ol class="slide-triggers">
+                                       <li class="first selected"><span>01</span><s></s></li>
+                                       <li><span>02</span><s></s></li>
+                                   </ol>
+                                   <div class="prev-btn prev">
+                                       <div class="prev-next-bg"></div>
+                                       <div class="text"></div>
+                                   </div>
+                                   <div class="next-btn next">
+                                       <div class="prev-next-bg"></div>
+                                       <div class="text"></div>
+                                   </div>
+                               </div>
+                           </div>
+                           <s class="skin-box-bt"><b></b></s>
+                       </div>
+                       </div>
+                       <div class="J_TModule" data-widgetid="13207670990" id="shop13207670990" data-componentid="4004" data-spm="110.0.4004-13207670990" microscope-data="4004-13207670990" data-title="宝贝推荐" data-context="b950-b190-b750-b550" data-ismove="1" data-isdel="1" data-isedit="1" data-isadd="1" data-width="800" data-needwidth="1" data-renderwmove="1" data-renderurl="//siteadmin.taobao.com/module/modulePreview.htm?widgetId=13207670990&amp;sid=340826219&amp;pageId=1147251295" data-uri="//siteadmin.taobao.com/module/edit/itemRecommend.htm?widgetId=13207670990&amp;sid=340826219&amp;pageId=1147251295&amp;isMultiport=0"><!-- searchURL: http://10.184.10.116:3210/bin/sp?src=taesite10.179.79.204&amp;sort=popular:des&amp;sellerid=1059350344&amp;tab=all&amp;s=0&amp;n=16&amp;app=inshop&amp;outfmt=json -->
+                           <!-- pageDO是：SitePageDO[id=1147251295,pageName=首页,pageType=1,taeSiteInstanceId=340826219 pageId1: pagePartsDO: -->
+                           <!-- isLazy：, pageType是：1 pageId2: appID:03068  -->
+                           <!-- requestUri: /canvas.htm -->
+                           <!-- regionWidth: 750 -->
+                           <div class="skin-box tb-module tshop-pbsm tshop-pbsm-shop-item-recommend">
+                               <s class="skin-box-tp"><b></b></s>
+                               <div class="skin-box-hd">
+                                   <i class="hd-icon"></i>
+
+                                   <h3>
+                                       <span>宝贝推荐</span>
+                                   </h3>
+
+                                   <div class="skin-box-act">
+                                       <a href="//shop125546945.taobao.com/search.htm?search=y&amp;orderType=coefp_desc" class="more" target="_blank" rel="nofollow">更多&gt;</a>
+                                   </div>
+                               </div>
+                               <div class="skin-box-bd">
+
+                                   <div class="item3line1">
+                                       <dl class="item   " data-id="524652636501">
+                                           <dt class="photo">
+                                               <a href="//item.taobao.com/item.htm?id=524652636501" target="_blank">
+                                                   <img src="//img.alicdn.com/bao/uploaded/i3/TB1N5_KKFXXXXaVXpXXXXXXXXXX_!!2-item_pic.png_240x240.jpg" alt="吊带背心">
+                                               </a>
+                                           </dt>
+                                           <dd class="detail">
+                                               <a class="item-name" href="//item.taobao.com/item.htm?id=524652636501" target="_blank">吊带背心</a>
+
+                                               <div class="attribute">
+                                                   <div class="cprice-area"><span class="symbol">?</span><span class="c-price">999.00 </span>
+                                                   </div>
+                                               </div>
+                                           </dd>
+                                       </dl>
+                                   </div>
+                               </div>
+                               <s class="skin-box-bt"><b></b></s>
+                           </div>
+                       </div>
+
+
+                   </div>
+               </div>
+               <div class="col-sub J_TRegion" data-modules="sub" style="overflow:visible;" data-width="b190">
+
+                   <div class="J_TModule" data-widgetid="13207726482" id="shop13207726482" data-componentid="4010" data-spm="110.0.4010-13207726482" microscope-data="4010-13207726482" data-title="宝贝分类（竖向）" data-context="b190" data-ismove="1" data-isdel="1" data-isedit="1" data-isadd="1" data-width="720" data-istarget="1" data-uri="//siteadmin.taobao.com/category/index.htm?sid=340826219"><!-- $categoryId $aabc 搜索列表${x-shop-url}请求:searchURL: ，无宝贝：searchURL: , bucketId:  bucketUser： -->
+                       <div class="skin-box tb-module tshop-pbsm tshop-pbsm-shop-item-cates">
+                           <s class="skin-box-tp"><b></b></s>
+
+                           <div class="skin-box-hd">
+                               <i></i>
+
+                               <h3>
+			<span>
+				宝贝分类
+		    </span>
+                               </h3>
+
+                               <div class="skin-box-act disappear">
+                                   <a href="#">更多</a>
+                               </div>
+                           </div>
+                           <div class="skin-box-bd">
+
+                               <ul class="J_TCatsTree cats-tree J_TWidget" data-widget-type="Accordion" data-widget-config="{
+             'triggerCls': 'acrd-trigger',
+             'panelCls': 'fst-cat-bd',
+             'activeTriggerCls': 'active-trigger',
+             'triggerType': 'click',
+             'multiple': true
+        }">
+
+                                   <li class="cat fst-cat float">
+                                       <h4 class="cat-hd fst-cat-hd">
+                                           <i class="cat-icon fst-cat-icon acrd-trigger active-trigger"></i>
+                                           <a href="//shop125546945.taobao.com/category.htm?search=y" class="cat-name fst-cat-name" title="查看所有宝贝">查看所有宝贝</a>
+                                       </h4>
+                                       <ul class="fst-cat-bd">
+                                           <a href="//shop125546945.taobao.com/search.htm?search=y&amp;orderType=hotsell_desc" class="cat-name" title="按销量">按销量</a>
+                                           <a href="//shop125546945.taobao.com/search.htm?search=y&amp;orderType=newOn_desc" class="cat-name" title="按新品">按新品</a>
+                                           <a href="//shop125546945.taobao.com/search.htm?search=y&amp;orderType=price_asc" class="cat-name" title="按价格">按价格</a>
+                                           <a href="//shop125546945.taobao.com/search.htm?search=y&amp;orderType=hotkeep_desc" class="cat-name" title="按收藏">按收藏</a>
+                                       </ul>
+                                   </li>
+
+                                   <li class="cat fst-cat ">
+                                       <h4 class="cat-hd fst-cat-hd" data-cat-id="1168684628">
+                                           <i class="cat-icon fst-cat-icon acrd-trigger active-trigger"></i><a class="cat-name fst-cat-name" href="//shop125546945.taobao.com/category-1168684628.htm?search=y&amp;catName=%D4%AD%C4%BE%BC%D2%BE%DF#bd">原木家具</a>
+
+                                       </h4>
+                                       <ul class="fst-cat-bd">
+                                           <li class="cat snd-cat  ">
+                                               <h4 class="cat-hd snd-cat-hd" data-cat-id="1168684629">
+                                                   <i class="cat-icon snd-cat-icon"></i><a class="cat-name snd-cat-name" href="//shop125546945.taobao.com/category-1168684629.htm?search=y&amp;parentCatId=1168684628&amp;parentCatName=%D4%AD%C4%BE%BC%D2%BE%DF&amp;catName=%B2%CD%D7%C0#bd">餐桌</a>
+                                               </h4>
+                                           </li>
+                                       </ul>
+                                   </li>
+                                   <li class="cat fst-cat no-sub-cat ">
+                                       <h4 class="cat-hd fst-cat-hd" data-cat-id="1168695598">
+                                           <i class="cat-icon fst-cat-icon"></i>
+                                           <a class="cat-name fst-cat-name" href="//shop125546945.taobao.com/category-1168695598.htm?search=y&amp;catName=%B5%C6%BE%DF#bd">灯具</a>
+                                       </h4>
+                                   </li>
+                               </ul>
+                           </div>
+                           <s class="skin-box-bt"><b></b></s>
+                       </div>
+                   </div><div class="J_TModule" data-widgetid="13178033440" id="shop13178033440" data-componentid="4023" data-spm="110.0.4023-13178033440" microscope-data="4023-13178033440" data-title="宝贝排行榜" data-context="b190" data-ismove="1" data-isdel="1" data-isedit="1" data-isadd="1" data-uri="/module/moduleForm.htm?widgetId=13178033440&amp;sid=340826219&amp;pageId=1147251295">	<!-- searchUrl : http://10.184.11.56:3210/bin/sp?src=taesite10.179.79.204&amp;sort=volume:des&amp;sellerid=1059350344&amp;tab=all&amp;s=0&amp;n=5&amp;app=inshop&amp;outfmt=json   -->
+                   <div class="skin-box tb-module tshop-pbsm tshop-pbsm-shop-top-list">
+                       <s class="skin-box-tp"><b></b></s>
+                       <div class="skin-box-hd">
+                           <i class="hd-icon"></i>
+                           <h3>
+                               <span>宝贝排行榜</span>
+                           </h3>
+                           <div class="skin-box-act disappear">
+                               <a href="#" class="more">更多</a>
+                           </div>
+                       </div>
+                       <div class="skin-box-bd">
+                           <ul class="top-list-tab">
+                               <li class="selected"><span class="J_SaleTab tab1">销售量</span></li>
+                               <li data-geturl="//favorite.t.taobao.com/json/shop_hot_items.htm?ownerId=1059350344&amp;limit=5" class=" J_Collect"><span class="J_CollectTab tab2">收藏数</span></li>
+                           </ul>
+                           <div class="panels">
+                               <div class="panel sale ">
+                                   <ul>
+                                       <li class="item even last">
+                                           <div class="ranking">
+                                               <span>1</span>
+                                           </div>
+                                           <div class="more">
+                                               <a href="//item.taobao.com/item.htm?id=524652636501" target="_blank"><img src="//img.alicdn.com/bao/uploaded/i3/TB1N5_KKFXXXXaVXpXXXXXXXXXX_!!2-item_pic.png_120x120.jpg" class="hover-show"></a>
+                                           </div>
+                                           <div class="img">
+                                               <a href="//item.taobao.com/item.htm?id=524652636501" target="_blank"><img alt="商品图片" src="//img.alicdn.com/bao/uploaded/i3/TB1N5_KKFXXXXaVXpXXXXXXXXXX_!!2-item_pic.png_40x40.jpg" class="hover-show"></a>
+                                           </div>
+                                           <div class="detail">
+                                               <p class="desc"><a title="吊带背心" href="//item.taobao.com/item.htm?id=524652636501" target="_blank">吊带背心</a></p>
+                                               <p class="price">￥<span>999.00</span></p>
+                                               <p class="sale">
+                                                   已售出<span class="sale-count">0</span>件
+                                               </p>
+                                           </div>
+                                       </li>
+                                   </ul>
+                               </div>
+                               <div class="panel collection disappear">
+                               </div>
+                               <div class="control-group">
+                                   <a class="collect-this-shop border-radius" href="//favorite.taobao.com/popup/add_collection.htm?itemid=125546945&amp;itemtype=0&amp;ownerid=1059350344&amp;scjjc=2&amp;_tb_token_=vQ91jpkwmNTkwGA" target="_blank" rel="nofollow">收藏本店</a>
+                                   <span class="split">/</span>
+                                   <a class="show-more border-radius disappear hotkeep_desc" target="_blank" href="//shop125546945.taobao.com/search.htm?orderType=hotkeep_desc">查看更多宝贝</a>
+                                   <a class="show-more border-radius hotsell_desc" target="_blank" href="//shop125546945.taobao.com/search.htm?orderType=hotsell_desc">查看更多宝贝</a>
+                               </div>
+                           </div>
+                       </div>
+                       <s class="skin-box-bt"><b></b></s>
+                   </div>
+               </div>
+                   <div class="J_TModule" data-widgetid="13162599322" id="shop13162599322" data-componentid="4031" data-spm="110.0.4031-13162599322" microscope-data="4031-13162599322" data-title="搜索店内宝贝" data-context="b950-b190-b750-b550" data-ismove="1" data-isdel="1" data-isedit="1" data-isadd="1" data-uri="/module/moduleForm.htm?widgetId=13162599322&amp;sid=340826219&amp;pageId=1147251295">
+                       <div class="skin-box tb-module tshop-pbsm tshop-pbsm-shop-srch-inshop">
+                           <s class="skin-box-tp"><b></b></s>
+                           <div class="skin-box-hd">
+                               <i class="hd-icon"></i>
+                               <h3>
+        				<span>
+            			                					            						本店搜索
+            					            		                				</span>
+                               </h3>
+                           </div>
+                           <div class="skin-box-bd">
+                               <form name="SearchForm" action="//shop125546945.taobao.com/search.htm" method="get">
+                                   <ul>
+                                       <input type="hidden" name="search" value="y">
+                                       <li class="keyword">
+                                           <label for="keyword">
+                                               <span class="key">关键字</span>
+                                               <input type="text" size="18" name="keyword" autocomplete="off" value="" class="keyword-input J_TKeyword prompt">
+                                           </label>
+
+                                       </li>
+                                       <li class="submit">
+                                           <input value="搜索" class="J_TSubmitBtn btn" type="submit">
+                                       </li>
+                                   </ul>
+                               </form>
+                               <div class="hot-keys">
+
+                                   <span>热门搜索:</span>
+                                   <a href="//shop125546945.taobao.com/search.htm?search=y&amp;keyword=%B9%D8%BC%FC%B4%CA%D2%BB">关键词一</a>
+                                   <a href="//shop125546945.taobao.com/search.htm?search=y&amp;keyword=%B9%D8%BC%FC%B4%CA%B6%FE">关键词二</a>
+                                   <a href="//shop125546945.taobao.com/search.htm?search=y&amp;keyword=%B9%D8%BC%FC%B4%CA%C8%FD">关键词三</a>
+                               </div>
+                           </div>
+                           <s class="skin-box-bt"><b></b></s>
+                       </div></div>
+                   <div class="J_TModule" data-widgetid="13198416994" id="shop13198416994" data-componentid="4073" data-spm="110.0.4073-13198416994" microscope-data="4073-13198416994" data-title="客服中心" data-context="b190" data-ismove="1" data-isdel="1" data-isedit="1" data-isadd="1" data-width="550" data-uri="/module/moduleForm.htm?widgetId=13198416994&amp;sid=340826219&amp;pageId=1147251295"><div class="skin-box tb-module tshop-pbsm tshop-pbsm-other-customer-service">
+                       <s class="skin-box-tp"><b></b></s>
+                       <div class="skin-box-hd">
+                           <i class="hd-icon"></i>
+                           <h3>
+                            <span>
+                                                                                                        客服中心
+                                                                                                </span>
+                           </h3>
+                       </div>
+                       <div class="skin-box-bd">
+                           <ul>
+                               <li class="service-block">
+                                   <h4>工作时间</h4>
+                                   <ul class="service-content">
+                                       <li>周一至周五：9:00-21:00</li>
+                                       <li>周六至周日：0:00-24:00</li>
+                                   </ul>
+                               </li>
+                               <li class="service-block">
+                                   <h4>在线咨询</h4>
+                                   <ul data-url="//osdsc.alicdn.com//taesite/TB15MgNKpXXXXbNXpXXUxnn4FXX.groupmember|var^groupMember;sign^7b520669ab5c30bca9ac0872d58beaf4;lang^gb18030;t^1452138831000" data-group-filter="all" data-nick="5%E5%BC%A0%E8%B1%AA%E6%A0%8B" data-gnick="5%D5%C5%BA%C0%B6%B0" class="service-content service-group">
+                                       <li data-wangwang="mainwangwang"><span class="groupname">客服中心</span><a href="//amos.alicdn.com/msg.aw?v=2&amp;site=cntaobao&amp;s=1&amp;charset=utf-8&amp;uid=5%E5%BC%A0%E8%B1%AA%E6%A0%8B" target="_blank"><img src="//amos.alicdn.com/online.aw?v=2&amp;site=cntaobao&amp;s=1&amp;charset=utf-8&amp;uid=5%E5%BC%A0%E8%B1%AA%E6%A0%8B" alt="点击这里给我发消息"></a></li></ul>
+                               </li>
+                           </ul>
+                       </div>
+                       <s class="skin-box-bt"><b></b></s>
+
+                   </div>
+                   </div>
+
+
+               </div>
+           </div>
+
+       </div>
+
+    <div id="ft"> 
+     <div class="layout grid-m J_TLayout" data-widgetid="12350952763" data-componentid="33" data-prototypeid="33" data-id="12350952763" data-max="1"> 
+      <div class="col-main"> 
+       <div class="main-wrap J_TRegion" data-modules="main" data-width="f950" data-max="1"> 
+         
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="footer"> 
+    <!--   --> 
+    <p>2015 &copy; 装途网 版权所有</p> 
+    <div id="server-num" style="display:none">
+     taesite010178082206.et2
+    </div> 
+   </div> 
+  </div>  
+  
+  
+ </body>
+</html>

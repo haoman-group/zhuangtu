@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+</head>
+<body>
+
+<script>
+    function testalert(str){
+        document.getElementById("btnjsjs").value+= "哈哈";
+        //alert(str?str:"tankuang11");
+        return "abcd";
+    }
+
+    function testalertdone(str){
+        document.getElementById("btnjsjs").value+= "哈哈";
+        //alert(str?str:"tankuang22");
+        strtest =str;
+
+        window.location.href = "ios://appAlert%2f%7c%2f"+strtest;
+        console.log(strtest);
+        return "abcd";
+    }
+
+    function testbtntxt(){
+        document.getElementById("btnjsjs").value+= "哈哈";
+        return "haha";
+    }
+
+    function jsch(){
+        document.getElementById("btnjsjs").value+= "哈哈";
+    }
+
+    function androidback(){
+        document.getElementById("btnjsjs").value+= "调Andr"+typeof(JSInterFace)+"haha";
+
+        JSInterFace.backToApp();
+    }
+
+
+
+
+    function pageinit(){
+        if(typeof (JSInterFace) !== "undefined"){
+            JSInterFace.jsGetLogin();
+        }
+
+    }
+
+
+</script>
+
+
+<a href='ios://appAlert%2f%7c%2fnba'>打开IOS相机</a><br><br/>
+
+<a href = 'javascript:testalertdone("yingchao")'>打开IOS相册</a><br><br/>
+
+<a href = "javascript:androidback()">Android Back</a><br><br/>
+
+<a href = "javascript:testalert()">JS调用JS</a><br><br/>
+
+<input type="button" onclick="testalert()" value="JS调用JS">
+
+<input type="button" onclick="jsch()" id="btnjsjs" value="jsdiaoyongjsfeitankuang"><br>
+<div id="spa">111</div>
+<div id="spb">登录结果</div>
+<div id="spc">ceshi</div>
+<div id="spd">调用否</div>
+<div id="spe">storage</div>
+
+
+<script>
+
+    //var strtest ="chushihas";
+
+    console.log(111);
+    //window.location.href = "ios://appAlert%2f%7c%2f"+document.getElementById("btnjsjs").value+"222";
+
+    function chstrtest(){
+        strtest ="chushi000";
+        document.getElementById("btnjsjs").value+= "haha";
+        //window.location.href = "ios://appAlert%2f%7c%2f"+document.getElementById("btnjsjs").value+"33233";
+    }
+
+</script>
+
+<script src="http://g.alicdn.com/sj/lib/zepto/zepto.min.js"></script>
+<script src="http://g.alicdn.com/msui/sm/0.6.2/js/sm.min.js"></script>
+
+
+
+
+
+<script>
+
+
+
+
+
+$(function(){
+    if(typeof (JSInterFace) !== "undefined"){
+        JSInterFace.jsGetLogin();
+    }
+
+    console.log(222);
+
+    //window.location.href = "ios://appAlert%2f%7c%2f"+document.getElementById("btnjsjs").value+"1121";
+    setTimeout(function(){window.location.href = "ios://appAlert%2f%7c%2f"+document.getElementById("btnjsjs").value+"1121"},0);
+    console.log(strtest);
+
+
+    $.ajax({
+        type : "GET",
+        url : "iosfds://dsafas",
+
+
+    })
+})
+
+function jstoLogin(uid,strtoken){
+    $.ajax({
+        type : "POST",
+        url: "/Api/Member/loginForH5",
+        dataType : "json",
+        data : {"userid":uid,"token":strtoken},
+        success : function(data){
+            if(data.status === 1){
+                $("#spb").html("登录成功");
+            }
+            else{
+                $("#spb").html("登录失败:"+"/Api/Member/loginForH5?userid="+uid+"&token="+strtoken);
+
+            }
+        }
+    })
+}
+
+
+function APPInit(){
+
+
+    var uAgent = navigator.userAgent.toLowerCase();
+    document.getElementById("spd").innerHTML = uAgent.indexOf('android')>0;
+
+
+    if(uAgent.indexOf('android') > 0){
+        document.getElementById("spa").innerHTML="Android";
+        window.localStorage.AppType = "Android";
+        document.getElementById("spe").innerHTML= window.localStorage.AppType;
+    }
+    else{
+        document.getElementById("spa").innerHTML="IOS";
+        window.localStorage.AppType = "iOS";
+        document.getElementById("spe").innerHTML= window.localStorage.AppType;
+    }
+
+    document.getElementById("spc").innerHTML = window.history.length;
+}
+
+</script>
+
+
+<script>
+    (function(a){a.extend(a.fn,{cookie:function(b,c,d){var e,f,g,h;if(arguments.length>1&&String(c)!=="[object Object]"){d=a.extend({},d);if(c===null||c===undefined)d.expires=-1;return typeof d.expires=="number"&&(e=d.expires*24*60*60*1e3,f=d.expires=new Date,f.setTime(f.getTime()+e)),c=String(c),document.cookie=[encodeURIComponent(b),"=",d.raw?c:encodeURIComponent(c),d.expires?"; expires="+d.expires.toUTCString():"",d.path?"; path="+d.path:"",d.domain?"; domain="+d.domain:"",d.secure?"; secure":""].join("")}return d=c||{},h=d.raw?function(a){return a}:decodeURIComponent,(g=(new RegExp("(?:^|; )"+encodeURIComponent(b)+"=([^;]*)")).exec(document.cookie))?h(g[1]):null}})})(Zepto);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,334 @@
+/*设计师模版*/
+
+/*模版1*/
+.designerstencil1{ background:url(../images/designerstencil1bg.png);}
+.designerstencil1 .banner{ height:525px; margin-top:-30px; padding-top:160px; background:url(../images/designerstencil1_bannerbg.jpg) no-repeat scroll center center;}
+.designerstencil1 .banner .photo{ width:256px; height:256px; border:10px solid #fff; border-radius:50%;}
+.designerstencil1 .banner .name{ font-size:42px; margin-bottom:16px;}
+.designerstencil1 .banner dt{ width:710px; float:left; margin-top:70px; text-align:right; color:#fff; font-size:30px; line-height:45px;}
+.designerstencil1 .banner dd{ margin-left:770px;}
+.designerstencil1 .banner dd a{ font-size:18px; color:#fff; display:inline-block; border-radius:2px; line-height:24px; width:70px; text-align:center; border:1px solid #fff; margin-top:20px; margin-right:20px; margin-left:5px;}
+.designerstencil1 .introduce{ border-top:5px double #747474; border-bottom:5px double #747474; width:1190px; margin:85px auto; padding:60px 0; text-align:center; color:#878787; line-height:90px; font-size:36px;}
+.designerstencil1 .introduce span{ padding-left:35px; padding-right:3px;}
+.designerstencil1 .introduce a{ color:#878787; padding:0 6px;}
+.designerstencil1 .ul{ width:1040px; margin:0 auto; overflow:hidden; zoom:1;}
+.designerstencil1 .ul .li{ width:520px; height:516px; float:left; position:relative;}
+.designerstencil1 .ul .li .bottom{ position:absolute; padding:20px 10px 15px; width:500px; bottom:0; font-size:24px; color:#fff; background-color:rgba(87,87,87,0.8);}
+.designerstencil1 .ul .li .bottom strong{ font-size:30px;}
+.designerstencil1 .ul .li .bottom .money{ padding:0 8px;}
+.designerstencil1 .ul .li .bottom p{ text-align:center;}
+.designerstencil1 .ul .li .bottom a{ display:inline-block; border:1px solid #fff; padding:3px 8px; margin:15px 5px 0; color:#fff;} 
+.designerstencil1 .ul .li h4{ font-size:60px; margin-top:40px;}
+.designerstencil1 .ul .li h5{ font-size:36px; line-height:45px;}
+.designerstencil1 .ul .li .titleft{ text-align:left; color:#a8a8a8;}
+.designerstencil1 .ul .li .titright{ text-align:right; color:#a8a8a8;}
+.designerstencil1 .ul .li .img{ overflow:hidden; position:absolute; bottom:20px;}
+.designerstencil1 .ul .li .img li{ float:left;}
+.designerstencil1 .ul .li .italic{ padding:0 38px;}
+.designerstencil1 .ul .li .italic li{ -webkit-transform:skewX(-20deg);
+									  -moz-transform:skewX(-20deg);
+									  -ms-transform:skewX(-20deg);
+									  -o-transform:skewX(-20deg);
+									  transform:skewX(-20deg); 
+									  margin:2px;}
+.designerstencil1 .ul .li .italic li img{ width:70px;}
+.designerstencil1 .ul .li .straight{ padding:0 20px;}
+.designerstencil1 .ul .li .straight li{ margin:2px;}
+.designerstencil1 .ul .li .straight li img{ width:116px; height:116px;}
+.designerstencil1 .ul .li .comment{ position:absolute; top:0; bottom:0; overflow-y:auto; left:0; right:0; color:#fff; background-color:rgba(87,87,87,0.8); font-size:22px; line-height:30px;}
+.designerstencil1 .ul .li .comment dl{overflow:hidden; zoom:1; margin:20px 10px;}
+.designerstencil1 .ul .li .comment dt{ width:100px; float:left;}
+.designerstencil1 .ul .li .comment dd{ margin-left:115px; margin-bottom:20px;}
+
+/*模版2*/
+.designerstencil2_banner{ margin-top:-30px; background:url(../images/designerstencil2_banner.jpg) no-repeat scroll center center; height:500px;}
+.designerstencil2_person{ width:1190px; margin:0 auto; padding-top:80px; position:relative;}
+.designerstencil2_person h4{ font-size:72px; line-height:90px; font-weight:100;}
+.designerstencil2_person dl{ overflow:hidden; zoom:1; position:relative;}
+.designerstencil2_person dt{ float:left;}
+.designerstencil2_person dt img{ width:345px; display:block;}
+.designerstencil2_person dd{ font-size:16px; line-height:28px; position:absolute; bottom:0; right:0; left:345px; border-bottom:1px solid #c4c4c4; padding-bottom:20px;}
+.designerstencil2_person dd h5{ background-color:#eeeeee; padding-left:62px; color:#9f3429; line-height:64px; font-size:38px; border-bottom:2px solid #dbdbdb;}
+.designerstencil2_person dd ul{ padding-left:62px; width:530px;}
+.designerstencil2_person dd .btn{ display:inline-block; width:170px; margin:20px 10px 0; text-align:center; line-height:36px; color:#9f3429; border:1px solid #c2c2c2;}
+.designerstencil2_person dd .btn:hover{ background-color:#c2c2c2; color:#fff;}
+.designerstencil2_person .person{ position:absolute; bottom:0; right:-25px; max-width:360px;}
+.designerstencil2_title{ margin-top:40px; text-align:center; background:url(../images/designerstencil2_title.png) no-repeat scroll center center;}
+.designerstencil2_title strong{ font-size:48px; display:inline-block; line-height:60px;}
+.designerstencil2_title p{ display:inline-block; font-size:18px;}
+.designerstencil2_title span{ display:block; color:#bbbbbb;}
+.designerstencil2_production{ overflow:hidden; zoom:1; width:1160px; margin:0 auto;}
+.designerstencil2_production .li{ width:274px; margin:0 8px; float:left;}
+.designerstencil2_production .li img{ width:274px; height:325px;display:block;}
+.designerstencil2_production .li .explain{ text-align:center; padding:0 20px 45px; position:relative; background-color:#9c2a1e; color:#fff; font-size:14px;}
+.designerstencil2_production .li .style{ text-align:left; position:relative; line-height:40px; border-bottom:1px solid #fff;}
+.designerstencil2_production .li .style p{ position:absolute; right:0; bottom:0; line-height:20px;}
+.designerstencil2_production .li .explain a.desinerProduct{ display:inline-block; color:#fff; margin:10px 15px; padding:3px 8px; border:1px solid #fff;}
+.designerstencil2_production .li .explain a{ display:inline-block; color:#fff;}
+.designerstencil2_production .li .more{ width:50px; text-align:center; line-height:0; position:absolute; bottom:-10px; left:111px; font-size:24px; height:50px; border:1px solid #fff; border-radius:50%;}
+.designerstencil2_production .li .more p{ line-height:40px; font-size:14px;}
+.designerstencil2_production .li .more:hover{ background-color:#fff; color:#9c2a1e; cursor:pointer;}
+.designerstencil2_production .li .bottomb{ overflow:hidden;}
+.designerstencil2_production .li .bottomb p{ width:80px; height:80px; border-radius:50%; background-color:#9c2a1e; margin:-60px auto 0;}
+.designerstencil2_production ul{ text-align:center; color:#fff;clear:both;}
+.designerstencil2_production li{ display:inline-block; margin:40px 2px 0; text-align:center; line-height:26px; width:26px; border-radius:13px; background-color:#d2d2d2;}
+.designerstencil2_production li:hover{ background-color:#9c2a1e; cursor:pointer;}
+.designerstencil2_production ul .btn{ width:100px; margin:40px 10px 0;}
+.designerstencil2_transition{ height:510px; margin-top:40px; background:url(../images/designerstencil2_transition.jpg) no-repeat scroll center center;}
+.designerstencil2_case{ background-image:url(../images/designerstencil2_case.png); padding:10px 0 50px;}
+.designerstencil2_case .designerstencil2_title{ background-image:url(../images/designerstencil2_title2.png);}
+.designerstencil2_case ul{ overflow:hidden; zoom:1; width:1190px; margin:0 auto;}
+.designerstencil2_case li{ float:left; width:276px; height:220px; margin:10px; overflow:hidden;}
+.designerstencil2_case li img{ width:100%;}
+.designerstencil2_case li:first-child{ width:572px; height:359px;}
+.designerstencil2_case ul .explain{ width:572px; font-size:16px; height:119px; overflow:hidden;}
+.designerstencil2_case ul .style{ font-size:26px; padding:0 15px; line-height:60px;}
+.designerstencil2_case ul .explain  a{ display:inline-block; color:#9c2a1e; margin:10px 15px 23px; padding:3px 8px; border:1px solid #9c2a1e;}
+
+
+
+
+/*模版3*/
+.designerstencil3_banner{ margin-top:-30px; background:url(../images/designerstencil3_banner.jpg) no-repeat scroll center center; height:570px; border-bottom:15px solid #d5cfc3;}
+.designerstencil3_main{ margin-top:60px; background:url(../images/designerstencil3_main.png) repeat scroll 8px -22px; padding-top:1px;}
+.designerstencil3_main .box{ width:1214px; margin:0 auto; background-color:#fff; padding-top:40px;}
+.designerstencil3_main .person h5{ text-align:center; font-size:18px; font-weight:normal; line-height:24px;}
+.designerstencil3_main .person .main{ margin-top:40px; padding-bottom:50px; background-image:url(../images/designerstencil3_mainperson.jpg);background-repeat: no-repeat; text-align:center;background-size: cover;}
+.designerstencil3_main .person .explain{ width:480px; margin:0 auto; padding-top:80px;}
+.designerstencil3_main .person .explain .title{ background:url(../images/designerstencil3_mainpersontitle.png) no-repeat scroll center center; position:relative; text-align:center; font-size:18px; line-height:23px; padding:5px;}
+.designerstencil3_main .person .explain_box{ padding:30px 10px 10px; margin-top:-30px; background-color:#fff; box-shadow:0px 2px 7px 0px #888;}
+.designerstencil3_main .person .explain_box .photo{ width:100%;}
+.designerstencil3_main .person .explain_box p{ line-height:26px; font-size:14px; text-align:left;}
+.designerstencil3_main .person .explain_box p span{ padding-left:35px; padding-right:3px;}
+.designerstencil3_main .person .explain_box p span:first-child{ padding-left:0;}
+.designerstencil3_main .person .explain_box .name{ text-align:center; line-height:44px; font-size:22px;}
+.designerstencil3_main .production{ background-color:#f7f7f7;}
+.designerstencil3_main .production .title{ background:url(../images/designerstencil3_mainproductiontitle.png) no-repeat scroll center center; position:relative; text-align:center; font-size:18px; line-height:76px; padding-top:32px;}
+.designerstencil3_main .production_box{ overflow:hidden; position:relative; height:530px;}
+.designerstencil3_main .production_box ul{ position:absolute; height:500px; left:0; right:-2380px; padding:15px 0;}
+.designerstencil3_main .production_box li{ float:left; width:274px; padding:8px; box-shadow:0px 3px 13px 0px #888; margin-top:197px; margin-right:172px;}
+.designerstencil3_main .production_box li .li{ width:100%; height:228px;}
+.designerstencil3_main .production_box ul .on{ width:460px; padding:12px; margin-left:-97px; margin-right:75px; margin-top:0;}
+.designerstencil3_main .production_box ul .on .li{ height:383px;}
+.designerstencil3_main .production_box .bottom{ height:57px; font-size:16px; margin-top:-12px; text-align:center; position:relative; background-image:url(../images/designerstencil3_mainproductionbottom.png);background-repeat: no-repeat; background-size: cover;}
+.designerstencil3_main .production_box .bottom .text_left{ position:absolute; left:17px; text-align:center; font-size:14px; top:23px;}
+.designerstencil3_main .production_box .bottom .text_right{ position:absolute; right:15px; text-align:center; top:10px;}
+.designerstencil3_main .production_box .bottom .collect img{ width:18px; display:inline-block; vertical-align:middle; margin-right:5px;}
+.designerstencil3_main .production_box .bottom .style{ font-size:20px;}
+.designerstencil3_main .production_box .bottom .hide{ display:none;}
+.designerstencil3_main .production_box ul .on .bottom{ height:96px; margin-top:-17px;}
+.designerstencil3_main .production_box ul .on .bottom .text_left{ top:38px; left:24px;}
+.designerstencil3_main .production_box ul .on .bottom .text_right{ top:25px; right:33px;}
+.designerstencil3_main .production_box ul .on .bottom .introduce{ line-height:116px;}
+.designerstencil3_main .production_box ul .on .bottom .collect{ margin-bottom:10px}
+.designerstencil3_main .production_box ul .on .bottom .hide{ display:block;}
+.designerstencil3_main .production_box .arrow{ width:50px; line-height:50px; font-size:26px; text-align:center; color:#fff; position:absolute; top:300px;}
+.designerstencil3_main .production_box .arrow:hover{ cursor:pointer; color:#df747c;}
+.designerstencil3_main .production_box .arrow_left{ background-image:url(../images/designerstencil3_mainproductionarrowl.png); left:8px;}
+.designerstencil3_main .production_box .arrow_right{ background-image:url(../images/designerstencil3_mainproductionarrowr.png); right:8px;}
+.designerstencil3_main .production .btn_ul{ text-align:center; padding:35px;}
+.designerstencil3_main .production .btn_ul li{ display:inline-block; margin:0 5px; width:40px; height:4px; background-color:#dcdcdc;}
+.designerstencil3_main .production .btn_ul .on{ background-color:#ffc519;}
+.designerstencil3_main .case .title{ font-size:28px; text-align:center; padding:25px 0 10px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd;}
+.designerstencil3_main .case .title p{ font-size:18px;}
+.designerstencil3_main .case ul{ margin:0 auto; width:1096px; height:1000px; overflow:hidden; zoom:1; position:relative; font-size:16px; line-height:30px;}
+.designerstencil3_main .case li{ width:254px; box-shadow:0px 3px 13px 0px #888; margin:10px; float:left; position:relative; padding-bottom:10px;}
+.designerstencil3_main .case li img{ width:244px; margin:5px; display:block;}
+.designerstencil3_main .case li a{ width:80px; display:block; text-align:center; line-height:34px; background-color:#000; margin-top:10px; color:#fff;}
+.designerstencil3_main .case li p{ margin-left:5px; margin-right:5px;}
+.designerstencil3_main .case li .style{ font-size:20px; margin-top:10px; margin-bottom:-10px;}
+.designerstencil3_main .case li .area{ font-size:14px; margin-bottom:10px;}
+.designerstencil3_main .case li .introduce{ border-bottom:1px dotted #000;}
+.designerstencil3_main .case li .collect img{ width:18px; display:inline-block; vertical-align:middle; margin-right:5px;}
+.designerstencil3_main .case li .collect img:hover{ src:url(../images/yellow_heart.png); cursor:pointer;}
+.designerstencil3_main .case li .money{ float:right; margin-right:5px;}
+
+
+
+
+/*设计公司模版*/
+
+/*设计公司模版1*/
+.designstencil_nav{ background:#4f4b43; line-height:50px;}
+.designstencil_nav ul{ border-left:1px solid #fff; font-size:16px;}
+.designstencil_nav li{ display:inline-block; border-right:1px solid #fff; width:170px; text-align:center;}
+.designstencil_nav li a{ color:#fff;}
+.designstencil_nav .on{ border-left:1px solid #ede176; background-color:#ede176; border-right-color:#ede176; margin-left:-1px;}
+.designstencil_nav .on a{ color:#4f4b43;}
+.designstencil_nav li:hover{ border-left:1px solid #ede176; background-color:#ede176; border-right-color:#ede176; margin-left:-1px;}
+.designstencil_nav li:hover a{ color:#4f4b43;}
+.designstencil1_banner{ background:url(../images/designstencil1_banner.jpg) no-repeat scroll center center; color:#40362b; padding-bottom:60px; overflow:hidden; zoom:1; box-shadow:0px 8px 11px -5px #888 inset;}
+.designstencil1_banner .left{ text-align:center;}
+.designstencil1_banner h3{ font-size:36px; line-height:60px; margin-top:150px;}
+.designstencil1_banner h4{ font-size:28px; line-height:54px;}
+.designstencil1_banner .title{ display:inline-block; border:1px solid #40362b; border-left:none; border-right:none; line-height:14px; margin-top:90px; padding:5px 10px;}
+.designstencil1_banner .title p:first-child{ font-size:14px;}
+.designstencil1_banner .message{ margin:90px 30px 0; background-color:#f4f3f0; padding:0 25px 30px; text-align:left;}
+.designstencil1_banner .message h5{ padding:24px 30px; border-bottom:1px solid #40362b;}
+.designstencil1_banner .message h5 strong{ font-size:18px; padding-right:5px;}
+.designstencil1_banner .comment{ color:#40362b; border:1px solid #d7d7d7; line-height:24px; padding:0 14px; height:144px; margin-top:10px; overflow-y:scroll;}
+.designstencil1_new{ text-align:center; width:600px; padding:0 220px 40px; margin:20px auto; zoom:1; box-shadow:0px 0px 7px 0px #888;}
+.designstencil1_new h5{ padding:14px; border-bottom:1px solid #40362b; margin-bottom:40px;}
+.designstencil1_new h5 strong{ font-size:18px; padding-right:5px;}
+.designstencil1_new img{ display:inline-block; box-shadow:0px 0px 8px 2px #888;}
+.designstencil1_new ul{ display:inline-block; vertical-align:top; line-height:18px; text-align:left; margin-left:20px}
+.designstencil1_new ul span{ display:inline-block;}
+.designstencil1_new .style{ font-size:14px;}
+.designstencil1_new .collect{ padding-left:18px; background:url(../images/blackb_heart.png) no-repeat scroll left center/14px auto; margin-right:15px;}
+.designstencil1_new .collect:hover{ background-image:url(../images/yellow_heart.png)}
+.designstencil1_new .sales{ width:40px;}
+.designstencil1_new .buy{ width:45px; border:1px solid #40362b; text-align:center; margin-left:8px; cursor:pointer;}
+.designstencil1_ul{ background-color:#f7f7f7; color:#40362b;}
+.designstencil1_ul ul{ width:1190px; margin:0 auto; overflow:hidden; zoom:1; text-align:center;}
+.designstencil1_ul h4{ text-align:left; margin-left:40px; font-size:40px; color:#c2a84a; line-height:55px; padding-top:40px;}
+.designstencil1_ul h5{ text-align:left; margin-left:40px;  font-size:14px; margin-bottom:15px;}
+.designstencil1_ul h5 strong{ font-size:16px; padding-right:10px;}
+.designstencil1_ul li{ margin:30px 40px; display:inline-block; font-size:16px; text-align:left; vertical-align:middle; width:505px; line-height:20px;}
+.designstencil1_ul .style{ font-size:18px;}
+.designstencil1_ul .collect{ display:inline-block; margin-left:10px; font-size:14px; padding-left:18px; background:url(../images/blackb_heart.png) no-repeat scroll left center/14px auto; margin-right:15px;}
+.designstencil1_ul .collect:hover{ background-image:url(../images/yellow_heart.png)}
+.designstencil1_ul .line{ width:60px; border-bottom:1px solid #40362b; margin-top:12px;}
+.designstencil1_ul .translate{ font-size:12px;}
+.designstencil1_ul .instruction{ margin-top:15px;}
+.designstencil1_ul .buy{ width:88px; cursor:pointer; line-height:26px; border:1px solid #40362b; text-align:center; margin:50px auto 0;}
+.designstencil1_ul .box{ border:1px solid #40362b; padding:0 15px 30px; width:468px;}
+.designstencil1_ul .box h6{padding-top:30px;}
+.designstencil1_ul .box .buy{ border:none;}
+.designstencil1_team{ width:1190px; margin:0 auto;}
+.designstencil1_team ul{ text-align:center;}
+.designstencil1_team li{  margin:30px 0; display:inline-block; font-size:16px; text-align:left; vertical-align:middle; line-height:20px;}
+.designstencil1_team .title h4{ font-size:40px; line-height:55px; padding-top:40px; color:#82a36f;}
+.designstencil1_team .title{ padding:0 50px;}
+.designstencil1_team .title h5{ margin-bottom:30px;}
+.designstencil1_team .title h5 span{ display:inline-block; margin-right:10px; font-size:14px;}
+.designstencil1_team .title h5 strong{ font-size:16px; display:inline-block; margin-right:10px;}
+.designstencil1_team .title h5 .more{ cursor:pointer;}
+.designstencil1_team img{ display:inline-block; vertical-align:middle;}
+.designstencil1_team .instruction{ display:inline-block; margin:0 40px; vertical-align:middle; line-height:20px; font-size:14px;}
+.designstencil1_team .instruction .name{ font-size:22px; margin-bottom:20px;}
+.designstencil1_product{ background-color:#4f4b43; color:#40362b; padding-bottom:50px;}
+.designstencil1_product h4{ text-align:left; width:1100px; margin:0 auto; font-size:40px; color:#82a36f; line-height:55px; padding-top:40px;}
+.designstencil1_product h5{ text-align:left; width:1100px; margin:0 auto;  font-size:14px; margin-bottom:15px; color:#fff;}
+.designstencil1_product h5 strong{ font-size:16px; padding-right:10px;}
+.designstencil1_product .box{ width:1120px; margin:20px auto 0; background-color:#fff; padding:35px; box-shadow:0px 0px 7px 0px #888 inset;}
+.designstencil1_product .product{ overflow:hidden; }
+.designstencil1_product .product .ulbox{ width:4480px; position:relative; left:0; overflow:hidden; zoom:1;}
+.designstencil1_product .ulbox ul{ float:left; width:1120px;}
+.designstencil1_product .ulbox li{ float:left; width:250px; margin:15px; height:250px;}
+.designstencil1_product .ulbox ul li:nth-of-type(2){ width:468px; height:208px; padding:20px 30px; border:1px solid #4b4b4b;}
+.designstencil1_product .ulbox li img{ width:100%; height:100%; display:block;}
+.designstencil1_product .ulbox ul .style{ font-size:18px;}
+.designstencil1_product .ulbox ul .collect{ display:inline-block; margin-left:10px; font-size:14px; padding-left:18px; background:url(../images/blackb_heart.png) no-repeat scroll left center/14px auto; margin-right:15px;}
+.designstencil1_product .ulbox ul .collect:hover{ background-image:url(../images/yellow_heart.png)}
+.designstencil1_product .ulbox ul .line{ width:60px; border-bottom:1px solid #40362b; margin-top:12px;}
+.designstencil1_product .ulbox ul .translate{ font-size:12px;}
+.designstencil1_product .ulbox ul .instruction{ margin-top:15px;}
+.designstencil1_product .ulbox ul .buy{ width:88px; cursor:pointer; line-height:26px; border:1px solid #40362b; text-align:center; margin:30px auto 0;}
+.designstencil1_product .chose{ text-align:center; margin-top:20px;}
+.designstencil1_product .chose li{ display:inline-block; vertical-align:middle; width:5px; height:5px; background-color:#b5b5b5; margin:5px; border-radius:50%;}
+.designstencil1_product .chose .on{ width:7px; height:7px; background-color:#40362b;}
+.designstencil1_footer{ background-color:#82a36f; text-align:center; padding:50px 0; margin-top:20px;}
+.designstencil1_footer h3{ font-size:36px; line-height:60px;}
+.designstencil1_footer h4{ font-size:28px; line-height:54px;}
+.designstencil1_footer .title{ display:inline-block; border:1px solid #40362b; border-radius:6px;line-height:14px; margin-top:40px; padding:5px 10px;}
+.designstencil1_footer .title p:first-child{ font-size:14px;}
+
+
+/*设计公司模版2*/
+.designstencil2_nav{ background:url(../images/designstencil2_nav.png); border-top:2px solid #bfbfbf;}
+.designstencil2_nav li{ border:none; margin:0 5px;}
+.designstencil2_nav li a{ color:#221814;}
+.designstencil2_nav li:hover{ background-color:#ff785c; border:none; margin:0 5px;}
+.designstencil2_nav li:hover a{ color:#fff;}
+.designstencil2_nav .on{ background-color:#e3d9d7; border:none; margin:0 5px;}
+.designstencil2_title{ width:1060px; margin:30px auto; position:relative;}
+.designstencil2_title:before{ content:""; position:absolute; top:50%; margin-top:-5px; height:10px; background-color:#ede6e5; width:100%;}
+.designstencil2_title h5{ width:250px; margin:0 auto; font-size:16px; text-align:center; background-color:#fff; position:relative;}
+.designstencil2_title h5 p{ font-size:36px;}
+.designstencil2_banner{ background:url(../images/designstencil2_banner.jpg) no-repeat scroll center center; height:467px;}
+.designstencil2_head{ text-align:center; margin-top:50px; min-width:1190px; font-size:14px; padding-bottom:40px;}
+.designstencil2_head li{ display:inline-block; width:320px; padding:0 20px; vertical-align:top; text-align:center; margin:0 10px;}
+.designstencil2_head li p{ text-align:left; text-indent:28px;}
+.designstencil2_head li p span{ color:#ff785c; padding:0 3px;}
+.designstencil2_head li s{ font-size:12px; color:#888; margin-left:35px;}
+.designstencil2_head li .money{ margin-right:85px;}
+.designstencil2_head li a{ display:inline-block; width:80px; margin:20px 30px 0; line-height:26px; font-size:16px; color:#fff; background-color:#ff785c; border-radius:5px;}
+.designstencil2_head .title{ position:relative; margin:0 -20px 20px;}
+.designstencil2_head .title:before{ content:""; position:absolute; left:0; top:50%; margin-top:-3px; width:100%; height:4px; border-top:1px solid #000; border-bottom:1px solid #000;}
+.designstencil2_head .title p{ display:inline-block; font-size:22px; background-color:#fff; padding:0 4px; text-indent:0; border-left:1px solid #000; border-right:1px solid #000; position:relative;}
+.designstencil2_head img{ display:inline-block; max-width:230px;}
+.designstencil2_head .border{ vertical-align:middle;}
+.designstencil2_head .app{ margin:40px auto 20px; width:130px; height:130px; border:1px solid #000;}
+.designstencil2_head h6{ font-size:24px; cursor:pointer; margin-bottom:20px;}
+.designstencil2_head .address{ font-size:14px; padding:15px 0; padding-left:50px; background:url(../images/address.png) no-repeat scroll center left;}
+.designstencil2_head .product{ width:227px; height:162px;}
+.designstencil2_head .instruction{ font-size:16px; line-height:26px; margin-bottom:25px; margin-top:10px;}
+.designstencil2_head .comment{ height:300px; overflow:scroll;}
+.designstencil2_head .comment p{ line-height:26px;}
+.designstencil2_hotproduct{ background-color:#efefef; padding:40px 0;}
+.designstencil2_hotproduct .designstencil2_title:before{ background-color:#efefef; border-top:1px solid #000; border-bottom:1px solid #000;}
+.designstencil2_hotproduct .designstencil2_title:after{ content:""; position:absolute; width:248px; height:30px; top:50%; left:50%; margin-top:-15px; margin-left:-125px; border-left:1px solid #000; border-right:1px solid #000;}
+.designstencil2_hotproduct .designstencil2_title h5{ background-color:#efefef;}
+.designstencil2_hotproduct ul{ overflow:hidden; zoom:1; width:1188px; margin:0 auto;}
+.designstencil2_hotproduct li{ margin:11px; padding:6px; background-color:#fff; width:263px; float:left;}
+.designstencil2_hotproduct li img{ width:263px; height:260px; margin-bottom:10px;}
+.designstencil2_hotproduct li p{ font-size:14px; line-height:20px; overflow:hidden; padding:0 10px; white-space: nowrap; text-overflow: ellipsis;}
+.designstencil2_hotproduct li .price{ float:right; margin-top:10px;}
+.designstencil2_hotproduct li .price s{ font-size:12px; color:#888;}
+.designstencil2_hotproduct li .price .money{ color:#ff785c; padding:0 5px; font-size:16px;}
+.designstencil2_hotproduct li .price a{ display:inline-block; line-height:26px; padding:0 4px; font-size:16px; color:#fff; background-color:#ff785c; border-radius:5px;}
+.designstencil2_team .designstencil2_title:before{ background-color:#fff; border-top:1px solid #000; border-bottom:1px solid #000;}
+.designstencil2_team .designstencil2_title:after{ content:""; position:absolute; width:248px; height:30px; top:50%; left:50%; margin-top:-15px; margin-left:-125px; border-left:1px solid #000; border-right:1px solid #000;}
+.designstencil2_team .designstencil2_title h5{ background-color:#fff;}
+.designstencil2_team ul{ width:1190px; margin:0 auto; text-align:center; font-size:24px;}
+.designstencil2_team ul li{ display:inline-block; vertical-align:middle; width:130px;}
+.designstencil2_team ul img{ display:inline-block; vertical-align:middle; margin-right:20px; width:248px; height:248px; padding:30px 0; border-bottom:1px solid #000;}
+.designstencil2_team ul .instruction{ display:inline-block; vertical-align:middle; text-align:left; width:440px;}
+.designstencil2_team ul .instruction p{ line-height:40px;}
+.designstencil2_team ul:last-child img{ border:none;}
+.designstencil2_product{ overflow:hidden; zoom:1; width:1188px; margin:0 auto;}
+.designstencil2_product .designstencil2_title:before{ background-color:#fff; border-top:1px solid #000; border-bottom:1px solid #000;}
+.designstencil2_product .designstencil2_title:after{ content:""; position:absolute; width:248px; height:30px; top:50%; left:50%; margin-top:-15px; margin-left:-125px; border-left:1px solid #000; border-right:1px solid #000;}
+.designstencil2_product .designstencil2_title h5{ background-color:#fff;}
+.designstencil2_product li{ float:left; width:275px; margin:11px; height:360px; position:relative;}
+.designstencil2_product li img{ width:275px; height:360px;}
+.designstencil2_product .bg{ width:100%; height:100px; position:absolute; bottom:0; opacity:0.8;filter: alpha(opacity=80);  background-color:#fff;}
+.designstencil2_product .instruction{ position:absolute; bottom:0; padding:10px 5px;}
+.designstencil2_product .instruction p{ font-size:12px; line-height:20px; margin-bottom:10px;}
+.designstencil2_product .explain{ float:right; margin-right:-5px; position:relative; overflow:hidden;zoom:1; line-height:24px; border:1px solid #ff785c; border-right:none; border-top-left-radius:12px; padding-left:8px; padding-right:3px; border-bottom-left-radius:12px;}
+.designstencil2_product .explain i{ display:inline-block; width:1px; height:16px; vertical-align:middle; margin:0 3px; background-color:#ff785c;}
+.designstencil2_product .explain .buy{ display:none; position:absolute; width:100%; text-align:center; color:#fff; left:0; top:0; background-color:#ff785c; text-align:center;}
+.designstencil2_product .explain:hover .buy{ display:block; cursor:pointer;}
+.designstencil2_product .money{ line-height:24px; font-size:24px; color:#ff785c;}
+.designstencil2_footer{ text-align:center; min-width:1190px; background-color:#efefef; padding:50px 0; margin-top:60px;}
+.designstencil2_footer li{ width:280px; padding:10px 5px; display:inline-block; height:360px; vertical-align:top; border-left:1px solid #888; text-align:center; font-size:24px; line-height:40px;}
+.designstencil2_footer li:first-child{ border:none;}
+.designstencil2_footer li p{ margin-bottom:30px;}
+.designstencil2_return{ overflow:hidden; zoom:1; margin:40px 0; margin-right:80px;}
+.designstencil2_return a{ border:1px solid #b6b6b6; background-color:#e6e6e6; color:#726f6e; float:right; width:170px; border-radius:5px; text-align:center; line-height:65px; font-size:36px;}
+
+
+/*设计公司团队模版*/
+
+/*设计公司团队模版1*/
+.designteamstencil1_team{ padding-bottom:50px;}
+.designteamstencil1_team h3{ font-size:36px; line-height:60px; text-align:center; margin-top:40px;}
+.designteamstencil1_team h4{ font-size:28px; line-height:54px; text-align:center;}
+.designteamstencil1_team li{ margin:30px 10px; border-radius:5px; background-color:#f7f7f7; box-shadow:6px 6px 10px 0px #888; padding:10px;}
+.designteamstencil1_team .instruction{ margin-right:10px; margin-left:30px;}
+
+/*设计公司团队模版2*/
+.designteamstencil2_team{ background-color:#4a4a4a; padding:20px 0; position:relative;min-width:1190px;}
+.designteamstencil2_team ul{ width:1190px; margin:0 auto; height:780px; overflow:scroll;}
+.designteamstencil2_team li{ margin:7px; float:left;}
+.designteamstencil2_team li img{ width:160px; height:246px; display:block;}
+.designteamstencil2_team li:nth-of-type(2n){ margin-right:501px;}
+.designteamstencil2_team li:nth-of-type(4n){ margin-right:7px;}
+.designteamstencil2_team .show{ text-align:center; color:#fff; position:absolute; width:430px; left:50%; margin-left:-215px; top:30px;}
+.designteamstencil2_team .show h6{ font-size:30px; line-height:60px;}
+.designteamstencil2_team .show img{ width:430px; height:680px;}
+.designteamstencil2_team .show .bg{ position:absolute; opacity:0.6;filter: alpha(opacity=60); background-color:#000; width:100%; height:160px; bottom:120px;}
+.designteamstencil2_team .show .instruction{ position:absolute; bottom:140px; width:100%; height:120px; line-height:26px; font-size:14px; overflow:hidden;}
+.designteamstencil2_team .show .instruction h6{ line-height:45px;}
+.designteamstencil2_team .show a{ position:absolute; bottom:40px; left:50%; margin-left:-58px; width:116px; line-height:40px; color:#fff; text-align:center; border-radius:5px; font-size:24px; background-color:#ff785c;}
+

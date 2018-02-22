@@ -1,0 +1,39 @@
+/*搜索*/
+.search_con{ float:right;}
+.search_con1{ float:left; width:50px; height:20px; cursor:pointer; text-align:center; position:relative; font-size:12px; margin-bottom:8px; line-height:20px; margin-right:10px;}
+.search_con1 b{ position:absolute; left:23px; display:none; top:20px; border-width:4px;border-color:#498cd0 transparent transparent;border-style:solid;}
+.search{ background-color:#498cd0; float:right;}
+.btnsear{ background-color:#498cd0;}
+/*导航*/
+/*上部*/
+.nav_up{background-image:url(../images/Buyers_nav.jpg); margin-top:-20px; background-height: 100%;background-repeat: no-repeat; text-align:center;background-size: cover; height:190px; width:100%;}
+/*下部*/
+.nav_down{ border-bottom:2px solid #5694d4; overflow:hidden; padding:12px 0;}
+.nav_down1{ float:left; border-left:1px solid #e0e0e0; font-size:16px; line-height:18px; overflow:hidden;}
+.nav_down11{ float:left; width:110px; text-align:center; cursor:pointer; border-right:1px solid #e0e0e0;}
+.nav_down2{ float:right; color:#5a97d4; position:relative; top:8px; cursor:pointer;}
+/*内容*/
+.main{ overflow:hidden; margin-top:40px;}
+/*左部*/
+.main_con1{ float:left; width:120px; padding:0 15px; margin-right:20px; background-color:#e4e9f2;}
+.main_con11{ text-align:center; font-size:16px; line-height:35px; border-bottom:1px dashed #cecdd0;}
+/*右部*/
+.main_con2{ float:right; overflow:hidden; width:980px; padding:20px; background-color:#dbe9f6;}
+.main_con21{ height:100px; overflow:hidden;}
+.main_con211{ width:720px; padding-right:20px; float:left; height:100px; border-right:1px dashed #498cd0;}
+.main_name{ float:left;}
+.main_con2111{ float:left; margin-left:20px;}
+.main_con2111 h1{ font-size:20px; margin:20px 0;}
+.main_con2111 p{ font-size:12px;}
+.main_con2111 b{ margin:0 20px; color:#498cd0;}
+.main_con212{ padding-left:20px; font-size:14px; color:#737477; float:right; width:214px;}
+.main_con2121 b{ font-size:16px; color:#000000; font-weight:700; line-height:30px; padding-right:20px;}
+.main_con2121{ line-height:24px;}
+.main_con22{ margin-top:20px; overflow:hidden;}
+.main_con221{ margin-right:7px;}
+.main_con221 img{ height:20px; margin:15px 15px 0px 10px;}
+.main_con2211{ width:145px; height:48px; background-color:#498cd0;}
+.main_con2211 img{ width:48px; height:48px; margin:0;}
+.main_con2211 p{ font-size:14px; line-height:18px; margin:6px 0; text-align:center; color:#ffffff; width:96px; border-left:1px dashed #ffffff;}
+.main_con2211 p b{ font-weight:300; font-size:12px;}
+

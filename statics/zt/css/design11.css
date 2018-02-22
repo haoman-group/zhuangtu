@@ -1,0 +1,19 @@
+/*搜索*/
+.search{ background-color:#c8000b; margin-bottom:40px; }
+.btnsear{background-color: #c8000b;}
+/*导航*/
+.navBg{ background-color:#000000; height:390px; position:relative;}
+.nav_con1{ float:left; margin-top:80px;}
+.nav_con2{ float:right; margin-top:80px;}
+.navBg2{ background-color:#272727; text-align:center; position:absolute; bottom:0; padding:10px 0;}
+.navBg2 b{ margin:10px; font-size:20px; line-height:20px; color:#ffffff;}
+/*内容*/
+.mainBg{ background-color:#f5e9d9; text-align:center; padding-bottom:70px;}
+.main_con1{ padding:40px 0 20px; border-bottom:2px solid #000000;}
+.main_con2{ padding-top:20px; font-size:20px; line-height:30px; color:#e61711;}
+.main_con3{ padding:20px}
+.main_con31{ padding:20px;}
+.main_con311{ position:relative; cursor:pointer; display:inline-block; border:2px solid #ec5413; border-radius:50%; overflow:hidden; margin:0 20px;}
+.main_con312{ display:none; padding:2px; color:#ffffff; position:absolute;font-size:18px; line-height:27px; background-color:#ec5413;opacity:0.8;filter: alpha(opacity=80); width:100%; height:100%;}
+.main_con312 b{ display:block; margin:20px auto 15px; font-size:24px; line-height:36px;}
+

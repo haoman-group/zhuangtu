@@ -1,0 +1,63 @@
+
+.address_forms{width:612px;height:432px;padding:14px;}
+.news_box{}
+h2.new_box_add{width:100%;text-align:left;font-size:13px;color:#252525;line-height:50px;font-weight:normal; }
+h2.new_box_add strong{color:#c8161d; margin-right:10px;}
+.news_box dt{float:left;text-align:right;width:70px;font-size:12px;color:#1d1d1d; line-height: 30px; }
+.news_box dt i{color:#c8161d;}
+.news_box dd{margin-left:90px; margin-bottom:20px; font-size:12px;color:#1d1d1d; position: relative;}
+/*.news_box dd i.error{right:0;}*/
+.news_box .areas select{ width:90px; height: 30px; line-height: 30px; border:1px solid #ccc; padding-left:5px;}
+.news_box dd .btncancel{padding:5px 10px;  width:70px; height: 30px; border-radius:3px; color:#888888; font-size: 16px;}
+.news_box dd .preservation{ padding:5px 10px; margin-right:10px; width:70px; height: 30px; background:#c8161d; border-radius: 3px; color:#fff;  font-size: 16px;}
+.news_box dd input{width:213px;height:27px;padding:1px 0;text-indent:5px;border:1px solid #cdcdcd;font-size:12px;}
+.news_box dd select{width:122px;height:20px;}
+.news_box dd .detailed{width:410px; height: 70px; background:#f5f5f5; resize:none;}
+.news_box dd.default{font-size:12px;color:#686868;margin-left:90px; margin-bottom: 35px;}
+.news_box dd input[type='checkbox']{vertical-align:-3px;margin-right:5px;}
+.news_box .save{display:block;width:66px;height:27px;background:url(../images/personalinformation/newadd.gif) no-repeat;text-align:center;line-height:27px;color:#fff;font-size:12px;}
+
+
+.chprSize{padding:20px 10px;}
+.chprSize .old_price{font-size:14px;color:#151515;}
+.chprSize .old_price span{color:#c8161d;}
+.chprSize table{border:1px solid #dcdcdc;border-collapse:collapse;width:100%;margin:10px 0 0 0;}
+.chprSize table th,.chprSize table td{text-align:center;font-size:12px;width:24%;}
+.chprSize table th:nth-of-type(1),.chprSize table td:nth-of-type(1){width:28%;}
+.chprSize table td:nth-of-type(1){text-align:left;width:27%;padding-left:1%;}
+.chprSize table td input{width:70px;border:1px solid #dcdcdc;padding:6px 10px;color:#c8161d;}
+.chprSize table th{background:#f3f3f3;color:#151515;padding:13px 0;}
+.chprSize table td{color:#000;padding:20px 0 34px 0;}
+.chprSize .addre,.chprSize .real_price{font-size:12px;color:#626262;margin-top:14px;}
+.chprSize .real_price span{color:#c7161e;}
+.chprSize .btn{text-align:center;margin-top:30px;}
+.chprSize input[type='submit'],.chprSize input[type='button']{width:63px;height:25px;border-radius:3px;background:linear-gradient(#f76268,#ce1f26);color:#fff;cursor:pointer;}
+.chprSize input[type='button']{background:none;border:1px solid #ce1f26;color:#ce1f26;margin-left:10px;}
+/*.changePrice .new_box_add{width:100%;text-align:left;font-size:13px;color:#252525;line-height:50px;font-weight:bold; }*/
+
+/*新增收货地址*/
+.readdress{ height:450px; overflow: hidden;}
+
+
+/*分期付款*/
+.seller_installment{}
+.seller_installment .installment_num{padding:10px 0;background:#dcdcdc;}
+.seller_installment .installment_num li{float:left;font-size:18px;color:#151515;border-right:1px solid #fff;padding:0 22px;}
+.seller_installment .installment_num li:last-child{border:none;}
+.seller_installment .installment_num li a{display:block;padding:0 20px;position:relative;}
+.seller_installment .installment_num .on a:after{content:" ";display:block;position:absolute;width:100%;height:3px;background:#c7161e;bottom:-10px;left:0;}
+.seller_installment .install_list{padding:30px 30px 10px;}
+.seller_installment table{width:100%;border:1px solid #dcdcdc;border-collapse:collapse;}
+.seller_installment table th,.seller_installment table td{text-align:center;font-size:12px;width:24%;}
+.seller_installment table th:nth-of-type(1),.seller_installment table td:nth-of-type(1){width:28%;}
+.seller_installment table td:nth-of-type(1){width:27%;padding-left:1%;color:#e24047;}
+.seller_installment table td input,.seller_installment table td select{width:138px;height:31px;border:1px solid #dcdcdc;padding:6px 10px;color:#151515;margin:0 5px;}
+.seller_installment table td input.select{position:absolute;width:120px;}
+.seller_installment table td span{color:#151515;}
+.seller_installment table th{background:#f3f3f3;color:#151515;padding:11px 0;font-weight:normal;}
+.seller_installment table td{color:#000;padding:10px 0;position:relative;}
+.seller_installment .description{font-size:12px;color:#e24047;margin-top:15px;}
+.seller_installment .btn{text-align:center;margin-top:20px;}
+.seller_installment input[type='submit'],.seller_installment input[type='button']{width:63px;height:25px;border-radius:3px;background:linear-gradient(#f76268,#ce1f26);color:#fff;cursor:pointer;}
+.seller_installment input[type='button']{background:#c4c4c4;color:#000;margin-left:10px;}
+.seller_installment table.work_boss input{width:auto;}

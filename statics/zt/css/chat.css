@@ -1,0 +1,128 @@
+body,div,span,h1,h2,h3,h4,h5,h6,p,a,ol,ul,li,dl,dt,dd,input,img,form,button,blockquote,strong,textarea{ font-weight:normal;margin:0; padding:0; list-style:none; border:0;}
+body{font-size:12px;/* min-width:1190px;*/ font-family:"Microsoft YaHei"; font-weight:normal;}
+a{text-decoration:none; color:#000;border:none;padding:0px;margin:0px;}
+a:hover{text-decoration:none;}
+img{ border:none;}
+input{ outline:none;}
+ul,li,ol,input,textarea{ list-style:none;}
+input,button,select,textarea{outline:none}
+.chtitli{cursor: pointer;}
+
+.chatw{ width:900px; background: #ccc;  border:1px solid #0b3b8c; overflow: hidden; margin: 0 auto; }
+.chatw .chatw_t{position:relative; background:#2469d7; height:60px; text-align: center; line-height: 60px;
+    background: -ms-linear-gradient(top, #2e74e7,  #2469d7);
+    background:-moz-linear-gradient(top,#2e74e7,#2469d7);
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#2e74e7), to(#2469d7));
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2e74e7), to(#2469d7));
+    background: -webkit-linear-gradient(top, #2e74e7, #2469d7);
+    background: -o-linear-gradient(top, #2e74e7, #2469d7); }
+
+.chatw .chatw_t img{vertical-align:middle;}
+.chatw .chatw_t strong{font-size:20px; color:#fff; background: url(../images/chat/logoj.png) no-repeat 25px 10px ; padding-left:50px;  line-height: 60px; display: inline-block;}
+.chatw .chatw_t .t_inspan{ border:1px solid #fff; cursor: pointer; font-size:16px; border-radius:10px; width:20px; height:20px; color:#fff;  line-height:16px; text-align:center;  position:absolute; top:20px; right:30px; }
+
+
+.chatw .chatw_b {padding:5px; overflow: hidden; }
+.chatw .chatw_b .chattingzone .chabo{background:#f0f0f0; border-top:#b2b2b2 solid 1px; text-align: right; height:38px; line-height: 38px; padding-right:5px;}
+.chatw .chatw_b .chattingzone .chabo .leftwords{color:#929292; margin-right: 5px;}
+.chatw .chatw_b .chattingzone .chabo a{font-size:14px; line-height: 28px; display:inline-block; position: relative;  width:80px;text-align: center; border:1px #b2b2b2 solid; color:#515151;}
+.chatw .chatw_b .chattingzone .chabo .newa{ border:1px #f8a900 solid; color:#515151; background:#ffd660; }
+.chatw .chatw_b .chattingzone .chabo .newapan{border-left:1px #f8a900 solid; width:15px; height: 28px; line-height: 28px; display:inline-block; position:absolute; right:-4px; top:0px; background:url(../images/chat/xiaoj.png) no-repeat center 10px;}
+
+.chatw .chatw_b .chatwin_l{float:left;  }
+.chatw .chatw_b .chatwin_l .contacts{  width:188px;   float:left; margin-right: 5px; }
+.chatw .chatw_b .chatwin_l .contacts .conta_ul{ height: 30px; background: #fff; }
+.chatw .chatw_b .chatwin_l .contacts .conta_ul li{ position:relative;/*border-right:1px solid #dcdcdc; float: left;width:93px; */ line-height:27px;  text-align: center; font-size:12px;   border-bottom:1px solid #dcdcdc; }
+.chatw .chatw_b .chatwin_l .contacts .conta_ul li:nth-child(2){  }
+.chatw .chatw_b .chatwin_l .contacts .conta_ul .on{ color:#2468d7;}
+.chatw .chatw_b .chatwin_l .contacts .conta_ul .on:after{ clear:both; content:" ";position:absolute; top:-1px; left:0px; border-top:2px solid #2468d7;  /*width:94px;*/ width: 100%; height:1px;}
+.chatw .chatw_b .chatwin_l .contacts .conta_ul .on:before{ clear:both; content:" ";position:absolute; bottom:-1px; left:0px; border-bottom:1px solid #fff; /*width:93px;*/display:none;  height:0px;}
+
+
+
+
+.chatw .chatw_b .chatwin_l .l_conul{height:348px; overflow: hidden; background: #fff; margin-bottom:5px;}
+.chatw .chatw_b .chatwin_l .l_conul li{height:34px; line-height: 34px; background: #fff; padding: 8px 8px 8px; cursor: pointer;}
+.chatw .chatw_b .chatwin_l .l_conul li .shopname{ width: 72px; overflow: hidden; white-space: nowrap;display: inline-block; vertical-align: middle;}
+
+.chatw .chatw_b .chatwin_l .l_conul .on{background: #fcf7e4;  border-bottom:1px solid #e8d89a; border-top:1px solid #e8d89a; }
+
+.chatw .chatw_b .chatwin_l .l_conul li .h_portrait{height:32px; margin: 0 10px;vertical-align:middle; width:32px; display:inline-block; border-radius:50%; overflow: hidden;}
+.chatw .chatw_b .chatwin_l .l_conul li .time{color:#828282; display: inline-block; vertical-align: middle;}
+
+.chatw .chatw_b .chatwin_l .contactin_con .l_classification{background: #fff;}
+.chatw .chatw_b .chatwin_l .contactin_con .l_classification li{ height: 50px; line-height: 50px; border-bottom:1px solid #ccc; }
+.chatw .chatw_b .chatwin_l .contactin_con .l_classification li img{ vertical-align: middle; margin:0 15px 0 40px; }
+.chatw .chatw_b .chatwin_l .contactin_con .l_classification a:nth-last-child(1) li{  border-bottom:0; }
+
+
+.chatw .chatw_b .chatwin_l .region{  width:500px;  margin-right:6px; float:left;}
+.chatw .chatw_b .chatwin_l .region .reg_t{height:350px; background:#fff; overflow-y:scroll; }
+.chatw .chatw_b .chatwin_l  .t_con{ padding:35px 0 15px 15px; overflow: hidden;}
+.chatw .chatw_b .chatwin_l  .t_con img{ max-width: 100%; display: block;}
+.chatw .chatw_b .chatwin_l  .t_con .tconname{ color:#2468d7; margin-bottom: 20px; }
+.chatw .chatw_b .chatwin_l  .t_con .tconname span{ margin-left:15px; }
+.chatw .chatw_b .chatwin_l  .t_con dt{float:left; margin-right: 15px; }
+.chatw .chatw_b .chatwin_l  .t_con dt img{ width:24px;height: 24px;display: block; border-radius: 50%;}
+.chatw .chatw_b .chatwin_l  .t_con dd{position:relative;float:left; background:#f2f2f2; border:solid 1px #e2e2e2; line-height: 30px; border-radius:5px; max-width:280px; padding:5px 10px; }
+.chatw .chatw_b .chatwin_l  .t_con dd:before{background:url(../images/chat/t_condd.jpg)no-repeat ;clear:both; content:" "; width:13px;height:9px;  position:absolute; top:-1px ;left:-8px;}
+.chatw .chatw_b .chatwin_l  .i_con dd:before{background:url(../images/chat/t_condd2.jpg)no-repeat ;left: auto; right: -8px;}
+
+
+
+.chatw .chatw_b .chatwin_l  .i_con{ padding:35px 0 15px 15px; overflow: hidden;}
+.chatw .chatw_b .chatwin_l  .i_con .tconname{ color:#2468d7; margin-bottom: 20px; text-align: right; margin-right: 15px;}
+.chatw .chatw_b .chatwin_l  .i_con .tconname span{ margin-left:15px; }
+.chatw .chatw_b .chatwin_l  .i_con dt{float:right; margin-left: 15px; }
+.chatw .chatw_b .chatwin_l  .i_con dd{float:right;  }
+
+.chatw .chatw_b .expression{ height:23px; border-bottom:1px solid #dcdcdc; border-top:1px solid #dcdcdc; background: #f0f0f0;}
+.chatw .chatw_b .record{float:right; margin-right:10px;color:#838383; line-height: 25px; }
+.chatw .chatw_b .expression em{padding: 0 7px; line-height: 25px; display: inline-block; font-style: normal;}
+.chatw .chatw_b .expression img{margin-top: 2px;}
+.chatw .chatw_b .expression .emojisout{ position: relative;}
+.chatw .chatw_b .expression .emojis{ position: absolute; width: 400px; height: 200px; bottom: 30px; background: #fff; border: 1px solid #e2e2e2;
+    padding: 5px; box-shadow: 0 0 6px rgba(200, 200, 200, .8); left: -100px; display: none;}
+.chatw .chatw_b .expression .emojison .emojis{ display: block;}
+.chatw .chatw_b .expression .emojis:before{ position: absolute; width: 0px; height: 0px; content: ""; border-width: 10px 10px 0px 10px; border-style: solid;
+    border-color:#fff transparent transparent  transparent; bottom: -10px; left: 100px;}
+.chatw .chatw_b .expression .emojis span{ float: left; width: 22px; height: 25px; margin-right: 3px; margin-bottom: 0px;}
+.chattingzone .chazo{ background: #fff; height:100px; padding:10px; width:480px; overflow-y:scroll; display: block;}
+
+.chatw .chatw_b .chatwin_r{float:left; width:189px; background: #fff; height:535px; }
+
+
+.chatw .chatw_b .chatwin_r .rcon_ul{ height: 30px; background: #fff; }
+.chatw .chatw_b .chatwin_r .rcon_ul li{  float: left; line-height:27px;  text-align: center; font-size:12px;   width:93px; border-bottom:1px solid #dcdcdc;  }
+.chatw .chatw_b .chatwin_r .rcon_ul li:nth-child(2){ border-left:1px solid #dcdcdc;}
+.chatw .chatw_b .chatwin_r .rcon_ul .on{ color:#2468d7;background:#e9f0fc ; }
+
+.chatw .chatw_b .chatwin_r .clist{ padding:10px 15px; text-align: center;}
+.chatw .chatw_b .chatwin_r .clist .headpic{ width:155px; height: 155px;}
+.chatw .chatw_b .chatwin_r .clist .business li{text-align:center; margin-bottom: 15px;}
+.chatw .chatw_b .chatwin_r .clist  h5{ font-family:"Microsoft YaHei"; font-weight: bold; margin-bottom:8px; max-width:128px;  float: left;height:19px; overflow: hidden;font-size: 13px; }
+.chatw .chatw_b .chatwin_r .clist .business li img{ width:18px; vertical-align:middle; }
+.chatw .chatw_b .chatwin_r .clist .business li:nth-child(1) div{width:159px;  margin-bottom: 10px;}
+.chatw .chatw_b .chatwin_r .clist .business li:nth-child(1) span{padding:2px 7px;text-align:center;line-height:18px;background:linear-gradient(#b69a6c,#90692b);color:#fff;font-size:12px;}
+.chatw .chatw_b .chatwin_r .clist .business li:nth-child(2) p{ text-align:center;}
+.chatw .chatw_b .chatwin_r .clist .business li:nth-child(2) p span{color:#c8161d; margin-left:8px; background:url(../images/buyercenter/shopillustrateup.png) no-repeat 23px 4px; padding-right:15px;}
+.chatw .chatw_b .chatwin_r .clist .business li:nth-child(3) p{color:#868686; width:156px; white-space:nowrap; text-overflow:ellipsis; overflow: hidden;}
+/*.chatw .chatw_b .chatwin_r .clist .business .entering{ padding:10px 28px; color:#fff; font-size:14px; text-align: center;}*/
+.chatw .chatw_b .chatwin_r .clist .govshopinfo{ margin: 0px -9px 0px -9px; text-align: left;}
+.chatw .chatw_b .chatwin_r .clist .govshopinfo h5{ float: none; overflow: hidden; margin-top: 6px;  width: 112px;}
+.chatw .chatw_b .chatwin_r .clist .govshopinfo h5 img{ width: 18px;  float: right;}
+.chatw .chatw_b .chatwin_r .clist .govshopinfo .tip{line-height: 20px; border-top: 1px solid #dfdfdf; background: #f6f6f6; color: #6d6d6d; padding: 5px 3px; margin-bottom: 8px;}
+.chatw .chatw_b .chatwin_r .clist .govshopinfo dl{ overflow: hidden; padding-top: 38px;color: #6d6d6d; line-height: 20px;}
+.chatw .chatw_b .chatwin_r .clist .govshopinfo .red{  color: #cf000e;}
+.chatw .chatw_b .chatwin_r .clist .govshopinfo dt{ float:left; width: 40px; min-width: 20px;}
+.chatw .chatw_b .chatwin_r .clist .govshopinfo dd{ margin-left: 38px; min-height: 20px; margin-bottom: 6px;}
+
+.chatw .chatw_b .chatwin_r .predsr{color:#d70009; margin: 6px 0; display: block;}
+.chatw .chatw_b .chatwin_r p{line-height: 20px; text-align: left; margin-bottom:10px;}
+.chatw .chatw_b .chatwin_r .purchase{ font-family:"Microsoft YaHei"; letter-spacing:2px;display:inline-block; font-weight:bold; font-size: 14px; margin-bottom: 10px;  text-align:center; width:120px; background:#eb3b3d;height:30px; line-height: 30px; color:#fff; border-radius:5px; }
+.chatw .chatw_b .chatwin_r .lipro .propic{ width: 155px; height: 155px; display: block; margin: 0 auto;}
+
+.chatw .chatw_b .offlinetip{  text-align: center; margin: 20px auto; font-size: 12px;  }
+.chatw .chatw_b .offlinetip span{display: inline-block; padding: 5px; background: #f0f2f9; color: #aaa; border-radius: 4px;}
+.chatw .chatw_b .offlinetip span a{ color: #eb3b3d;}
+.zhe{ position: fixed; text-align: center; top: 0; right: 0;bottom: 0; left: 0; background: url("../images/loading.gif") no-repeat center center rgba(255,255,255,0.2);}
